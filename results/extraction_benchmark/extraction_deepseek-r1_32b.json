@@ -1,0 +1,2034 @@
+{
+  "model": "deepseek-r1:32b",
+  "n": 280,
+  "tp": 48,
+  "fp": 6,
+  "fn": 232,
+  "precision": 0.8889,
+  "recall": 0.1714,
+  "f1": 0.2874,
+  "accuracy_ci": {
+    "mean": 0.1714,
+    "ci_low": 0.1321,
+    "ci_high": 0.2179,
+    "std": 0.3769
+  },
+  "parse_fail_pct": 80.7,
+  "elapsed_seconds": 4165.3,
+  "details": [
+    {
+      "idx": 0,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P580",
+      "gold_label": "start_time"
+    },
+    {
+      "idx": 1,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P582",
+      "gold_label": "end_time"
+    },
+    {
+      "idx": 2,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P276",
+      "gold_label": "location",
+      "confidence": 0.95
+    },
+    {
+      "idx": 3,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P276",
+      "gold_label": "location"
+    },
+    {
+      "idx": 4,
+      "status": "correct",
+      "pred_rel": "participant_in",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in",
+      "confidence": 0.1
+    },
+    {
+      "idx": 5,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 6,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 7,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 8,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 9,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 10,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 11,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 12,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 13,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 14,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 15,
+      "status": "correct",
+      "pred_rel": "date_of_birth",
+      "gold_rel": "P569",
+      "gold_label": "date_of_birth",
+      "confidence": 1.0
+    },
+    {
+      "idx": 16,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 17,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P19",
+      "gold_label": "place_of_birth"
+    },
+    {
+      "idx": 18,
+      "status": "correct",
+      "pred_rel": "country_of_origin",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship",
+      "confidence": 0.95
+    },
+    {
+      "idx": 19,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 20,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 21,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 22,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 23,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 24,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 25,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P276",
+      "gold_label": "location"
+    },
+    {
+      "idx": 26,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P156",
+      "gold_label": "followed_by"
+    },
+    {
+      "idx": 27,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 28,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 29,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 30,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 31,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 32,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 33,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin",
+      "confidence": 0.95
+    },
+    {
+      "idx": 34,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 35,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 36,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 37,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P155",
+      "gold_label": "follows"
+    },
+    {
+      "idx": 38,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P156",
+      "gold_label": "followed_by"
+    },
+    {
+      "idx": 39,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P155",
+      "gold_label": "follows"
+    },
+    {
+      "idx": 40,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P710",
+      "gold_label": "participant"
+    },
+    {
+      "idx": 41,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P710",
+      "gold_label": "participant"
+    },
+    {
+      "idx": 42,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P710",
+      "gold_label": "participant"
+    },
+    {
+      "idx": 43,
+      "status": "correct",
+      "pred_rel": "participant_in",
+      "gold_rel": "P710",
+      "gold_label": "participant",
+      "confidence": 0.95
+    },
+    {
+      "idx": 44,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P710",
+      "gold_label": "participant"
+    },
+    {
+      "idx": 45,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P710",
+      "gold_label": "participant"
+    },
+    {
+      "idx": 46,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P710",
+      "gold_label": "participant"
+    },
+    {
+      "idx": 47,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 48,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 49,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 50,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 51,
+      "status": "correct",
+      "pred_rel": "place_of_birth",
+      "gold_rel": "P19",
+      "gold_label": "place_of_birth",
+      "confidence": 0.95
+    },
+    {
+      "idx": 52,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P69",
+      "gold_label": "educated_at"
+    },
+    {
+      "idx": 53,
+      "status": "correct",
+      "pred_rel": "educated_at",
+      "gold_rel": "P69",
+      "gold_label": "educated_at",
+      "confidence": 0.95
+    },
+    {
+      "idx": 54,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P3373",
+      "gold_label": "sibling"
+    },
+    {
+      "idx": 55,
+      "status": "correct",
+      "pred_rel": "date_of_death",
+      "gold_rel": "P570",
+      "gold_label": "date_of_death",
+      "confidence": 0.95
+    },
+    {
+      "idx": 56,
+      "status": "correct",
+      "pred_rel": "date_of_birth",
+      "gold_rel": "P569",
+      "gold_label": "date_of_birth",
+      "confidence": 1.0
+    },
+    {
+      "idx": 57,
+      "status": "correct",
+      "pred_rel": "date_of_death",
+      "gold_rel": "P570",
+      "gold_label": "date_of_death",
+      "confidence": 0.95
+    },
+    {
+      "idx": 58,
+      "status": "correct",
+      "pred_rel": "country_of_citizenship",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship",
+      "confidence": 0.95
+    },
+    {
+      "idx": 59,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 60,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P194",
+      "gold_label": "legislative_body"
+    },
+    {
+      "idx": 61,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country",
+      "confidence": 0.95
+    },
+    {
+      "idx": 62,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 63,
+      "status": "correct",
+      "pred_rel": "conflict",
+      "gold_rel": "P607",
+      "gold_label": "conflict",
+      "confidence": 0.95
+    },
+    {
+      "idx": 64,
+      "status": "correct",
+      "pred_rel": "country",
+      "gold_rel": "P17",
+      "gold_label": "country",
+      "confidence": 0.8
+    },
+    {
+      "idx": 65,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P3373",
+      "gold_label": "sibling"
+    },
+    {
+      "idx": 66,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 67,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P1001",
+      "gold_label": "jurisdiction"
+    },
+    {
+      "idx": 68,
+      "status": "correct",
+      "pred_rel": "place_of_birth",
+      "gold_rel": "P19",
+      "gold_label": "place_of_birth",
+      "confidence": 0.95
+    },
+    {
+      "idx": 69,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 70,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 71,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 72,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 73,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 74,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 75,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 76,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 77,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 78,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 79,
+      "status": "mismatch",
+      "pred_rel": "member_of",
+      "gold_rel": "P241",
+      "gold_label": "military_branch",
+      "confidence": 0.95
+    },
+    {
+      "idx": 80,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 81,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P607",
+      "gold_label": "conflict"
+    },
+    {
+      "idx": 82,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 83,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country",
+      "confidence": 0.95
+    },
+    {
+      "idx": 84,
+      "status": "correct",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin",
+      "confidence": 0.95
+    },
+    {
+      "idx": 85,
+      "status": "correct",
+      "pred_rel": "head_of_government",
+      "gold_rel": "P6",
+      "gold_label": "head_of_government",
+      "confidence": 0.95
+    },
+    {
+      "idx": 86,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P31",
+      "gold_label": "instance_of"
+    },
+    {
+      "idx": 87,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 88,
+      "status": "correct",
+      "pred_rel": "country_of_origin",
+      "gold_rel": "P17",
+      "gold_label": "country",
+      "confidence": 0.95
+    },
+    {
+      "idx": 89,
+      "status": "correct",
+      "pred_rel": "participant_in",
+      "gold_rel": "P710",
+      "gold_label": "participant",
+      "confidence": 0.9
+    },
+    {
+      "idx": 90,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P710",
+      "gold_label": "participant"
+    },
+    {
+      "idx": 91,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P710",
+      "gold_label": "participant"
+    },
+    {
+      "idx": 92,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P1001",
+      "gold_label": "jurisdiction"
+    },
+    {
+      "idx": 93,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 94,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 95,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 96,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 97,
+      "status": "mismatch",
+      "pred_rel": "country_of_origin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin",
+      "confidence": 0.95
+    },
+    {
+      "idx": 98,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 99,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 100,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 101,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 102,
+      "status": "correct",
+      "pred_rel": "publication_date",
+      "gold_rel": "P577",
+      "gold_label": "publication_date",
+      "confidence": 0.95
+    },
+    {
+      "idx": 103,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P175",
+      "gold_label": "performer"
+    },
+    {
+      "idx": 104,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P175",
+      "gold_label": "performer"
+    },
+    {
+      "idx": 105,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country",
+      "confidence": 0.9
+    },
+    {
+      "idx": 106,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 107,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P676",
+      "gold_label": "lyrics_by"
+    },
+    {
+      "idx": 108,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P570",
+      "gold_label": "date_of_death"
+    },
+    {
+      "idx": 109,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 110,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin",
+      "confidence": 0.95
+    },
+    {
+      "idx": 111,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country",
+      "confidence": 0.95
+    },
+    {
+      "idx": 112,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 113,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 114,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 115,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 116,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin",
+      "confidence": 0.95
+    },
+    {
+      "idx": 117,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 118,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 119,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 120,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P577",
+      "gold_label": "publication_date"
+    },
+    {
+      "idx": 121,
+      "status": "correct",
+      "pred_rel": "educated_at",
+      "gold_rel": "P69",
+      "gold_label": "educated_at",
+      "confidence": 0.95
+    },
+    {
+      "idx": 122,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 123,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P569",
+      "gold_label": "date_of_birth"
+    },
+    {
+      "idx": 124,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P570",
+      "gold_label": "date_of_death"
+    },
+    {
+      "idx": 125,
+      "status": "correct",
+      "pred_rel": "country_of_origin",
+      "gold_rel": "P495",
+      "gold_label": "country_of_origin",
+      "confidence": 0.95
+    },
+    {
+      "idx": 126,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P159",
+      "gold_label": "headquarters_location"
+    },
+    {
+      "idx": 127,
+      "status": "mismatch",
+      "pred_rel": "member_of",
+      "gold_rel": "P17",
+      "gold_label": "country",
+      "confidence": 0.9
+    },
+    {
+      "idx": 128,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P155",
+      "gold_label": "follows"
+    },
+    {
+      "idx": 129,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P155",
+      "gold_label": "follows"
+    },
+    {
+      "idx": 130,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P155",
+      "gold_label": "follows"
+    },
+    {
+      "idx": 131,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P86",
+      "gold_label": "composer"
+    },
+    {
+      "idx": 132,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P577",
+      "gold_label": "publication_date"
+    },
+    {
+      "idx": 133,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P86",
+      "gold_label": "composer"
+    },
+    {
+      "idx": 134,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P86",
+      "gold_label": "composer"
+    },
+    {
+      "idx": 135,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P86",
+      "gold_label": "composer"
+    },
+    {
+      "idx": 136,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P170",
+      "gold_label": "creator"
+    },
+    {
+      "idx": 137,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P86",
+      "gold_label": "composer"
+    },
+    {
+      "idx": 138,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P86",
+      "gold_label": "composer"
+    },
+    {
+      "idx": 139,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P86",
+      "gold_label": "composer"
+    },
+    {
+      "idx": 140,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P463",
+      "gold_label": "member_of"
+    },
+    {
+      "idx": 141,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P86",
+      "gold_label": "composer"
+    },
+    {
+      "idx": 142,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P495",
+      "gold_label": "country_of_origin"
+    },
+    {
+      "idx": 143,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P495",
+      "gold_label": "country_of_origin"
+    },
+    {
+      "idx": 144,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P580",
+      "gold_label": "start_time"
+    },
+    {
+      "idx": 145,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P495",
+      "gold_label": "country_of_origin"
+    },
+    {
+      "idx": 146,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P86",
+      "gold_label": "composer"
+    },
+    {
+      "idx": 147,
+      "status": "correct",
+      "pred_rel": "country_of_origin",
+      "gold_rel": "P495",
+      "gold_label": "country_of_origin",
+      "confidence": 0.95
+    },
+    {
+      "idx": 148,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P156",
+      "gold_label": "followed_by"
+    },
+    {
+      "idx": 149,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P156",
+      "gold_label": "followed_by"
+    },
+    {
+      "idx": 150,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P156",
+      "gold_label": "followed_by"
+    },
+    {
+      "idx": 151,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 152,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 153,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 154,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 155,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 156,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 157,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 158,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 159,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 160,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 161,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country",
+      "confidence": 0.95
+    },
+    {
+      "idx": 162,
+      "status": "correct",
+      "pred_rel": "inception",
+      "gold_rel": "P571",
+      "gold_label": "inception",
+      "confidence": 0.95
+    },
+    {
+      "idx": 163,
+      "status": "correct",
+      "pred_rel": "inception",
+      "gold_rel": "P571",
+      "gold_label": "inception",
+      "confidence": 0.95
+    },
+    {
+      "idx": 164,
+      "status": "correct",
+      "pred_rel": "inception",
+      "gold_rel": "P571",
+      "gold_label": "inception",
+      "confidence": 0.95
+    },
+    {
+      "idx": 165,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 166,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 167,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P37",
+      "gold_label": "official_language"
+    },
+    {
+      "idx": 168,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P37",
+      "gold_label": "official_language"
+    },
+    {
+      "idx": 169,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P37",
+      "gold_label": "official_language"
+    },
+    {
+      "idx": 170,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P361",
+      "gold_label": "part_of"
+    },
+    {
+      "idx": 171,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P361",
+      "gold_label": "part_of",
+      "confidence": 0.95
+    },
+    {
+      "idx": 172,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 173,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 174,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P361",
+      "gold_label": "part_of"
+    },
+    {
+      "idx": 175,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country",
+      "confidence": 0.95
+    },
+    {
+      "idx": 176,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 177,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P37",
+      "gold_label": "official_language"
+    },
+    {
+      "idx": 178,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P527",
+      "gold_label": "has_part"
+    },
+    {
+      "idx": 179,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 180,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 181,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin",
+      "confidence": 0.95
+    },
+    {
+      "idx": 182,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 183,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 184,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P30",
+      "gold_label": "continent"
+    },
+    {
+      "idx": 185,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P527",
+      "gold_label": "has_part"
+    },
+    {
+      "idx": 186,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P527",
+      "gold_label": "has_part"
+    },
+    {
+      "idx": 187,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 188,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 189,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 190,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 191,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 192,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin",
+      "confidence": 0.95
+    },
+    {
+      "idx": 193,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 194,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 195,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 196,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P577",
+      "gold_label": "publication_date"
+    },
+    {
+      "idx": 197,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P161",
+      "gold_label": "cast_member"
+    },
+    {
+      "idx": 198,
+      "status": "correct",
+      "pred_rel": "director",
+      "gold_rel": "P57",
+      "gold_label": "director",
+      "confidence": 1.0
+    },
+    {
+      "idx": 199,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P161",
+      "gold_label": "cast_member"
+    },
+    {
+      "idx": 200,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P463",
+      "gold_label": "member_of"
+    },
+    {
+      "idx": 201,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P35",
+      "gold_label": "head_of_state"
+    },
+    {
+      "idx": 202,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P495",
+      "gold_label": "country_of_origin"
+    },
+    {
+      "idx": 203,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P175",
+      "gold_label": "performer"
+    },
+    {
+      "idx": 204,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P6",
+      "gold_label": "head_of_government"
+    },
+    {
+      "idx": 205,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 206,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 207,
+      "status": "mismatch",
+      "pred_rel": "director",
+      "gold_rel": "P800",
+      "gold_label": "notable_work",
+      "confidence": 0.95
+    },
+    {
+      "idx": 208,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P1001",
+      "gold_label": "jurisdiction"
+    },
+    {
+      "idx": 209,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 210,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 211,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 212,
+      "status": "mismatch",
+      "pred_rel": "producer",
+      "gold_rel": "P272",
+      "gold_label": "production_company",
+      "confidence": 0.95
+    },
+    {
+      "idx": 213,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 214,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 215,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 216,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 217,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 218,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 219,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 220,
+      "status": "mismatch",
+      "pred_rel": "producer",
+      "gold_rel": "P127",
+      "gold_label": "owned_by",
+      "confidence": 0.95
+    },
+    {
+      "idx": 221,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 222,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 223,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 224,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 225,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 226,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 227,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin",
+      "confidence": 0.95
+    },
+    {
+      "idx": 228,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 229,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 230,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country",
+      "confidence": 0.95
+    },
+    {
+      "idx": 231,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P176",
+      "gold_label": "manufacturer"
+    },
+    {
+      "idx": 232,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P176",
+      "gold_label": "manufacturer"
+    },
+    {
+      "idx": 233,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 234,
+      "status": "correct",
+      "pred_rel": "headquarters_location",
+      "gold_rel": "P159",
+      "gold_label": "headquarters_location",
+      "confidence": 0.95
+    },
+    {
+      "idx": 235,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P571",
+      "gold_label": "inception"
+    },
+    {
+      "idx": 236,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 237,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 238,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P178",
+      "gold_label": "developer"
+    },
+    {
+      "idx": 239,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin",
+      "confidence": 0.95
+    },
+    {
+      "idx": 240,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin",
+      "confidence": 0.95
+    },
+    {
+      "idx": 241,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 242,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P495",
+      "gold_label": "country_of_origin"
+    },
+    {
+      "idx": 243,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 244,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 245,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 246,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 247,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 248,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P178",
+      "gold_label": "developer"
+    },
+    {
+      "idx": 249,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P176",
+      "gold_label": "manufacturer"
+    },
+    {
+      "idx": 250,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 251,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 252,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 253,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin",
+      "confidence": 0.95
+    },
+    {
+      "idx": 254,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin",
+      "confidence": 0.95
+    },
+    {
+      "idx": 255,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 256,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 257,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 258,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 259,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 260,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 261,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 262,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 263,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 264,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 265,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 266,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 267,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 268,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 269,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 270,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 271,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country",
+      "confidence": 0.95
+    },
+    {
+      "idx": 272,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country",
+      "confidence": 0.95
+    },
+    {
+      "idx": 273,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 274,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 275,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country",
+      "confidence": 0.95
+    },
+    {
+      "idx": 276,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 277,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 278,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 279,
+      "status": "parse_fail",
+      "raw": "",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    }
+  ]
+}

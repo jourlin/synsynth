@@ -1,0 +1,248 @@
+{
+  "samples_per_task": 5,
+  "total_elapsed_seconds": 14424.6,
+  "best_per_task": {
+    "extraction": "gemma4:26b",
+    "query": "qwen2.5-coder:32b",
+    "multihop": "phi4:latest",
+    "rag": "mistral-small:latest"
+  },
+  "results": [
+    {
+      "task": "extraction",
+      "f1": 0.75,
+      "precision": 1.0,
+      "recall": 0.6,
+      "parse_fail_rate": 0.4,
+      "elapsed_s": 496.4,
+      "n_samples": 5,
+      "model": "gemma4:26b",
+      "status": "ok"
+    },
+    {
+      "task": "extraction",
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "parse_fail_rate": 1.0,
+      "elapsed_s": 4114.0,
+      "n_samples": 5,
+      "model": "qwen3.5:27b",
+      "status": "ok"
+    },
+    {
+      "task": "extraction",
+      "f1": 0.6,
+      "precision": 0.6,
+      "recall": 0.6,
+      "parse_fail_rate": 0.0,
+      "elapsed_s": 22.2,
+      "n_samples": 5,
+      "model": "qwen3-deep:latest",
+      "status": "ok"
+    },
+    {
+      "task": "extraction",
+      "f1": 0.4,
+      "precision": 0.4,
+      "recall": 0.4,
+      "parse_fail_rate": 0.0,
+      "elapsed_s": 32.1,
+      "n_samples": 5,
+      "model": "phi4:latest",
+      "status": "ok"
+    },
+    {
+      "task": "extraction",
+      "f1": 0.4,
+      "precision": 0.4,
+      "recall": 0.4,
+      "parse_fail_rate": 0.0,
+      "elapsed_s": 48.7,
+      "n_samples": 5,
+      "model": "mistral-small:latest",
+      "status": "ok"
+    },
+    {
+      "task": "extraction",
+      "f1": 0.6,
+      "precision": 0.6,
+      "recall": 0.6,
+      "parse_fail_rate": 0.0,
+      "elapsed_s": 10.7,
+      "n_samples": 5,
+      "model": "llama3.1:8b",
+      "status": "ok"
+    },
+    {
+      "task": "query",
+      "accuracy": 1.0,
+      "cypher_valid": 1.0,
+      "elapsed_s": 127.6,
+      "n_samples": 5,
+      "model": "qwen2.5-coder:32b",
+      "status": "ok"
+    },
+    {
+      "task": "query",
+      "accuracy": 1.0,
+      "cypher_valid": 1.0,
+      "elapsed_s": 59.0,
+      "n_samples": 5,
+      "model": "phi4:latest",
+      "status": "ok"
+    },
+    {
+      "task": "query",
+      "accuracy": 1.0,
+      "cypher_valid": 1.0,
+      "elapsed_s": 91.5,
+      "n_samples": 5,
+      "model": "mistral-small:latest",
+      "status": "ok"
+    },
+    {
+      "task": "multihop",
+      "exact_match": 0.4,
+      "elapsed_s": 1288.5,
+      "n_samples": 5,
+      "model": "gemma4:26b",
+      "status": "ok"
+    },
+    {
+      "model": "qwen3.5:27b",
+      "task": "multihop",
+      "status": "error",
+      "error": "timed out"
+    },
+    {
+      "task": "multihop",
+      "exact_match": 0.6,
+      "elapsed_s": 163.4,
+      "n_samples": 5,
+      "model": "qwen3-deep:latest",
+      "status": "ok"
+    },
+    {
+      "task": "multihop",
+      "exact_match": 0.6,
+      "elapsed_s": 1077.6,
+      "n_samples": 5,
+      "model": "deepseek-r1:32b",
+      "status": "ok"
+    },
+    {
+      "task": "multihop",
+      "exact_match": 0.8,
+      "elapsed_s": 124.4,
+      "n_samples": 5,
+      "model": "phi4:latest",
+      "status": "ok"
+    },
+    {
+      "task": "multihop",
+      "exact_match": 0.6,
+      "elapsed_s": 165.3,
+      "n_samples": 5,
+      "model": "mistral-small:latest",
+      "status": "ok"
+    },
+    {
+      "task": "rag",
+      "faithfulness": 0.6667,
+      "relevance": 0.8,
+      "context_precision": 1.0,
+      "elapsed_s": 1598.3,
+      "n_samples": 5,
+      "model": "gemma4:26b",
+      "status": "ok"
+    },
+    {
+      "model": "qwen3.5:27b",
+      "task": "rag",
+      "status": "error",
+      "error": "timed out"
+    },
+    {
+      "task": "rag",
+      "faithfulness": 0.9667,
+      "relevance": 0.94,
+      "context_precision": 0.91,
+      "elapsed_s": 206.2,
+      "n_samples": 5,
+      "model": "qwen3-deep:latest",
+      "status": "ok"
+    },
+    {
+      "task": "rag",
+      "faithfulness": 0.9833,
+      "relevance": 0.98,
+      "context_precision": 0.96,
+      "elapsed_s": 427.6,
+      "n_samples": 5,
+      "model": "phi4:latest",
+      "status": "ok"
+    },
+    {
+      "task": "rag",
+      "faithfulness": 1.0,
+      "relevance": 0.92,
+      "context_precision": 0.9,
+      "elapsed_s": 478.9,
+      "n_samples": 5,
+      "model": "mistral-small:latest",
+      "status": "ok"
+    },
+    {
+      "task": "rag",
+      "faithfulness": 0.8778,
+      "relevance": 0.8,
+      "context_precision": 0.92,
+      "elapsed_s": 107.6,
+      "n_samples": 5,
+      "model": "llama3.1:8b",
+      "status": "ok"
+    },
+    {
+      "task": "extraction",
+      "f1": 0.4,
+      "precision": 0.4,
+      "recall": 0.4,
+      "parse_fail_rate": 0.0,
+      "elapsed_s": 7.4,
+      "n_samples": 5,
+      "model": "nuextract:latest",
+      "status": "ok"
+    },
+    {
+      "task": "query",
+      "accuracy": 1.0,
+      "cypher_valid": 1.0,
+      "elapsed_s": 178.8,
+      "n_samples": 5,
+      "model": "gemma4:26b",
+      "status": "ok"
+    },
+    {
+      "model": "qwen3.5:27b",
+      "task": "query",
+      "status": "error",
+      "error": "timed out"
+    },
+    {
+      "task": "query",
+      "accuracy": 1.0,
+      "cypher_valid": 1.0,
+      "elapsed_s": 20.1,
+      "n_samples": 5,
+      "model": "qwen3-deep:latest",
+      "status": "ok"
+    },
+    {
+      "model": "command-r7b:latest",
+      "task": "rag",
+      "status": "error",
+      "error": "warm-up failed"
+    }
+  ]
+}

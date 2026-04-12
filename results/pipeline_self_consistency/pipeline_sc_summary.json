@@ -1,0 +1,22 @@
+[
+  {
+    "mode": "cascade",
+    "model": [
+      "phi4:latest",
+      "gpt-oss:20b"
+    ],
+    "k": 5,
+    "n": 500,
+    "em_voted": 0.552,
+    "f1_voted": 0.5342,
+    "oracle_k": 0.658,
+    "agreement_avg": 0.8372,
+    "v4_em_baseline": 0.444,
+    "routing_stats": {
+      "primary_accepted": 164,
+      "rerouted": 100,
+      "uncertain": 36,
+      "pct_rerouted": 45.4
+    }
+  }
+]

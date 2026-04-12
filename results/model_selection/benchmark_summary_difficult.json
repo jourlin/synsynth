@@ -1,0 +1,66 @@
+[
+  {
+    "model": "phi4:latest",
+    "n": 181,
+    "em": 0.1326,
+    "f1": 0.1651,
+    "chain_avg": 3.39,
+    "json_brut_pct": 0.0
+  },
+  {
+    "model": "phi4-reasoning:plus",
+    "n": 181,
+    "em": 0.1657,
+    "f1": 0.1563,
+    "chain_avg": 10.9,
+    "json_brut_pct": 23.8
+  },
+  {
+    "model": "qwen3:14b",
+    "n": 181,
+    "em": 0.0718,
+    "f1": 0.0879,
+    "chain_avg": 2.13,
+    "json_brut_pct": 4.4
+  },
+  {
+    "model": "gemma4:26b",
+    "n": 181,
+    "em": 0.0829,
+    "f1": 0.0658,
+    "chain_avg": 0.86,
+    "json_brut_pct": 77.3
+  },
+  {
+    "model": "gpt-oss:20b",
+    "n": 181,
+    "em": 0.1768,
+    "f1": 0.2014,
+    "chain_avg": 2.25,
+    "json_brut_pct": 12.2
+  },
+  {
+    "model": "magistral:24b",
+    "n": 181,
+    "em": 0.1105,
+    "f1": 0.1417,
+    "chain_avg": 4.31,
+    "json_brut_pct": 0.6
+  },
+  {
+    "model": "qwen3.5:27b",
+    "n": 181,
+    "em": 0.0608,
+    "f1": 0.0602,
+    "chain_avg": 0.6,
+    "json_brut_pct": 81.2
+  },
+  {
+    "model": "deepseek-r1:32b",
+    "n": 181,
+    "em": 0.0718,
+    "f1": 0.1182,
+    "chain_avg": 2.24,
+    "json_brut_pct": 0.0
+  }
+]

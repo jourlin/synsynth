@@ -1,0 +1,3423 @@
+{
+  "experiment": "extraction",
+  "n_samples": 500,
+  "true_positives": 335,
+  "false_positives": 119,
+  "false_negatives": 165,
+  "precision": 0.7379,
+  "recall": 0.67,
+  "f1_score": 0.7023,
+  "target_f1": 0.85,
+  "target_met": false,
+  "elapsed_seconds": 14090.4,
+  "details": [
+    {
+      "idx": 0,
+      "status": "mismatch",
+      "pred_rel": "instance_of",
+      "gold_rel": "P580",
+      "gold_label": "start_time"
+    },
+    {
+      "idx": 1,
+      "status": "mismatch",
+      "pred_rel": "instance_of",
+      "gold_rel": "P582",
+      "gold_label": "end_time"
+    },
+    {
+      "idx": 2,
+      "status": "correct",
+      "pred_rel": "location",
+      "gold_rel": "P276",
+      "gold_label": "location"
+    },
+    {
+      "idx": 3,
+      "status": "correct",
+      "pred_rel": "location",
+      "gold_rel": "P276",
+      "gold_label": "location"
+    },
+    {
+      "idx": 4,
+      "status": "correct",
+      "pred_rel": "participant",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 5,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 6,
+      "status": "correct",
+      "pred_rel": "participant",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 7,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 8,
+      "status": "correct",
+      "pred_rel": "participant",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 9,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 10,
+      "status": "parse_fail",
+      "raw": "Wait*, I'll try `country"
+    },
+    {
+      "idx": 11,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 12,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 13,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 14,
+      "status": "correct",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 15,
+      "status": "correct",
+      "pred_rel": "date_of_birth",
+      "gold_rel": "P569",
+      "gold_label": "date_of_birth"
+    },
+    {
+      "idx": 16,
+      "status": "correct",
+      "pred_rel": "participant",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 17,
+      "status": "correct",
+      "pred_rel": "place_of_birth",
+      "gold_rel": "P19",
+      "gold_label": "place_of_birth"
+    },
+    {
+      "idx": 18,
+      "status": "correct",
+      "pred_rel": "country_of_citizenship",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 19,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 20,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 21,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 22,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 23,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 24,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 25,
+      "status": "correct",
+      "pred_rel": "location",
+      "gold_rel": "P276",
+      "gold_label": "location"
+    },
+    {
+      "idx": 26,
+      "status": "mismatch",
+      "pred_rel": "follows",
+      "gold_rel": "P156",
+      "gold_label": "followed_by"
+    },
+    {
+      "idx": 27,
+      "status": "correct",
+      "pred_rel": "participant_in",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 28,
+      "status": "correct",
+      "pred_rel": "participant",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 29,
+      "status": "mismatch",
+      "pred_rel": "location",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 30,
+      "status": "parse_fail",
+      "raw": "Wait*, I'll check the text again. \"Schneider... leading the...\"."
+    },
+    {
+      "idx": 31,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 32,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 33,
+      "status": "correct",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 34,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 35,
+      "status": "correct",
+      "pred_rel": "location",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 36,
+      "status": "correct",
+      "pred_rel": "participant_in",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 37,
+      "status": "correct",
+      "pred_rel": "follows",
+      "gold_rel": "P155",
+      "gold_label": "follows"
+    },
+    {
+      "idx": 38,
+      "status": "mismatch",
+      "pred_rel": "follows",
+      "gold_rel": "P156",
+      "gold_label": "followed_by"
+    },
+    {
+      "idx": 39,
+      "status": "correct",
+      "pred_rel": "follows",
+      "gold_rel": "P155",
+      "gold_label": "follows"
+    },
+    {
+      "idx": 40,
+      "status": "correct",
+      "pred_rel": "participant",
+      "gold_rel": "P710",
+      "gold_label": "participant"
+    },
+    {
+      "idx": 41,
+      "status": "correct",
+      "pred_rel": "participant",
+      "gold_rel": "P710",
+      "gold_label": "participant"
+    },
+    {
+      "idx": 42,
+      "status": "correct",
+      "pred_rel": "participant",
+      "gold_rel": "P710",
+      "gold_label": "participant"
+    },
+    {
+      "idx": 43,
+      "status": "correct",
+      "pred_rel": "participant",
+      "gold_rel": "P710",
+      "gold_label": "participant"
+    },
+    {
+      "idx": 44,
+      "status": "correct",
+      "pred_rel": "participant",
+      "gold_rel": "P710",
+      "gold_label": "participant"
+    },
+    {
+      "idx": 45,
+      "status": "correct",
+      "pred_rel": "participant",
+      "gold_rel": "P710",
+      "gold_label": "participant"
+    },
+    {
+      "idx": 46,
+      "status": "correct",
+      "pred_rel": "participant",
+      "gold_rel": "P710",
+      "gold_label": "participant"
+    },
+    {
+      "idx": 47,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 48,
+      "status": "parse_fail",
+      "raw": "`part_of` is the only one that makes sense."
+    },
+    {
+      "idx": 49,
+      "status": "mismatch",
+      "pred_rel": "participant",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 50,
+      "status": "correct",
+      "pred_rel": "location",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 51,
+      "status": "correct",
+      "pred_rel": "place_of_birth",
+      "gold_rel": "P19",
+      "gold_label": "place_of_birth"
+    },
+    {
+      "idx": 52,
+      "status": "correct",
+      "pred_rel": "educated_at",
+      "gold_rel": "P69",
+      "gold_label": "educated_at"
+    },
+    {
+      "idx": 53,
+      "status": "correct",
+      "pred_rel": "educated_at",
+      "gold_rel": "P69",
+      "gold_label": "educated_at"
+    },
+    {
+      "idx": 54,
+      "status": "parse_fail",
+      "raw": "Wait*, I'll check"
+    },
+    {
+      "idx": 55,
+      "status": "correct",
+      "pred_rel": "date_of_death",
+      "gold_rel": "P570",
+      "gold_label": "date_of_death"
+    },
+    {
+      "idx": 56,
+      "status": "correct",
+      "pred_rel": "date_of_birth",
+      "gold_rel": "P569",
+      "gold_label": "date_of_birth"
+    },
+    {
+      "idx": 57,
+      "status": "correct",
+      "pred_rel": "date_of_death",
+      "gold_rel": "P570",
+      "gold_label": "date_of_death"
+    },
+    {
+      "idx": 58,
+      "status": "correct",
+      "pred_rel": "country_of_citizenship",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 59,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 60,
+      "status": "mismatch",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P194",
+      "gold_label": "legislative_body"
+    },
+    {
+      "idx": 61,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 62,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 63,
+      "status": "correct",
+      "pred_rel": "participant_in",
+      "gold_rel": "P607",
+      "gold_label": "conflict"
+    },
+    {
+      "idx": 64,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 65,
+      "status": "parse_fail",
+      "raw": "the relation would be `instance_of` (if we consider him an instance of a person) or something else? No, that doesn't make sense."
+    },
+    {
+      "idx": 66,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 67,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P1001",
+      "gold_label": "jurisdiction"
+    },
+    {
+      "idx": 68,
+      "status": "correct",
+      "pred_rel": "place_of_birth",
+      "gold_rel": "P19",
+      "gold_label": "place_of_birth"
+    },
+    {
+      "idx": 69,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 70,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 71,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 72,
+      "status": "mismatch",
+      "pred_rel": "part_of",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 73,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 74,
+      "status": "mismatch",
+      "pred_rel": "instance_of",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 75,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 76,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 77,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 78,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 79,
+      "status": "mismatch",
+      "pred_rel": "member_of",
+      "gold_rel": "P241",
+      "gold_label": "military_branch"
+    },
+    {
+      "idx": 80,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 81,
+      "status": "mismatch",
+      "pred_rel": "participant",
+      "gold_rel": "P607",
+      "gold_label": "conflict"
+    },
+    {
+      "idx": 82,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 83,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 84,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 85,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P6",
+      "gold_label": "head_of_government"
+    },
+    {
+      "idx": 86,
+      "status": "correct",
+      "pred_rel": "instance_of",
+      "gold_rel": "P31",
+      "gold_label": "instance_of"
+    },
+    {
+      "idx": 87,
+      "status": "parse_fail",
+      "raw": "I'll use `"
+    },
+    {
+      "idx": 88,
+      "status": "correct",
+      "pred_rel": "country_of_origin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 89,
+      "status": "parse_fail",
+      "raw": "Could the relation be `participant_in`? If the user made a mistake and meant Tail -> Head?"
+    },
+    {
+      "idx": 90,
+      "status": "parse_fail",
+      "raw": "The relation between \"Royal Canadian Air Force\" and \"Canadian\" is `part_of` (Canada)."
+    },
+    {
+      "idx": 91,
+      "status": "correct",
+      "pred_rel": "participant",
+      "gold_rel": "P710",
+      "gold_label": "participant"
+    },
+    {
+      "idx": 92,
+      "status": "mismatch",
+      "pred_rel": "position_held",
+      "gold_rel": "P1001",
+      "gold_label": "jurisdiction"
+    },
+    {
+      "idx": 93,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 94,
+      "status": "correct",
+      "pred_rel": "participant_in",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 95,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 96,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 97,
+      "status": "mismatch",
+      "pred_rel": "country_of_origin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 98,
+      "status": "parse_fail",
+      "raw": "University of Alberta is in a Canadian province."
+    },
+    {
+      "idx": 99,
+      "status": "correct",
+      "pred_rel": "participant_in",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 100,
+      "status": "parse_fail",
+      "raw": "If the tail is \"Canada\", `country` is a relation."
+    },
+    {
+      "idx": 101,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 102,
+      "status": "correct",
+      "pred_rel": "publication_date",
+      "gold_rel": "P577",
+      "gold_label": "publication_date"
+    },
+    {
+      "idx": 103,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P175",
+      "gold_label": "performer"
+    },
+    {
+      "idx": 104,
+      "status": "mismatch",
+      "pred_rel": "instance_of",
+      "gold_rel": "P175",
+      "gold_label": "performer"
+    },
+    {
+      "idx": 105,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 106,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 107,
+      "status": "mismatch",
+      "pred_rel": "performer",
+      "gold_rel": "P676",
+      "gold_label": "lyrics_by"
+    },
+    {
+      "idx": 108,
+      "status": "correct",
+      "pred_rel": "publication_date",
+      "gold_rel": "P570",
+      "gold_label": "date_of_death"
+    },
+    {
+      "idx": 109,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 110,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 111,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 112,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 113,
+      "status": "mismatch",
+      "pred_rel": "author",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 114,
+      "status": "correct",
+      "pred_rel": "notable_work",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 115,
+      "status": "correct",
+      "pred_rel": "notable_work",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 116,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 117,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 118,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 119,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 120,
+      "status": "mismatch",
+      "pred_rel": "instance_of",
+      "gold_rel": "P577",
+      "gold_label": "publication_date"
+    },
+    {
+      "idx": 121,
+      "status": "correct",
+      "pred_rel": "educated_at",
+      "gold_rel": "P69",
+      "gold_label": "educated_at"
+    },
+    {
+      "idx": 122,
+      "status": "correct",
+      "pred_rel": "country_of_origin",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 123,
+      "status": "correct",
+      "pred_rel": "date_of_birth",
+      "gold_rel": "P569",
+      "gold_label": "date_of_birth"
+    },
+    {
+      "idx": 124,
+      "status": "correct",
+      "pred_rel": "date_of_death",
+      "gold_rel": "P570",
+      "gold_label": "date_of_death"
+    },
+    {
+      "idx": 125,
+      "status": "mismatch",
+      "pred_rel": "instance_of",
+      "gold_rel": "P495",
+      "gold_label": "country_of_origin"
+    },
+    {
+      "idx": 126,
+      "status": "mismatch",
+      "pred_rel": "instance_of",
+      "gold_rel": "P159",
+      "gold_label": "headquarters_location"
+    },
+    {
+      "idx": 127,
+      "status": "mismatch",
+      "pred_rel": "instance_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 128,
+      "status": "parse_fail",
+      "raw": "*Wait*, I'll try `part_of`."
+    },
+    {
+      "idx": 129,
+      "status": "parse_fail",
+      "raw": "Actually*, let's look at the text again. \"his most popular song composition was the Oscar - nomin\"."
+    },
+    {
+      "idx": 130,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P155",
+      "gold_label": "follows"
+    },
+    {
+      "idx": 131,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P86",
+      "gold_label": "composer"
+    },
+    {
+      "idx": 132,
+      "status": "correct",
+      "pred_rel": "publication_date",
+      "gold_rel": "P577",
+      "gold_label": "publication_date"
+    },
+    {
+      "idx": 133,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P86",
+      "gold_label": "composer"
+    },
+    {
+      "idx": 134,
+      "status": "mismatch",
+      "pred_rel": "lyrics_by",
+      "gold_rel": "P86",
+      "gold_label": "composer"
+    },
+    {
+      "idx": 135,
+      "status": "mismatch",
+      "pred_rel": "author",
+      "gold_rel": "P86",
+      "gold_label": "composer"
+    },
+    {
+      "idx": 136,
+      "status": "parse_fail",
+      "raw": "*Final check of the list*: `author`, `award_received`, `basin_country`, `capital`, `capital_of`, `cast_member`, `chairperson`, `characters`, `child`, `composer`, `conflict`, `contains_admin`, `contine"
+    },
+    {
+      "idx": 137,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P86",
+      "gold_label": "composer"
+    },
+    {
+      "idx": 138,
+      "status": "mismatch",
+      "pred_rel": "instance_of",
+      "gold_rel": "P86",
+      "gold_label": "composer"
+    },
+    {
+      "idx": 139,
+      "status": "mismatch",
+      "pred_rel": "lyrics_by",
+      "gold_rel": "P86",
+      "gold_label": "composer"
+    },
+    {
+      "idx": 140,
+      "status": "correct",
+      "pred_rel": "member_of",
+      "gold_rel": "P463",
+      "gold_label": "member_of"
+    },
+    {
+      "idx": 141,
+      "status": "mismatch",
+      "pred_rel": "lyrics_by",
+      "gold_rel": "P86",
+      "gold_label": "composer"
+    },
+    {
+      "idx": 142,
+      "status": "mismatch",
+      "pred_rel": "instance_of",
+      "gold_rel": "P495",
+      "gold_label": "country_of_origin"
+    },
+    {
+      "idx": 143,
+      "status": "mismatch",
+      "pred_rel": "instance_of",
+      "gold_rel": "P495",
+      "gold_label": "country_of_origin"
+    },
+    {
+      "idx": 144,
+      "status": "mismatch",
+      "pred_rel": "instance_of",
+      "gold_rel": "P580",
+      "gold_label": "start_time"
+    },
+    {
+      "idx": 145,
+      "status": "mismatch",
+      "pred_rel": "instance_of",
+      "gold_rel": "P495",
+      "gold_label": "country_of_origin"
+    },
+    {
+      "idx": 146,
+      "status": "parse_fail",
+      "raw": "Let's check `lyrics_by` again. `Work (Head) -> lyrics_by"
+    },
+    {
+      "idx": 147,
+      "status": "correct",
+      "pred_rel": "country_of_origin",
+      "gold_rel": "P495",
+      "gold_label": "country_of_origin"
+    },
+    {
+      "idx": 148,
+      "status": "mismatch",
+      "pred_rel": "instance_of",
+      "gold_rel": "P156",
+      "gold_label": "followed_by"
+    },
+    {
+      "idx": 149,
+      "status": "parse_fail",
+      "raw": "I'll stick with `part_of`."
+    },
+    {
+      "idx": 150,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P156",
+      "gold_label": "followed_by"
+    },
+    {
+      "idx": 151,
+      "status": "correct",
+      "pred_rel": "notable_work",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 152,
+      "status": "correct",
+      "pred_rel": "notable_work",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 153,
+      "status": "correct",
+      "pred_rel": "notable_work",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 154,
+      "status": "correct",
+      "pred_rel": "notable_work",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 155,
+      "status": "correct",
+      "pred_rel": "notable_work",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 156,
+      "status": "correct",
+      "pred_rel": "notable_work",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 157,
+      "status": "correct",
+      "pred_rel": "notable_work",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 158,
+      "status": "correct",
+      "pred_rel": "notable_work",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 159,
+      "status": "correct",
+      "pred_rel": "notable_work",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 160,
+      "status": "mismatch",
+      "pred_rel": "instance_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 161,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 162,
+      "status": "correct",
+      "pred_rel": "inception",
+      "gold_rel": "P571",
+      "gold_label": "inception"
+    },
+    {
+      "idx": 163,
+      "status": "correct",
+      "pred_rel": "inception",
+      "gold_rel": "P571",
+      "gold_label": "inception"
+    },
+    {
+      "idx": 164,
+      "status": "correct",
+      "pred_rel": "inception",
+      "gold_rel": "P571",
+      "gold_label": "inception"
+    },
+    {
+      "idx": 165,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 166,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 167,
+      "status": "mismatch",
+      "pred_rel": "languages_spoken",
+      "gold_rel": "P37",
+      "gold_label": "official_language"
+    },
+    {
+      "idx": 168,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P37",
+      "gold_label": "official_language"
+    },
+    {
+      "idx": 169,
+      "status": "mismatch",
+      "pred_rel": "languages_spoken",
+      "gold_rel": "P37",
+      "gold_label": "official_language"
+    },
+    {
+      "idx": 170,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P361",
+      "gold_label": "part_of"
+    },
+    {
+      "idx": 171,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P361",
+      "gold_label": "part_of"
+    },
+    {
+      "idx": 172,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 173,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 174,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P361",
+      "gold_label": "part_of"
+    },
+    {
+      "idx": 175,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 176,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 177,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P37",
+      "gold_label": "official_language"
+    },
+    {
+      "idx": 178,
+      "status": "parse_fail",
+      "raw": "the school (which is Latin American) is in Cuba."
+    },
+    {
+      "idx": 179,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 180,
+      "status": "parse_fail",
+      "raw": "Wait*, I'll check"
+    },
+    {
+      "idx": 181,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 182,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 183,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 184,
+      "status": "mismatch",
+      "pred_rel": "part_of",
+      "gold_rel": "P30",
+      "gold_label": "continent"
+    },
+    {
+      "idx": 185,
+      "status": "mismatch",
+      "pred_rel": "location",
+      "gold_rel": "P527",
+      "gold_label": "has_part"
+    },
+    {
+      "idx": 186,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P527",
+      "gold_label": "has_part"
+    },
+    {
+      "idx": 187,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 188,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 189,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 190,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 191,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 192,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 193,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 194,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 195,
+      "status": "correct",
+      "pred_rel": "country_of_citizenship",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 196,
+      "status": "mismatch",
+      "pred_rel": "instance_of",
+      "gold_rel": "P577",
+      "gold_label": "publication_date"
+    },
+    {
+      "idx": 197,
+      "status": "correct",
+      "pred_rel": "cast_member",
+      "gold_rel": "P161",
+      "gold_label": "cast_member"
+    },
+    {
+      "idx": 198,
+      "status": "correct",
+      "pred_rel": "director",
+      "gold_rel": "P57",
+      "gold_label": "director"
+    },
+    {
+      "idx": 199,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P161",
+      "gold_label": "cast_member"
+    },
+    {
+      "idx": 200,
+      "status": "correct",
+      "pred_rel": "member_of",
+      "gold_rel": "P463",
+      "gold_label": "member_of"
+    },
+    {
+      "idx": 201,
+      "status": "correct",
+      "pred_rel": "head_of_state",
+      "gold_rel": "P35",
+      "gold_label": "head_of_state"
+    },
+    {
+      "idx": 202,
+      "status": "correct",
+      "pred_rel": "country_of_origin",
+      "gold_rel": "P495",
+      "gold_label": "country_of_origin"
+    },
+    {
+      "idx": 203,
+      "status": "mismatch",
+      "pred_rel": "part_of",
+      "gold_rel": "P175",
+      "gold_label": "performer"
+    },
+    {
+      "idx": 204,
+      "status": "parse_fail",
+      "raw": "Ghana -> Kwame Nkrumah."
+    },
+    {
+      "idx": 205,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 206,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 207,
+      "status": "mismatch",
+      "pred_rel": "director",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 208,
+      "status": "mismatch",
+      "pred_rel": "country_of_citizenship",
+      "gold_rel": "P1001",
+      "gold_label": "jurisdiction"
+    },
+    {
+      "idx": 209,
+      "status": "mismatch",
+      "pred_rel": "characters",
+      "gold_rel": "P800",
+      "gold_label": "notable_work"
+    },
+    {
+      "idx": 210,
+      "status": "parse_fail",
+      "raw": "`head_of_government"
+    },
+    {
+      "idx": 211,
+      "status": "parse_fail",
+      "raw": "Let's try `location`."
+    },
+    {
+      "idx": 212,
+      "status": "mismatch",
+      "pred_rel": "producer",
+      "gold_rel": "P272",
+      "gold_label": "production_company"
+    },
+    {
+      "idx": 213,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 214,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 215,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 216,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 217,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 218,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 219,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 220,
+      "status": "mismatch",
+      "pred_rel": "producer",
+      "gold_rel": "P127",
+      "gold_label": "owned_by"
+    },
+    {
+      "idx": 221,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 222,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 223,
+      "status": "correct",
+      "pred_rel": "location",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 224,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 225,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 226,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 227,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 228,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 229,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 230,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 231,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P176",
+      "gold_label": "manufacturer"
+    },
+    {
+      "idx": 232,
+      "status": "mismatch",
+      "pred_rel": "product",
+      "gold_rel": "P176",
+      "gold_label": "manufacturer"
+    },
+    {
+      "idx": 233,
+      "status": "correct",
+      "pred_rel": "country_of_origin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 234,
+      "status": "mismatch",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P159",
+      "gold_label": "headquarters_location"
+    },
+    {
+      "idx": 235,
+      "status": "correct",
+      "pred_rel": "inception",
+      "gold_rel": "P571",
+      "gold_label": "inception"
+    },
+    {
+      "idx": 236,
+      "status": "correct",
+      "pred_rel": "country_of_origin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 237,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 238,
+      "status": "mismatch",
+      "pred_rel": "instance_of",
+      "gold_rel": "P178",
+      "gold_label": "developer"
+    },
+    {
+      "idx": 239,
+      "status": "correct",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 240,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 241,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 242,
+      "status": "correct",
+      "pred_rel": "country_of_origin",
+      "gold_rel": "P495",
+      "gold_label": "country_of_origin"
+    },
+    {
+      "idx": 243,
+      "status": "correct",
+      "pred_rel": "country_of_origin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 244,
+      "status": "parse_fail",
+      "raw": "Actually, looking at the text, \"Rokets"
+    },
+    {
+      "idx": 245,
+      "status": "correct",
+      "pred_rel": "country_of_origin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 246,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 247,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 248,
+      "status": "mismatch",
+      "pred_rel": "product",
+      "gold_rel": "P178",
+      "gold_label": "developer"
+    },
+    {
+      "idx": 249,
+      "status": "mismatch",
+      "pred_rel": "product",
+      "gold_rel": "P176",
+      "gold_label": "manufacturer"
+    },
+    {
+      "idx": 250,
+      "status": "parse_fail",
+      "raw": "Turkey `contains_admin` Anatolia."
+    },
+    {
+      "idx": 251,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 252,
+      "status": "correct",
+      "pred_rel": "country_of_origin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 253,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 254,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 255,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 256,
+      "status": "correct",
+      "pred_rel": "country_of_origin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 257,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 258,
+      "status": "correct",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 259,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 260,
+      "status": "mismatch",
+      "pred_rel": "country_of_origin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 261,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 262,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 263,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 264,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 265,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 266,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 267,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 268,
+      "status": "correct",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 269,
+      "status": "correct",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 270,
+      "status": "correct",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 271,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 272,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 273,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 274,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 275,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 276,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 277,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 278,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 279,
+      "status": "mismatch",
+      "pred_rel": "location",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 280,
+      "status": "parse_fail",
+      "raw": "Head (McClatchery Company) -> Tail (The Sacramento Bee) would be `owner` or `parent_organization`."
+    },
+    {
+      "idx": 281,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 282,
+      "status": "mismatch",
+      "pred_rel": "location",
+      "gold_rel": "P127",
+      "gold_label": "owned_by"
+    },
+    {
+      "idx": 283,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 284,
+      "status": "parse_fail",
+      "raw": "*Wait*, I'll try `location`."
+    },
+    {
+      "idx": 285,
+      "status": "mismatch",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P1376",
+      "gold_label": "capital_of"
+    },
+    {
+      "idx": 286,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 287,
+      "status": "correct",
+      "pred_rel": "inception",
+      "gold_rel": "P571",
+      "gold_label": "inception"
+    },
+    {
+      "idx": 288,
+      "status": "correct",
+      "pred_rel": "owned_by",
+      "gold_rel": "P127",
+      "gold_label": "owned_by"
+    },
+    {
+      "idx": 289,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 290,
+      "status": "mismatch",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P495",
+      "gold_label": "country_of_origin"
+    },
+    {
+      "idx": 291,
+      "status": "mismatch",
+      "pred_rel": "owned_by",
+      "gold_rel": "P123",
+      "gold_label": "publisher"
+    },
+    {
+      "idx": 292,
+      "status": "mismatch",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P495",
+      "gold_label": "country_of_origin"
+    },
+    {
+      "idx": 293,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 294,
+      "status": "parse_fail",
+      "raw": "Actually, I'll try `instance"
+    },
+    {
+      "idx": 295,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 296,
+      "status": "correct",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 297,
+      "status": "correct",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 298,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 299,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 300,
+      "status": "parse_fail",
+      "raw": "Wait*, I'"
+    },
+    {
+      "idx": 301,
+      "status": "mismatch",
+      "pred_rel": "owned_by",
+      "gold_rel": "P749",
+      "gold_label": "parent_organization"
+    },
+    {
+      "idx": 302,
+      "status": "correct",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 303,
+      "status": "correct",
+      "pred_rel": "location",
+      "gold_rel": "P276",
+      "gold_label": "location"
+    },
+    {
+      "idx": 304,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 305,
+      "status": "parse_fail",
+      "raw": "California (Head) contains (Relation) The Sacramento Bee (Tail)\"."
+    },
+    {
+      "idx": 306,
+      "status": "correct",
+      "pred_rel": "subsidiary",
+      "gold_rel": "P355",
+      "gold_label": "subsidiary"
+    },
+    {
+      "idx": 307,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 308,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 309,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 310,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 311,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 312,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 313,
+      "status": "mismatch",
+      "pred_rel": "capital_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 314,
+      "status": "mismatch",
+      "pred_rel": "capital_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 315,
+      "status": "correct",
+      "pred_rel": "capital_of",
+      "gold_rel": "P1376",
+      "gold_label": "capital_of"
+    },
+    {
+      "idx": 316,
+      "status": "mismatch",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P36",
+      "gold_label": "capital"
+    },
+    {
+      "idx": 317,
+      "status": "parse_fail",
+      "raw": "Wait, I just thought of another one: `has_part`. But `contains_admin"
+    },
+    {
+      "idx": 318,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 319,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 320,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 321,
+      "status": "parse_fail",
+      "raw": "Actually, looking at similar tasks, `location`"
+    },
+    {
+      "idx": 322,
+      "status": "mismatch",
+      "pred_rel": "participant_in",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 323,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P607",
+      "gold_label": "conflict"
+    },
+    {
+      "idx": 324,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 325,
+      "status": "parse_fail",
+      "raw": "If the head is the War and the tail is Vietnam, it's [Event] [Entity]."
+    },
+    {
+      "idx": 326,
+      "status": "correct",
+      "pred_rel": "participant_in",
+      "gold_rel": "P607",
+      "gold_label": "conflict"
+    },
+    {
+      "idx": 327,
+      "status": "mismatch",
+      "pred_rel": "conflict",
+      "gold_rel": "P710",
+      "gold_label": "participant"
+    },
+    {
+      "idx": 328,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 329,
+      "status": "correct",
+      "pred_rel": "participant_in",
+      "gold_rel": "P710",
+      "gold_label": "participant"
+    },
+    {
+      "idx": 330,
+      "status": "parse_fail",
+      "raw": "the \"communist regime\" overthrew the \"Khmer Rouge regime\"."
+    },
+    {
+      "idx": 331,
+      "status": "parse_fail",
+      "raw": "Relation: `"
+    },
+    {
+      "idx": 332,
+      "status": "parse_fail",
+      "raw": "Cambodian - Vietnamese War\" -> \"Cambodia\"."
+    },
+    {
+      "idx": 333,
+      "status": "correct",
+      "pred_rel": "inception",
+      "gold_rel": "P571",
+      "gold_label": "inception"
+    },
+    {
+      "idx": 334,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 335,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 336,
+      "status": "mismatch",
+      "pred_rel": "participant_in",
+      "gold_rel": "P276",
+      "gold_label": "location"
+    },
+    {
+      "idx": 337,
+      "status": "mismatch",
+      "pred_rel": "participant_in",
+      "gold_rel": "P276",
+      "gold_label": "location"
+    },
+    {
+      "idx": 338,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 339,
+      "status": "correct",
+      "pred_rel": "participant",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 340,
+      "status": "correct",
+      "pred_rel": "participant_in",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 341,
+      "status": "correct",
+      "pred_rel": "participant_in",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 342,
+      "status": "mismatch",
+      "pred_rel": "part_of",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 343,
+      "status": "correct",
+      "pred_rel": "participant",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 344,
+      "status": "correct",
+      "pred_rel": "conflict",
+      "gold_rel": "P1344",
+      "gold_label": "participant_in"
+    },
+    {
+      "idx": 345,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 346,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 347,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 348,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 349,
+      "status": "correct",
+      "pred_rel": "date_of_birth",
+      "gold_rel": "P569",
+      "gold_label": "date_of_birth"
+    },
+    {
+      "idx": 350,
+      "status": "mismatch",
+      "pred_rel": "child",
+      "gold_rel": "P22",
+      "gold_label": "father"
+    },
+    {
+      "idx": 351,
+      "status": "correct",
+      "pred_rel": "place_of_birth",
+      "gold_rel": "P19",
+      "gold_label": "place_of_birth"
+    },
+    {
+      "idx": 352,
+      "status": "correct",
+      "pred_rel": "educated_at",
+      "gold_rel": "P69",
+      "gold_label": "educated_at"
+    },
+    {
+      "idx": 353,
+      "status": "correct",
+      "pred_rel": "religion",
+      "gold_rel": "P140",
+      "gold_label": "religion"
+    },
+    {
+      "idx": 354,
+      "status": "mismatch",
+      "pred_rel": "sibling",
+      "gold_rel": "P26",
+      "gold_label": "spouse"
+    },
+    {
+      "idx": 355,
+      "status": "correct",
+      "pred_rel": "country_of_citizenship",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 356,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 357,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 358,
+      "status": "mismatch",
+      "pred_rel": "father",
+      "gold_rel": "P40",
+      "gold_label": "child"
+    },
+    {
+      "idx": 359,
+      "status": "correct",
+      "pred_rel": "child",
+      "gold_rel": "P40",
+      "gold_label": "child"
+    },
+    {
+      "idx": 360,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 361,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 362,
+      "status": "parse_fail",
+      "raw": "If the tail is \"Canadian\", it's not an"
+    },
+    {
+      "idx": 363,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 364,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 365,
+      "status": "mismatch",
+      "pred_rel": "child",
+      "gold_rel": "P26",
+      "gold_label": "spouse"
+    },
+    {
+      "idx": 366,
+      "status": "correct",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 367,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 368,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 369,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 370,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 371,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 372,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 373,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 374,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 375,
+      "status": "correct",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 376,
+      "status": "correct",
+      "pred_rel": "sibling",
+      "gold_rel": "P3373",
+      "gold_label": "sibling"
+    },
+    {
+      "idx": 377,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 378,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 379,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P40",
+      "gold_label": "child"
+    },
+    {
+      "idx": 380,
+      "status": "parse_fail",
+      "raw": "Wait*, I'll try `sibling`."
+    },
+    {
+      "idx": 381,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 382,
+      "status": "correct",
+      "pred_rel": "educated_at",
+      "gold_rel": "P69",
+      "gold_label": "educated_at"
+    },
+    {
+      "idx": 383,
+      "status": "correct",
+      "pred_rel": "educated_at",
+      "gold_rel": "P69",
+      "gold_label": "educated_at"
+    },
+    {
+      "idx": 384,
+      "status": "correct",
+      "pred_rel": "country_of_origin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 385,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P3373",
+      "gold_label": "sibling"
+    },
+    {
+      "idx": 386,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P25",
+      "gold_label": "mother"
+    },
+    {
+      "idx": 387,
+      "status": "parse_fail",
+      "raw": "the relation would be `father`."
+    },
+    {
+      "idx": 388,
+      "status": "correct",
+      "pred_rel": "father",
+      "gold_rel": "P22",
+      "gold_label": "father"
+    },
+    {
+      "idx": 389,
+      "status": "mismatch",
+      "pred_rel": "sibling",
+      "gold_rel": "P40",
+      "gold_label": "child"
+    },
+    {
+      "idx": 390,
+      "status": "mismatch",
+      "pred_rel": "child",
+      "gold_rel": "P3373",
+      "gold_label": "sibling"
+    },
+    {
+      "idx": 391,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P40",
+      "gold_label": "child"
+    },
+    {
+      "idx": 392,
+      "status": "parse_fail",
+      "raw": "I'll go"
+    },
+    {
+      "idx": 393,
+      "status": "mismatch",
+      "pred_rel": "sibling",
+      "gold_rel": "P40",
+      "gold_label": "child"
+    },
+    {
+      "idx": 394,
+      "status": "correct",
+      "pred_rel": "sibling",
+      "gold_rel": "P3373",
+      "gold_label": "sibling"
+    },
+    {
+      "idx": 395,
+      "status": "correct",
+      "pred_rel": "sibling",
+      "gold_rel": "P3373",
+      "gold_label": "sibling"
+    },
+    {
+      "idx": 396,
+      "status": "correct",
+      "pred_rel": "sibling",
+      "gold_rel": "P3373",
+      "gold_label": "sibling"
+    },
+    {
+      "idx": 397,
+      "status": "correct",
+      "pred_rel": "sibling",
+      "gold_rel": "P3373",
+      "gold_label": "sibling"
+    },
+    {
+      "idx": 398,
+      "status": "mismatch",
+      "pred_rel": "sibling",
+      "gold_rel": "P40",
+      "gold_label": "child"
+    },
+    {
+      "idx": 399,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P3373",
+      "gold_label": "sibling"
+    },
+    {
+      "idx": 400,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P25",
+      "gold_label": "mother"
+    },
+    {
+      "idx": 401,
+      "status": "parse_fail",
+      "raw": "the relation to \"Paul Desmarais Jr.\" is `father`."
+    },
+    {
+      "idx": 402,
+      "status": "parse_fail",
+      "raw": "the relation is `child`."
+    },
+    {
+      "idx": 403,
+      "status": "mismatch",
+      "pred_rel": "child",
+      "gold_rel": "P3373",
+      "gold_label": "sibling"
+    },
+    {
+      "idx": 404,
+      "status": "correct",
+      "pred_rel": "child",
+      "gold_rel": "P40",
+      "gold_label": "child"
+    },
+    {
+      "idx": 405,
+      "status": "mismatch",
+      "pred_rel": "child",
+      "gold_rel": "P22",
+      "gold_label": "father"
+    },
+    {
+      "idx": 406,
+      "status": "mismatch",
+      "pred_rel": "sibling",
+      "gold_rel": "P40",
+      "gold_label": "child"
+    },
+    {
+      "idx": 407,
+      "status": "correct",
+      "pred_rel": "sibling",
+      "gold_rel": "P3373",
+      "gold_label": "sibling"
+    },
+    {
+      "idx": 408,
+      "status": "parse_fail",
+      "raw": "the relation is `father`."
+    },
+    {
+      "idx": 409,
+      "status": "parse_fail",
+      "raw": "the relation would be `father`."
+    },
+    {
+      "idx": 410,
+      "status": "correct",
+      "pred_rel": "country_of_citizenship",
+      "gold_rel": "P27",
+      "gold_label": "country_of_citizenship"
+    },
+    {
+      "idx": 411,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 412,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 413,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 414,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 415,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 416,
+      "status": "mismatch",
+      "pred_rel": "country_of_origin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 417,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 418,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 419,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 420,
+      "status": "correct",
+      "pred_rel": "located_near_water",
+      "gold_rel": "P206",
+      "gold_label": "located_near_water"
+    },
+    {
+      "idx": 421,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 422,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 423,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 424,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 425,
+      "status": "mismatch",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P205",
+      "gold_label": "basin_country"
+    },
+    {
+      "idx": 426,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 427,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 428,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 429,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 430,
+      "status": "mismatch",
+      "pred_rel": "part_of",
+      "gold_rel": "P206",
+      "gold_label": "located_near_water"
+    },
+    {
+      "idx": 431,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 432,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 433,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 434,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 435,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 436,
+      "status": "correct",
+      "pred_rel": "located_near_water",
+      "gold_rel": "P206",
+      "gold_label": "located_near_water"
+    },
+    {
+      "idx": 437,
+      "status": "correct",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 438,
+      "status": "mismatch",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P205",
+      "gold_label": "basin_country"
+    },
+    {
+      "idx": 439,
+      "status": "correct",
+      "pred_rel": "located_near_water",
+      "gold_rel": "P206",
+      "gold_label": "located_near_water"
+    },
+    {
+      "idx": 440,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P527",
+      "gold_label": "has_part"
+    },
+    {
+      "idx": 441,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 442,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 443,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 444,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 445,
+      "status": "correct",
+      "pred_rel": "country",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 446,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 447,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 448,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 449,
+      "status": "correct",
+      "pred_rel": "located_near_water",
+      "gold_rel": "P206",
+      "gold_label": "located_near_water"
+    },
+    {
+      "idx": 450,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 451,
+      "status": "correct",
+      "pred_rel": "located_near_water",
+      "gold_rel": "P706",
+      "gold_label": "located_on_terrain"
+    },
+    {
+      "idx": 452,
+      "status": "parse_fail",
+      "raw": "*Wait*, I'll check `country_of_origin`."
+    },
+    {
+      "idx": 453,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 454,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 455,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 456,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P361",
+      "gold_label": "part_of"
+    },
+    {
+      "idx": 457,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 458,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 459,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 460,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 461,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 462,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 463,
+      "status": "mismatch",
+      "pred_rel": "notable_work",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 464,
+      "status": "parse_fail",
+      "raw": "`languages_spoken` is."
+    },
+    {
+      "idx": 465,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 466,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 467,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 468,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 469,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 470,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 471,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 472,
+      "status": "parse_fail",
+      "raw": "Guilderland -> U.S. Route 20."
+    },
+    {
+      "idx": 473,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 474,
+      "status": "correct",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 475,
+      "status": "correct",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 476,
+      "status": "correct",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 477,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 478,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 479,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 480,
+      "status": "mismatch",
+      "pred_rel": "located_near_water",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 481,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 482,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P17",
+      "gold_label": "country"
+    },
+    {
+      "idx": 483,
+      "status": "parse_fail",
+      "raw": "Actually"
+    },
+    {
+      "idx": 484,
+      "status": "parse_fail",
+      "raw": "U.S. Route 20 is *in* the Capital District."
+    },
+    {
+      "idx": 485,
+      "status": "mismatch",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P36",
+      "gold_label": "capital"
+    },
+    {
+      "idx": 486,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 487,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 488,
+      "status": "correct",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 489,
+      "status": "correct",
+      "pred_rel": "instance_of",
+      "gold_rel": "P31",
+      "gold_label": "instance_of"
+    },
+    {
+      "idx": 490,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 491,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 492,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 493,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 494,
+      "status": "correct",
+      "pred_rel": "located_in_admin",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 495,
+      "status": "correct",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 496,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    },
+    {
+      "idx": 497,
+      "status": "correct",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 498,
+      "status": "correct",
+      "pred_rel": "contains_admin",
+      "gold_rel": "P150",
+      "gold_label": "contains_admin"
+    },
+    {
+      "idx": 499,
+      "status": "correct",
+      "pred_rel": "part_of",
+      "gold_rel": "P131",
+      "gold_label": "located_in_admin"
+    }
+  ]
+}

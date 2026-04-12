@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "Quelle est la capitale de la France ?",
+    "answer": "Paris",
+    "cypher": "MATCH (c:Country {name:'France'})-[:HAS_CAPITAL]->(cap) RETURN cap.name"
+  },
+  {
+    "question": "Qui a fondé Microsoft ?",
+    "answer": "Bill Gates et Paul Allen",
+    "cypher": "MATCH (o:Organization {name:'Microsoft'})<-[:FOUNDED]-(p) RETURN p.name"
+  },
+  {
+    "question": "Où se trouve le siège d'Amazon ?",
+    "answer": "Seattle",
+    "cypher": "MATCH (o:Organization {name:'Amazon'})-[:HQ_LOCATION]->(l) RETURN l.name"
+  },
+  {
+    "question": "Quelle est la population de Tokyo ?",
+    "answer": "13,96 millions",
+    "cypher": "MATCH (c:City {name:'Tokyo'}) RETURN c.population"
+  },
+  {
+    "question": "Dans quel pays se trouve le Machu Picchu ?",
+    "answer": "Pérou",
+    "cypher": "MATCH (l:Landmark {name:'Machu Picchu'})-[:LOCATED_IN]->(c) RETURN c.name"
+  },
+  {
+    "question": "En quelle année la Première Guerre mondiale a-t-elle commencé ?",
+    "answer": "1914",
+    "cypher": "MATCH (e:Event {name:'Première Guerre mondiale'}) RETURN e.start_year"
+  },
+  {
+    "question": "Quand a été fondée l'Organisation des Nations unies ?",
+    "answer": "1945",
+    "cypher": "MATCH (o:Organization {name:'ONU'}) RETURN o.founded_year"
+  },
+  {
+    "question": "Quelle est la superficie de l'Australie ?",
+    "answer": "7,69 millions de km²",
+    "cypher": "MATCH (c:Country {name:'Australie'}) RETURN c.area_km2"
+  },
+  {
+    "question": "Combien d'habitants compte l'Inde ?",
+    "answer": "1,4 milliard",
+    "cypher": "MATCH (c:Country {name:'Inde'}) RETURN c.population"
+  },
+  {
+    "question": "Qui est le réalisateur du film Inception ?",
+    "answer": "Christopher Nolan",
+    "cypher": "MATCH (f:Film {name:'Inception'})-[:DIRECTED_BY]->(p) RETURN p.name"
+  },
+  {
+    "question": "Quel est l'auteur de 'Les Misérables' ?",
+    "answer": "Victor Hugo",
+    "cypher": "MATCH (b:Book {name:'Les Misérables'})-[:WRITTEN_BY]->(a) RETURN a.name"
+  },
+  {
+    "question": "Quelle est la monnaie du Japon ?",
+    "answer": "Yen",
+    "cypher": "MATCH (c:Country {name:'Japon'})-[:HAS_CURRENCY]->(m) RETURN m.name"
+  },
+  {
+    "question": "Quel est le plus long fleuve d'Afrique ?",
+    "answer": "Le Nil",
+    "cypher": "MATCH (r:River)-[:LOCATED_IN]->(cont:Continent {name:'Afrique'}) RETURN r.name ORDER BY r.length DESC LIMIT 1"
+  },
+  {
+    "question": "Quel océan borde la côte ouest de l'Amérique du Sud ?",
+    "answer": "L'océan Pacifique",
+    "cypher": "MATCH (cont:Continent {name:'Amérique du Sud'})-[:BORDERED_BY]->(o:Ocean) WHERE o.side='west' RETURN o.name"
+  },
+  {
+    "question": "Quel est le plus haut sommet du monde ?",
+    "answer": "L'Everest",
+    "cypher": "MATCH (m:Mountain) RETURN m.name ORDER BY m.elevation DESC LIMIT 1"
+  },
+  {
+    "question": "Quel est le symbole chimique de l'or ?",
+    "answer": "Au",
+    "cypher": "MATCH (e:Element {name:'Or'}) RETURN e.symbol"
+  },
+  {
+    "question": "Quelle planète est la plus proche du Soleil ?",
+    "answer": "Mercure",
+    "cypher": "MATCH (p:Planet) RETURN p.name ORDER BY p.distance_from_sun LIMIT 1"
+  },
+  {
+    "question": "Qui a formulé la théorie de la relativité ?",
+    "answer": "Albert Einstein",
+    "cypher": "MATCH (t:Theory {name:'Relativité'})-[:FORMULATED_BY]->(p) RETURN p.name"
+  },
+  {
+    "question": "Quel pays a le plus grand nombre de Prix Nobel de littérature ?",
+    "answer": "La France",
+    "cypher": "MATCH (p:Person)-[:WON]->(n:NobelPrize {category:'Littérature'}), (p)-[:CITIZEN_OF]->(c:Country) RETURN c.name, count(*) ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "question": "Quelle est la langue officielle du Brésil ?",
+    "answer": "Le portugais",
+    "cypher": "MATCH (c:Country {name:'Brésil'})-[:OFFICIAL_LANGUAGE]->(l) RETURN l.name"
+  },
+  {
+    "question": "Quelle est la capitale du Japon ?",
+    "answer": "Tokyo",
+    "cypher": "MATCH (c:Country {name: 'Japon'})-[:CAPITAL]->(ci:City) RETURN ci.name"
+  },
+  {
+    "question": "Qui a découvert la pénicilline en 1928 ?",
+    "answer": "Alexander Fleming",
+    "cypher": "MATCH (p:Person {name: 'Alexander Fleming'})-[:DISCOVERED]->(d:Drug {name: 'Pénicilline'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus long fleuve du monde ?",
+    "answer": "Le Nil",
+    "cypher": "MATCH (r:River)-[:LONGEST]->(r) RETURN r.name"
+  },
+  {
+    "question": "En quelle année a eu lieu la Révolution française ?",
+    "answer": "1789",
+    "cypher": "MATCH (e:Event {name: 'Révolution française'}) RETURN e.year"
+  },
+  {
+    "question": "Quel est le symbole chimique de l'or ?",
+    "answer": "Au",
+    "cypher": "MATCH (e:Element {name: 'Or'}) RETURN e.symbol"
+  },
+  {
+    "question": "Qui a peint 'La Joconde' ?",
+    "answer": "Léonard de Vinci",
+    "cypher": "MATCH (p:Person {name: 'Léonard de Vinci'})-[:PAINTED]->(a:Artwork {name: 'La Joconde'}) RETURN p.name"
+  },
+  {
+    "question": "Quelle est la monnaie officielle du Brésil ?",
+    "answer": "Le real",
+    "cypher": "MATCH (c:Country {name: 'Brésil'})-[:CURRENCY]->(cu:Currency) RETURN cu.name"
+  },
+  {
+    "question": "Quel est le plus grand océan de la Terre ?",
+    "answer": "L'océan Pacifique",
+    "cypher": "MATCH (o:Ocean)-[:LARGEST]->(o) RETURN o.name"
+  },
+  {
+    "question": "Qui a écrit 'Les Misérables' ?",
+    "answer": "Victor Hugo",
+    "cypher": "MATCH (p:Person {name: 'Victor Hugo'})-[:WROTE]->(b:Book {name: 'Les Misérables'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus haut sommet du monde ?",
+    "answer": "L'Everest",
+    "cypher": "MATCH (m:Mountain)-[:HIGHEST]->(m) RETURN m.name"
+  },
+  {
+    "question": "En quelle année a été fondée Microsoft ?",
+    "answer": "1975",
+    "cypher": "MATCH (c:Company {name: 'Microsoft'}) RETURN c.founded"
+  },
+  {
+    "question": "Quel est le plus grand désert du monde ?",
+    "answer": "Le désert de Gobi",
+    "cypher": "MATCH (d:Desert)-[:LARGEST]->(d) RETURN d.name"
+  },
+  {
+    "question": "Qui a inventé l'ampoule électrique ?",
+    "answer": "Thomas Edison",
+    "cypher": "MATCH (p:Person {name: 'Thomas Edison'})-[:INVENTED]->(i:Invention {name: 'Ampoule électrique'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus grand pays du monde ?",
+    "answer": "La Russie",
+    "cypher": "MATCH (c:Country)-[:LARGEST]->(c) RETURN c.name"
+  },
+  {
+    "question": "Quel est le langage de programmation le plus utilisé en 2023 ?",
+    "answer": "JavaScript",
+    "cypher": "MATCH (l:Language {name: 'JavaScript'}) RETURN l.name"
+  },
+  {
+    "question": "Quel est le plus grand animal terrestre ?",
+    "answer": "L'éléphant",
+    "cypher": "MATCH (a:Animal)-[:LARGEST]->(a) WHERE a.type = 'terrestre' RETURN a.name"
+  },
+  {
+    "question": "Qui a découvert la loi de la gravitation universelle ?",
+    "answer": "Isaac Newton",
+    "cypher": "MATCH (p:Person {name: 'Isaac Newton'})-[:DISCOVERED]->(l:Law {name: 'Gravitation universelle'}) RETURN p.name"
+  },
+  {
+    "question": "Quelle est la plus grande ville de France ?",
+    "answer": "Paris",
+    "cypher": "MATCH (c:City)-[:LARGEST]->(c) WHERE c.country = 'France' RETURN c.name"
+  },
+  {
+    "question": "Quel est le plus grand océan de l'Atlantique ?",
+    "answer": "L'océan Atlantique",
+    "cypher": "MATCH (o:Ocean {name: 'Atlantique'}) RETURN o.name"
+  },
+  {
+    "question": "Qui a écrit 'Le Petit Prince' ?",
+    "answer": "Antoine de Saint-Exupéry",
+    "cypher": "MATCH (p:Person {name: 'Antoine de Saint-Exupéry'})-[:WROTE]->(b:Book {name: 'Le Petit Prince'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus grand animal marin ?",
+    "answer": "La baleine bleue",
+    "cypher": "MATCH (a:Animal)-[:LARGEST]->(a) WHERE a.type = 'marin' RETURN a.name"
+  },
+  {
+    "question": "En quelle année a été fondée Apple ?",
+    "answer": "1976",
+    "cypher": "MATCH (c:Company {name: 'Apple'}) RETURN c.founded"
+  },
+  {
+    "question": "Quel est le plus grand lac du monde ?",
+    "answer": "Lac Caspien",
+    "cypher": "MATCH (l:Lake)-[:LARGEST]->(l) RETURN l.name"
+  },
+  {
+    "question": "Qui a découvert la radioactivité ?",
+    "answer": "Marie Curie",
+    "cypher": "MATCH (p:Person {name: 'Marie Curie'})-[:DISCOVERED]->(r:Phenomenon {name: 'Radioactivité'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus grand pays d'Europe ?",
+    "answer": "La Russie",
+    "cypher": "MATCH (c:Country)-[:LARGEST]->(c) WHERE c.continent = 'Europe' RETURN c.name"
+  },
+  {
+    "question": "Quel est le plus grand animal terrestre ?",
+    "answer": "L'éléphant",
+    "cypher": "MATCH (a:Animal)-[:LARGEST]->(a) WHERE a.type = 'terrestre' RETURN a.name"
+  },
+  {
+    "question": "Qui a découvert la pénicilline ?",
+    "answer": "Alexander Fleming",
+    "cypher": "MATCH (p:Person {name: 'Alexander Fleming'})-[:DISCOVERED]->(d:Drug {name: 'Pénicilline'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus grand océan du monde ?",
+    "answer": "L'océan Pacifique",
+    "cypher": "MATCH (o:Ocean)-[:LARGEST]->(o) RETURN o.name"
+  },
+  {
+    "question": "En quelle année a eu lieu la Révolution russe ?",
+    "answer": "1917",
+    "cypher": "MATCH (e:Event {name: 'Révolution russe'}) RETURN e.year"
+  },
+  {
+    "question": "Quel est le plus grand pays d'Amérique ?",
+    "answer": "Les États-Unis",
+    "cypher": "MATCH (c:Country)-[:LARGEST]->(c) WHERE c.continent = 'Amérique' RETURN c.name"
+  },
+  {
+    "question": "Qui a découvert la théorie de la relativité ?",
+    "answer": "Albert Einstein",
+    "cypher": "MATCH (p:Person {name: 'Albert Einstein'})-[:DISCOVERED]->(t:Theory {name: 'Relativité'}) RETURN p.name"
+  },
+  {
+    "question": "Quelle est la capitale du Japon ?",
+    "answer": "Tokyo",
+    "cypher": "MATCH (c:Country {name: 'Japon'})-[:CAPITAL]->(ci:City) RETURN ci.name"
+  },
+  {
+    "question": "Qui a découvert la pénicilline en 1928 ?",
+    "answer": "Alexander Fleming",
+    "cypher": "MATCH (p:Person {name: 'Alexander Fleming'})-[:DISCOVERED]->(d:Drug {name: 'Pénicilline'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus grand océan du monde ?",
+    "answer": "Pacifique",
+    "cypher": "MATCH (o:Ocean {name: 'Pacifique'}) RETURN o.name"
+  },
+  {
+    "question": "En quelle année a eu lieu la Révolution française ?",
+    "answer": "1789",
+    "cypher": "MATCH (e:Event {name: 'Révolution française'})-[:YEAR]->(y:Year) RETURN y.value"
+  },
+  {
+    "question": "Quel est le symbole chimique de l'or ?",
+    "answer": "Au",
+    "cypher": "MATCH (e:Element {name: 'Or'}) RETURN e.symbol"
+  },
+  {
+    "question": "Qui a peint 'La Joconde' ?",
+    "answer": "Léonard de Vinci",
+    "cypher": "MATCH (p:Person {name: 'Léonard de Vinci'})-[:PAINTED]->(a:Artwork {name: 'La Joconde'}) RETURN p.name"
+  },
+  {
+    "question": "Quelle est la monnaie officielle de l'Allemagne ?",
+    "answer": "Euro",
+    "cypher": "MATCH (c:Country {name: 'Allemagne'})-[:CURRENCY]->(cu:Currency) RETURN cu.name"
+  },
+  {
+    "question": "Quel est le plus haut sommet du monde ?",
+    "answer": "Mont Everest",
+    "cypher": "MATCH (m:Mountain {name: 'Mont Everest'}) RETURN m.name"
+  },
+  {
+    "question": "Qui a écrit 'Les Misérables' ?",
+    "answer": "Victor Hugo",
+    "cypher": "MATCH (p:Person {name: 'Victor Hugo'})-[:WROTE]->(b:Book {name: 'Les Misérables'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus grand pays du monde en superficie ?",
+    "answer": "Russie",
+    "cypher": "MATCH (c:Country {name: 'Russie'}) RETURN c.name"
+  },
+  {
+    "question": "Quel est le rôle principal du noyau d'une cellule ?",
+    "answer": "Stockage de l'ADN",
+    "cypher": "MATCH (c:CellComponent {name: 'Noyau'})-[:FUNCTION]->(f:Function) RETURN f.description"
+  },
+  {
+    "question": "Quel est le plus grand fleuve du monde ?",
+    "answer": "Amazone",
+    "cypher": "MATCH (r:River {name: 'Amazone'}) RETURN r.name"
+  },
+  {
+    "question": "Qui a fondé l'Empire romain d'Occident ?",
+    "answer": "Romulus",
+    "cypher": "MATCH (p:Person {name: 'Romulus'})-[:FOUNDED]->(e:Empire {name: 'Empire romain d\\'Occident'}) RETURN p.name"
+  },
+  {
+    "question": "Quelle est la vitesse de la lumière dans le vide ?",
+    "answer": "299 792 458 m/s",
+    "cypher": "MATCH (c:Constant {name: 'Vitesse de la lumière'}) RETURN c.value"
+  },
+  {
+    "question": "Quel est le plus grand musée du monde ?",
+    "answer": "Le Louvre",
+    "cypher": "MATCH (m:Museum {name: 'Le Louvre'}) RETURN m.name"
+  },
+  {
+    "question": "Quel est le plus grand désert du monde ?",
+    "answer": "Sahara",
+    "cypher": "MATCH (d:Desert {name: 'Sahara'}) RETURN d.name"
+  },
+  {
+    "question": "Qui a inventé l'électricité ?",
+    "answer": "Thomas Edison",
+    "cypher": "MATCH (p:Person {name: 'Thomas Edison'})-[:INVENTED]->(e:Invention {name: 'Électricité'}) RETURN p.name"
+  },
+  {
+    "question": "Quelle est la plus grande ville de France ?",
+    "answer": "Paris",
+    "cypher": "MATCH (c:City {name: 'Paris'})-[:COUNTRY]->(co:Country {name: 'France'}) RETURN c.name"
+  },
+  {
+    "question": "Quel est le plus grand océan du Pacifique ?",
+    "answer": "Pacifique",
+    "cypher": "MATCH (o:Ocean {name: 'Pacifique'}) RETURN o.name"
+  },
+  {
+    "question": "Quel est le plus grand animal terrestre ?",
+    "answer": "Éléphant",
+    "cypher": "MATCH (a:Animal {name: 'Éléphant'}) RETURN a.name"
+  },
+  {
+    "question": "Qui a écrit 'Le Petit Prince' ?",
+    "answer": "Antoine de Saint-Exupéry",
+    "cypher": "MATCH (p:Person {name: 'Antoine de Saint-Exupéry'})-[:WROTE]->(b:Book {name: 'Le Petit Prince'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus grand pays d'Europe ?",
+    "answer": "Russie",
+    "cypher": "MATCH (c:Country {name: 'Russie'})-[:CONTINENT]->(co:Continent {name: 'Europe'}) RETURN c.name"
+  },
+  {
+    "question": "Quel est le plus grand animal marin ?",
+    "answer": "Baleine bleue",
+    "cypher": "MATCH (a:Animal {name: 'Baleine bleue'}) RETURN a.name"
+  },
+  {
+    "question": "Qui a découvert la gravité ?",
+    "answer": "Isaac Newton",
+    "cypher": "MATCH (p:Person {name: 'Isaac Newton'})-[:DISCOVERED]->(f:Force {name: 'Gravité'}) RETURN p.name"
+  },
+  {
+    "question": "Quelle est la plus grande île du monde ?",
+    "answer": "Groenland",
+    "cypher": "MATCH (i:Island {name: 'Groenland'}) RETURN i.name"
+  },
+  {
+    "question": "Quel est le plus grand océan de la Terre ?",
+    "answer": "Pacifique",
+    "cypher": "MATCH (o:Ocean {name: 'Pacifique'}) RETURN o.name"
+  },
+  {
+    "question": "Qui a écrit '1984' ?",
+    "answer": "George Orwell",
+    "cypher": "MATCH (p:Person {name: 'George Orwell'})-[:WROTE]->(b:Book {name: '1984'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus grand pays d'Amérique ?",
+    "answer": "États-Unis",
+    "cypher": "MATCH (c:Country {name: 'États-Unis'})-[:CONTINENT]->(co:Continent {name: 'Amérique'}) RETURN c.name"
+  },
+  {
+    "question": "Quel est le plus grand animal du monde ?",
+    "answer": "Baleine bleue",
+    "cypher": "MATCH (a:Animal {name: 'Baleine bleue'}) RETURN a.name"
+  },
+  {
+    "question": "Qui a découvert l'aspirine ?",
+    "answer": "Felix Hoffmann",
+    "cypher": "MATCH (p:Person {name: 'Felix Hoffmann'})-[:DISCOVERED]->(d:Drug {name: 'Aspirine'}) RETURN p.name"
+  },
+  {
+    "question": "Quelle est la capitale du Japon ?",
+    "answer": "Tokyo",
+    "cypher": "MATCH (c:Country {name: 'Japon'})-[:CAPITAL]->(ci:City) RETURN ci.name"
+  },
+  {
+    "question": "Qui a découvert la pénicilline en 1928 ?",
+    "answer": "Alexander Fleming",
+    "cypher": "MATCH (p:Person {name: 'Alexander Fleming'})-[:DISCOVERED]->(d:Drug {name: 'Pénicilline'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus long fleuve du monde ?",
+    "answer": "Le Nil",
+    "cypher": "MATCH (r:River)-[:LONGEST]->(r) RETURN r.name"
+  },
+  {
+    "question": "En quelle année a eu lieu la Révolution française ?",
+    "answer": "1789",
+    "cypher": "MATCH (e:Event {name: 'Révolution française'}) RETURN e.year"
+  },
+  {
+    "question": "Quel est le symbole chimique de l'or ?",
+    "answer": "Au",
+    "cypher": "MATCH (e:Element {name: 'Or'}) RETURN e.symbol"
+  },
+  {
+    "question": "Qui a peint 'La Joconde' ?",
+    "answer": "Léonard de Vinci",
+    "cypher": "MATCH (p:Person {name: 'Léonard de Vinci'})-[:PAINTED]->(a:Artwork {name: 'La Joconde'}) RETURN p.name"
+  },
+  {
+    "question": "Quelle est la monnaie officielle de l'Union européenne ?",
+    "answer": "Euro",
+    "cypher": "MATCH (c:Country)-[:CURRENCY]->(cu:Currency {name: 'Euro'}) RETURN c.name"
+  },
+  {
+    "question": "Quel est le plus grand océan du monde ?",
+    "answer": "Pacifique",
+    "cypher": "MATCH (o:Ocean {name: 'Pacifique'}) RETURN o.name"
+  },
+  {
+    "question": "En quelle année a été fondée Microsoft ?",
+    "answer": "1975",
+    "cypher": "MATCH (c:Company {name: 'Microsoft'}) RETURN c.founded"
+  },
+  {
+    "question": "Quel est le plus haut sommet du monde ?",
+    "answer": "Mont Everest",
+    "cypher": "MATCH (m:Mountain {name: 'Mont Everest'}) RETURN m.name"
+  },
+  {
+    "question": "Qui a écrit 'Les Misérables' ?",
+    "answer": "Victor Hugo",
+    "cypher": "MATCH (p:Person {name: 'Victor Hugo'})-[:WROTE]->(b:Book {name: 'Les Misérables'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le pays le plus peuplé du monde ?",
+    "answer": "Chine",
+    "cypher": "MATCH (c:Country {name: 'Chine'})-[:POPULATION]->(p:Population) RETURN c.name"
+  },
+  {
+    "question": "Quel est le plus grand désert du monde ?",
+    "answer": "Sahara",
+    "cypher": "MATCH (d:Desert {name: 'Sahara'}) RETURN d.name"
+  },
+  {
+    "question": "En quelle année a eu lieu la chute du mur de Berlin ?",
+    "answer": "1989",
+    "cypher": "MATCH (e:Event {name: 'Chute du mur de Berlin'}) RETURN e.year"
+  },
+  {
+    "question": "Quel est le plus grand mammifère terrestre ?",
+    "answer": "Éléphant",
+    "cypher": "MATCH (a:Animal {name: 'Éléphant'}) RETURN a.name"
+  },
+  {
+    "question": "Qui a inventé l'ampoule électrique ?",
+    "answer": "Thomas Edison",
+    "cypher": "MATCH (p:Person {name: 'Thomas Edison'})-[:INVENTED]->(i:Invention {name: 'Ampoule électrique'}) RETURN p.name"
+  },
+  {
+    "question": "Quelle est la plus grande ville de France ?",
+    "answer": "Paris",
+    "cypher": "MATCH (c:Country {name: 'France'})-[:LARGEST_CITY]->(ci:City) RETURN ci.name"
+  },
+  {
+    "question": "Quel est le plus grand pays du monde ?",
+    "answer": "Russie",
+    "cypher": "MATCH (c:Country {name: 'Russie'}) RETURN c.name"
+  },
+  {
+    "question": "En quelle année a été signé le traité de Versailles ?",
+    "answer": "1919",
+    "cypher": "MATCH (e:Event {name: 'Traité de Versailles'}) RETURN e.year"
+  },
+  {
+    "question": "Quel est le plus petit pays du monde ?",
+    "answer": "Vatican",
+    "cypher": "MATCH (c:Country {name: 'Vatican'}) RETURN c.name"
+  },
+  {
+    "question": "Qui a découvert la loi de la gravitation universelle ?",
+    "answer": "Isaac Newton",
+    "cypher": "MATCH (p:Person {name: 'Isaac Newton'})-[:DISCOVERED]->(l:Law {name: 'Gravitation universelle'}) RETURN p.name"
+  },
+  {
+    "question": "Quelle est la plus grande île du monde ?",
+    "answer": "Groenland",
+    "cypher": "MATCH (i:Island {name: 'Groenland'}) RETURN i.name"
+  },
+  {
+    "question": "En quelle année a été lancé le premier satellite artificiel ?",
+    "answer": "1957",
+    "cypher": "MATCH (s:Satellite {name: 'Sputnik'}) RETURN s.launched"
+  },
+  {
+    "question": "Quel est le plus grand océan de l'Atlantique ?",
+    "answer": "Atlantique",
+    "cypher": "MATCH (o:Ocean {name: 'Atlantique'}) RETURN o.name"
+  },
+  {
+    "question": "Qui a fondé l'Église catholique ?",
+    "answer": "Jésus-Christ",
+    "cypher": "MATCH (p:Person {name: 'Jésus-Christ'})-[:FOUNDED]->(r:Religion {name: 'Catholicisme'}) RETURN p.name"
+  },
+  {
+    "question": "Quelle est la plus grande source d'énergie renouvelable ?",
+    "answer": "L'énergie solaire",
+    "cypher": "MATCH (e:Energy {name: 'Énergie solaire'}) RETURN e.name"
+  },
+  {
+    "question": "En quelle année a été créée l'Union européenne ?",
+    "answer": "1993",
+    "cypher": "MATCH (o:Organization {name: 'Union européenne'}) RETURN o.founded"
+  },
+  {
+    "question": "Quel est le plus grand animal marin ?",
+    "answer": "Baleine bleue",
+    "cypher": "MATCH (a:Animal {name: 'Baleine bleue'}) RETURN a.name"
+  },
+  {
+    "question": "Qui a écrit 'Le Petit Prince' ?",
+    "answer": "Antoine de Saint-Exupéry",
+    "cypher": "MATCH (p:Person {name: 'Antoine de Saint-Exupéry'})-[:WROTE]->(b:Book {name: 'Le Petit Prince'}) RETURN p.name"
+  },
+  {
+    "question": "Quelle est la plus grande ville de l'Amérique du Nord ?",
+    "answer": "New York",
+    "cypher": "MATCH (c:Country {name: 'États-Unis'})-[:LARGEST_CITY]->(ci:City) RETURN ci.name"
+  },
+  {
+    "question": "Quelle est la capitale du Japon ?",
+    "answer": "Tokyo",
+    "cypher": "MATCH (c:Country {name: 'Japon'})-[:CAPITAL]->(ci:City) RETURN ci.name"
+  },
+  {
+    "question": "Qui a découvert la pénicilline en 1928 ?",
+    "answer": "Alexander Fleming",
+    "cypher": "MATCH (p:Person {name: 'Alexander Fleming'})-[:DISCOVERED]->(d:Drug {name: 'Pénicilline'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus grand océan du monde ?",
+    "answer": "Pacifique",
+    "cypher": "MATCH (o:Ocean {name: 'Pacifique'}) RETURN o.name"
+  },
+  {
+    "question": "En quelle année a eu lieu la Révolution française ?",
+    "answer": "1789",
+    "cypher": "MATCH (e:Event {name: 'Révolution française'})-[:YEAR]->(y:Year) RETURN y.value"
+  },
+  {
+    "question": "Quel est le symbole chimique de l'or ?",
+    "answer": "Au",
+    "cypher": "MATCH (e:Element {name: 'Or'}) RETURN e.symbol"
+  },
+  {
+    "question": "Qui a peint 'La Joconde' ?",
+    "answer": "Léonard de Vinci",
+    "cypher": "MATCH (p:Person {name: 'Léonard de Vinci'})-[:PAINTED]->(a:Artwork {name: 'La Joconde'}) RETURN p.name"
+  },
+  {
+    "question": "Quelle est la monnaie officielle de l'Allemagne ?",
+    "answer": "Euro",
+    "cypher": "MATCH (c:Country {name: 'Allemagne'})-[:CURRENCY]->(cu:Currency) RETURN cu.name"
+  },
+  {
+    "question": "Quel est le plus haut sommet du monde ?",
+    "answer": "Mont Everest",
+    "cypher": "MATCH (m:Mountain {name: 'Mont Everest'}) RETURN m.name"
+  },
+  {
+    "question": "Qui a écrit 'Les Misérables' ?",
+    "answer": "Victor Hugo",
+    "cypher": "MATCH (p:Person {name: 'Victor Hugo'})-[:WROTE]->(b:Book {name: 'Les Misérables'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus grand pays du monde en superficie ?",
+    "answer": "Russie",
+    "cypher": "MATCH (c:Country {name: 'Russie'}) RETURN c.name"
+  },
+  {
+    "question": "Quel est le rôle principal du noyau d'une cellule ?",
+    "answer": "Contrôle les activités cellulaires",
+    "cypher": "MATCH (c:CellComponent {name: 'Noyau'})-[:FUNCTION]->(f:Function) RETURN f.description"
+  },
+  {
+    "question": "Quel est le plus grand fleuve du monde ?",
+    "answer": "Amazone",
+    "cypher": "MATCH (r:River {name: 'Amazone'}) RETURN r.name"
+  },
+  {
+    "question": "Qui a fondé la première université de Paris ?",
+    "answer": "Saint Louis",
+    "cypher": "MATCH (p:Person {name: 'Saint Louis'})-[:FOUNDED]->(u:University {name: 'Université de Paris'}) RETURN p.name"
+  },
+  {
+    "question": "Quelle est la vitesse de la lumière dans le vide ?",
+    "answer": "299 792 458 m/s",
+    "cypher": "MATCH (s:ScientificConstant {name: 'Vitesse de la lumière'}) RETURN s.value"
+  },
+  {
+    "question": "Quel est le plus grand désert du monde ?",
+    "answer": "Sahara",
+    "cypher": "MATCH (d:Desert {name: 'Sahara'}) RETURN d.name"
+  },
+  {
+    "question": "Qui a inventé l'ampoule électrique ?",
+    "answer": "Thomas Edison",
+    "cypher": "MATCH (p:Person {name: 'Thomas Edison'})-[:INVENTED]->(i:Invention {name: 'Ampoule électrique'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus grand océan du Pacifique ?",
+    "answer": "Pacifique",
+    "cypher": "MATCH (o:Ocean {name: 'Pacifique'}) RETURN o.name"
+  },
+  {
+    "question": "Quel est le plus grand animal terrestre ?",
+    "answer": "Éléphant",
+    "cypher": "MATCH (a:Animal {name: 'Éléphant'}) RETURN a.name"
+  },
+  {
+    "question": "Qui a découvert la gravité ?",
+    "answer": "Isaac Newton",
+    "cypher": "MATCH (p:Person {name: 'Isaac Newton'})-[:DISCOVERED]->(f:Force {name: 'Gravité'}) RETURN p.name"
+  },
+  {
+    "question": "Quelle est la plus grande île du monde ?",
+    "answer": "Groenland",
+    "cypher": "MATCH (i:Island {name: 'Groenland'}) RETURN i.name"
+  },
+  {
+    "question": "Quel est le plus grand mammifère marin ?",
+    "answer": "Baleine bleue",
+    "cypher": "MATCH (m:Mammal {name: 'Baleine bleue'}) RETURN m.name"
+  },
+  {
+    "question": "Qui a écrit 'Le Petit Prince' ?",
+    "answer": "Antoine de Saint-Exupéry",
+    "cypher": "MATCH (p:Person {name: 'Antoine de Saint-Exupéry'})-[:WROTE]->(b:Book {name: 'Le Petit Prince'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus grand lac du monde ?",
+    "answer": "Mer Caspienne",
+    "cypher": "MATCH (l:Lake {name: 'Mer Caspienne'}) RETURN l.name"
+  },
+  {
+    "question": "Quel est le plus grand pays d'Europe ?",
+    "answer": "Russie",
+    "cypher": "MATCH (c:Country {name: 'Russie'})-[:CONTINENT]->(co:Continent {name: 'Europe'}) RETURN c.name"
+  },
+  {
+    "question": "Qui a découvert l'électricité ?",
+    "answer": "Benjamin Franklin",
+    "cypher": "MATCH (p:Person {name: 'Benjamin Franklin'})-[:DISCOVERED]->(e:Electricity) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus grand animal du monde ?",
+    "answer": "Baleine bleue",
+    "cypher": "MATCH (a:Animal {name: 'Baleine bleue'}) RETURN a.name"
+  },
+  {
+    "question": "Quel est le plus grand océan du monde ?",
+    "answer": "Pacifique",
+    "cypher": "MATCH (o:Ocean {name: 'Pacifique'}) RETURN o.name"
+  },
+  {
+    "question": "Qui a écrit '1984' ?",
+    "answer": "George Orwell",
+    "cypher": "MATCH (p:Person {name: 'George Orwell'})-[:WROTE]->(b:Book {name: '1984'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus grand pays d'Asie ?",
+    "answer": "Russie",
+    "cypher": "MATCH (c:Country {name: 'Russie'})-[:CONTINENT]->(co:Continent {name: 'Asie'}) RETURN c.name"
+  },
+  {
+    "question": "Quel est le plus grand animal terrestre ?",
+    "answer": "Éléphant",
+    "cypher": "MATCH (a:Animal {name: 'Éléphant'}) RETURN a.name"
+  },
+  {
+    "question": "Quelle est la capitale du Japon ?",
+    "answer": "Tokyo",
+    "cypher": "MATCH (c:Country {name: 'Japon'})-[:CAPITAL]->(ci:City) RETURN ci.name"
+  },
+  {
+    "question": "Qui a découvert la pénicilline en 1928 ?",
+    "answer": "Alexander Fleming",
+    "cypher": "MATCH (p:Person {name: 'Alexander Fleming'})-[:DISCOVERED]->(d:Drug {name: 'Pénicilline'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus long fleuve du monde ?",
+    "answer": "Le Nil",
+    "cypher": "MATCH (r:River)-[:LONGEST]->(r) RETURN r.name"
+  },
+  {
+    "question": "En quelle année a eu lieu la Révolution française ?",
+    "answer": "1789",
+    "cypher": "MATCH (e:Event {name: 'Révolution française'}) RETURN e.year"
+  },
+  {
+    "question": "Quel est le symbole chimique de l'or ?",
+    "answer": "Au",
+    "cypher": "MATCH (e:Element {name: 'Or'}) RETURN e.symbol"
+  },
+  {
+    "question": "Qui a peint 'La Joconde' ?",
+    "answer": "Léonard de Vinci",
+    "cypher": "MATCH (p:Person {name: 'Léonard de Vinci'})-[:PAINTED]->(a:Artwork {name: 'La Joconde'}) RETURN p.name"
+  },
+  {
+    "question": "Quelle est la monnaie officielle du Brésil ?",
+    "answer": "Le real",
+    "cypher": "MATCH (c:Country {name: 'Brésil'})-[:CURRENCY]->(cu:Currency) RETURN cu.name"
+  },
+  {
+    "question": "Quel est le plus grand océan de la Terre ?",
+    "answer": "L'océan Pacifique",
+    "cypher": "MATCH (o:Ocean)-[:LARGEST]->(o) RETURN o.name"
+  },
+  {
+    "question": "Qui a écrit 'Les Misérables' ?",
+    "answer": "Victor Hugo",
+    "cypher": "MATCH (p:Person {name: 'Victor Hugo'})-[:WROTE]->(b:Book {name: 'Les Misérables'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus haut sommet du monde ?",
+    "answer": "L'Everest",
+    "cypher": "MATCH (m:Mountain)-[:HIGHEST]->(m) RETURN m.name"
+  },
+  {
+    "question": "En quelle année a été fondée Microsoft ?",
+    "answer": "1975",
+    "cypher": "MATCH (c:Company {name: 'Microsoft'}) RETURN c.founded"
+  },
+  {
+    "question": "Quel est le plus grand désert du monde ?",
+    "answer": "Le désert de Gobi",
+    "cypher": "MATCH (d:Desert)-[:LARGEST]->(d) RETURN d.name"
+  },
+  {
+    "question": "Qui a inventé l'ampoule électrique ?",
+    "answer": "Thomas Edison",
+    "cypher": "MATCH (p:Person {name: 'Thomas Edison'})-[:INVENTED]->(i:Invention {name: 'Ampoule électrique'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus grand pays du monde ?",
+    "answer": "La Russie",
+    "cypher": "MATCH (c:Country)-[:LARGEST]->(c) RETURN c.name"
+  },
+  {
+    "question": "Quel est le langage de programmation le plus utilisé en 2023 ?",
+    "answer": "Python",
+    "cypher": "MATCH (l:Language {name: 'Python'}) RETURN l.name"
+  },
+  {
+    "question": "Qui a découvert la gravité ?",
+    "answer": "Isaac Newton",
+    "cypher": "MATCH (p:Person {name: 'Isaac Newton'})-[:DISCOVERED]->(f:Force {name: 'Gravité'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus grand animal terrestre ?",
+    "answer": "L'éléphant",
+    "cypher": "MATCH (a:Animal)-[:LARGEST]->(a) WHERE a.type = 'terrestre' RETURN a.name"
+  },
+  {
+    "question": "En quelle année a été signé le traité de Versailles ?",
+    "answer": "1919",
+    "cypher": "MATCH (t:Treaty {name: 'Traité de Versailles'}) RETURN t.year"
+  },
+  {
+    "question": "Quel est le plus grand océan pacifique ?",
+    "answer": "L'océan Pacifique",
+    "cypher": "MATCH (o:Ocean {name: 'Pacifique'}) RETURN o.name"
+  },
+  {
+    "question": "Qui a écrit 'Le Petit Prince' ?",
+    "answer": "Antoine de Saint-Exupéry",
+    "cypher": "MATCH (p:Person {name: 'Antoine de Saint-Exupéry'})-[:WROTE]->(b:Book {name: 'Le Petit Prince'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus grand lac du monde ?",
+    "answer": "Lac Caspien",
+    "cypher": "MATCH (l:Lake)-[:LARGEST]->(l) RETURN l.name"
+  },
+  {
+    "question": "Quel est le plus grand musée du monde ?",
+    "answer": "Le musée du Louvre",
+    "cypher": "MATCH (m:Museum)-[:LARGEST]->(m) RETURN m.name"
+  },
+  {
+    "question": "En quelle année a été lancé le premier satellite artificiel ?",
+    "answer": "1957",
+    "cypher": "MATCH (s:Satellite)-[:FIRST]->(s) RETURN s.year"
+  },
+  {
+    "question": "Quel est le plus grand animal marin ?",
+    "answer": "La baleine bleue",
+    "cypher": "MATCH (a:Animal)-[:LARGEST]->(a) WHERE a.type = 'marin' RETURN a.name"
+  },
+  {
+    "question": "Qui a découvert l'électricité ?",
+    "answer": "Benjamin Franklin",
+    "cypher": "MATCH (p:Person {name: 'Benjamin Franklin'})-[:DISCOVERED]->(e:Electricity) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus grand pays d'Europe ?",
+    "answer": "La Russie",
+    "cypher": "MATCH (c:Country)-[:LARGEST]->(c) WHERE c.continent = 'Europe' RETURN c.name"
+  },
+  {
+    "question": "Quel est le plus grand océan de l'Atlantique ?",
+    "answer": "L'océan Atlantique",
+    "cypher": "MATCH (o:Ocean {name: 'Atlantique'}) RETURN o.name"
+  },
+  {
+    "question": "Qui a inventé le téléphone ?",
+    "answer": "Alexander Graham Bell",
+    "cypher": "MATCH (p:Person {name: 'Alexander Graham Bell'})-[:INVENTED]->(i:Invention {name: 'Téléphone'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus grand animal du monde ?",
+    "answer": "La baleine bleue",
+    "cypher": "MATCH (a:Animal)-[:LARGEST]->(a) RETURN a.name"
+  },
+  {
+    "question": "En quelle année a été fondée Apple ?",
+    "answer": "1976",
+    "cypher": "MATCH (c:Company {name: 'Apple'}) RETURN c.founded"
+  },
+  {
+    "question": "Quel est le plus grand pays d'Amérique ?",
+    "answer": "Les États-Unis",
+    "cypher": "MATCH (c:Country)-[:LARGEST]->(c) WHERE c.continent = 'Amérique' RETURN c.name"
+  },
+  {
+    "question": "Quelle est la capitale du Japon ?",
+    "answer": "Tokyo",
+    "cypher": "MATCH (c:Country {name: 'Japon'})-[:CAPITAL]->(ci:City) RETURN ci.name"
+  },
+  {
+    "question": "Qui a découvert la pénicilline en 1928 ?",
+    "answer": "Alexander Fleming",
+    "cypher": "MATCH (p:Person {name: 'Alexander Fleming'})-[:DISCOVERED]->(d:Drug {name: 'Pénicilline'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus grand océan du monde ?",
+    "answer": "Pacifique",
+    "cypher": "MATCH (o:Ocean {name: 'Pacifique'}) RETURN o.name"
+  },
+  {
+    "question": "En quelle année a eu lieu la Révolution française ?",
+    "answer": "1789",
+    "cypher": "MATCH (e:Event {name: 'Révolution française'}) RETURN e.year"
+  },
+  {
+    "question": "Quel est le symbole chimique de l'or ?",
+    "answer": "Au",
+    "cypher": "MATCH (e:Element {name: 'Or'}) RETURN e.symbol"
+  },
+  {
+    "question": "Qui a peint 'La Joconde' ?",
+    "answer": "Léonard de Vinci",
+    "cypher": "MATCH (p:Person {name: 'Léonard de Vinci'})-[:PAINTED]->(a:Artwork {name: 'La Joconde'}) RETURN p.name"
+  },
+  {
+    "question": "Quelle est la monnaie officielle du Brésil ?",
+    "answer": "Réal brésilien",
+    "cypher": "MATCH (c:Country {name: 'Brésil'})-[:CURRENCY]->(cu:Currency) RETURN cu.name"
+  },
+  {
+    "question": "Quel est le plus haut sommet du monde ?",
+    "answer": "Mont Everest",
+    "cypher": "MATCH (m:Mountain {name: 'Mont Everest'}) RETURN m.name"
+  },
+  {
+    "question": "Qui a écrit 'Les Misérables' ?",
+    "answer": "Victor Hugo",
+    "cypher": "MATCH (p:Person {name: 'Victor Hugo'})-[:WROTE]->(b:Book {name: 'Les Misérables'}) RETURN p.name"
+  },
+  {
+    "question": "Quelle est la vitesse de la lumière dans le vide ?",
+    "answer": "299 792 458 m/s",
+    "cypher": "MATCH (s:ScientificConstant {name: 'Vitesse de la lumière'}) RETURN s.value"
+  },
+  {
+    "question": "Quel est le plus grand désert du monde ?",
+    "answer": "Désert de Gobi",
+    "cypher": "MATCH (d:Desert {name: 'Désert de Gobi'}) RETURN d.name"
+  },
+  {
+    "question": "En quelle année a été fondée Microsoft ?",
+    "answer": "1975",
+    "cypher": "MATCH (c:Company {name: 'Microsoft'}) RETURN c.founded"
+  },
+  {
+    "question": "Quel est le plus grand pays d'Europe ?",
+    "answer": "Russie",
+    "cypher": "MATCH (c:Country {name: 'Russie'})-[:CONTINENT]->(co:Continent {name: 'Europe'}) RETURN c.name"
+  },
+  {
+    "question": "Qui a inventé l'ampoule électrique ?",
+    "answer": "Thomas Edison",
+    "cypher": "MATCH (p:Person {name: 'Thomas Edison'})-[:INVENTED]->(i:Invention {name: 'Ampoule électrique'}) RETURN p.name"
+  },
+  {
+    "question": "Quel est le plus long fleuve du monde ?",
+    "answer": "Fleuve du Nil",
+    "cypher": "MATCH (r:River {name: 'Fleuve du Nil'}) RETURN r.name"
+  },
+  {
+    "question": "En quelle année a eu lieu la chute du mur de Berlin ?",
+    "answer": "1989",
+    "cypher": "MATCH (e:Event {name: 'Chute du mur de Berlin'}) RETURN e.year"
+  },
+  {
+    "question": "Quel est le plus grand océan du Pacifique ?",
+    "answer": "Océan Pacifique",
+    "cypher": "MATCH (o:Ocean {name: 'Océan Pacifique'}) RETURN o.name"
+  },
+  {
+    "question": "Qui a découvert la théorie de la relativité ?",
+    "answer": "Albert Einstein",
+    "cypher": "MATCH (p:Person {name: 'Albert Einstein'})-[:DISCOVERED]->(t:Theory {name: 'Théorie de la relativité'}) RETURN p.name"
+  },
+  {
+    "question": "Quelle est la capitale de l'Australie ?",
+    "answer": "Canberra",
+    "cypher": "MATCH (c:Country {name: 'Australie'})-[:CAPITAL]->(ci:City) RETURN ci.name"
+  },
+  {
+    "question": "Quel est le plus grand animal terrestre ?",
+    "answer": "Éléphant",
+    "cypher": "MATCH (a:Animal {name: 'Éléphant'}) RETURN a.name"
+  },
+  {
+    "question": "En quelle année a été signé le traité de Versailles ?",
+    "answer": "1919",
+    "cypher": "MATCH (e:Event {name: 'Traité de Versailles'}) RETURN e.year"
+  },
+  {
+    "question": "Quel est le plus grand livre de la Bible ?",
+    "answer": "Psaumes",
+    "cypher": "MATCH (b:Book {name: 'Psaumes'}) RETURN b.name"
+  },
+  {
+    "question": "Qui a fondé l'Église catholique ?",
+    "answer": "Jésus-Christ",
+    "cypher": "MATCH (p:Person {name: 'Jésus-Christ'})-[:FOUNDED]->(r:Religion {name: 'Catholicisme'}) RETURN p.name"
+  },
+  {
+    "question": "Quelle est la plus grande ville de France ?",
+    "answer": "Paris",
+    "cypher": "MATCH (c:Country {name: 'France'})-[:CAPITAL]->(ci:City) RETURN ci.name"
+  },
+  {
+    "question": "Quel est le plus grand océan de la Terre ?",
+    "answer": "Océan Pacifique",
+    "cypher": "MATCH (o:Ocean {name: 'Océan Pacifique'}) RETURN o.name"
+  },
+  {
+    "question": "En quelle année a été lancé le premier satellite artificiel ?",
+    "answer": "1957",
+    "cypher": "MATCH (s:Satellite {name: 'Sputnik 1'}) RETURN s.launch_year"
+  },
+  {
+    "question": "Quel est le plus grand mammifère marin ?",
+    "answer": "Baleine bleue",
+    "cypher": "MATCH (a:Animal {name: 'Baleine bleue'}) RETURN a.name"
+  },
+  {
+    "question": "Qui a écrit 'Le Petit Prince' ?",
+    "answer": "Antoine de Saint-Exupéry",
+    "cypher": "MATCH (p:Person {name: 'Antoine de Saint-Exupéry'})-[:WROTE]->(b:Book {name: 'Le Petit Prince'}) RETURN p.name"
+  }
+]

@@ -1,0 +1,1862 @@
+[
+  {
+    "idx": 1,
+    "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+    "gold_answer": "Chief of Protocol",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.2222,
+    "pred_answers_by_n": {
+      "10": "Secretary of State for Constitutional Affairs",
+      "50": "Secretary of State for Constitutional Affairs",
+      "200": "United States Ambassador to Ghana",
+      "500": "Janet Marie Waldo",
+      "1000": "Secretary of State for Constitutional Affairs",
+      "3000": "voice actress"
+    }
+  },
+  {
+    "idx": 5,
+    "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+    "gold_answer": "YG Entertainment",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.5,
+    "pred_answers_by_n": {
+      "10": "FNC Entertainment",
+      "50": "FNC Entertainment",
+      "200": "Pledis Entertainment",
+      "500": "FNC Entertainment",
+      "1000": "LOEN Entertainment",
+      "3000": "FNC Entertainment"
+    }
+  },
+  {
+    "idx": 7,
+    "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+    "gold_answer": "3,677 seated",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Androscoggin Bank Colisée",
+      "50": "5000",
+      "200": "1400",
+      "500": "10000",
+      "1000": "5,000",
+      "3000": "17,500"
+    }
+  },
+  {
+    "idx": 15,
+    "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+    "gold_answer": "9,984",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "over 330 million",
+      "50": "25 000",
+      "200": "{\"reasoning_chain\": [\"Brown State Fishing Lake : Brown State Fishing Lake (sometimes also known as Brown State Fishing Lake And Wildlife Area) is a protected area in Brown County, Kansas in the United States.\", \"Brown County, Kansas : Brown County, Kansas is a county located in the U.S. state of Kansas. As of the 2010 census, the population was 3,597.\", \"Kansas : Kansas is a state in the Midwestern United States. Its capital is Topeka and its largest city is Wichita.\", \"Donc → Brown State Fishing Lake.\", \"Kansas : Kansas is a state",
+      "500": "62 acres",
+      "1000": "3,000,000",
+      "3000": "2,896,116"
+    }
+  },
+  {
+    "idx": 18,
+    "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+    "gold_answer": "1969 until 1974",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "1969-1974",
+      "50": "1969-1974",
+      "200": "1969–1974",
+      "500": "{\"reasoning_chain\": [\"Roger O. Egeberg : Roger Olaf Egeberg, M.D. (13 November 1902 – 13 September 1997 Washington, D.C.) was an American medical educator, administrator and advocate of public health.\", \"Roger O. Egeberg : His other roles included Assistant Secretary for Health and Scientific Affair\", \"John F. Kennedy : John Fitzgerald Kennedy (May 29, 1917 – November 22, 1963) was an American politician who served as the 35th President of the",
+      "1000": "{\"reasoning_chain\": [\"Roger O. Egeberg : Roger Olaf Egeberg, M.D. (13 November 1902 – 13 September 1997 Washington, D.C.) was an American medical educator, administr....\", \"Roger O. Egeberg : His other roles included Assistant Secretary for Health and Scientific Affairs in the Department of Health, ....\", \"Donald Trump : Donald John Trump (born June 14, 1946) is an American businessman, television personality, and politician who serves as the ....\", \"Donald Trump : He served as the",
+      "3000": "1977–81"
+    }
+  },
+  {
+    "idx": 20,
+    "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+    "gold_answer": "Pedro Rodríguez",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Eduardo Troconis",
+      "50": "Troconis",
+      "200": "Sergio Pérez",
+      "500": "Eduardo Troconis",
+      "1000": "Eduardo Troconis",
+      "3000": "Eduardo Troconis"
+    }
+  },
+  {
+    "idx": 29,
+    "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+    "gold_answer": "Arena of Khazan",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.6667,
+    "pred_answers_by_n": {
+      "10": "Adventure",
+      "50": "St. Andre's Parish",
+      "200": "Kenneth Eugene St. Andre",
+      "500": "Tunnels and Trolls",
+      "1000": "Crusaders of Khazan",
+      "3000": "Crusaders of Khazan"
+    }
+  },
+  {
+    "idx": 31,
+    "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+    "gold_answer": "Fujioka, Gunma",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Japan",
+      "50": "{\"reasoning_chain\": [\"Hayden : ['Skyscraper National Park is the third album by Canadian singer-songwriter Hayden.', \"It was released on Hardwood Records in Canada, on Badman Recording Co. in the U.S., on Loose Music in the U.K., and on Massive!\", \"in the Japan.\", \"There were two limited-edition pre\", \"Hayden is a Canadian singer-songwriter and musician, best known for his solo career and as the lead vocalist of the band Hayden. He has also been a member of the bands The New Pornographers, The Superjesus, and The New Pornographers. Hayden",
+      "200": "no",
+      "500": "Canada",
+      "1000": "Tokyo",
+      "3000": "Tokyo"
+    }
+  },
+  {
+    "idx": 36,
+    "question": "Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?",
+    "gold_answer": "2000",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "1978",
+      "50": "{\"reasoning_chain\": [\"Seven Brief Lessons on Physics : Seven Brief Lessons on Physics (Italian: \"\" ) is a short book by the Italian physicist Carlo Rovelli.\", \"→ Carlo Rovelli\", \"Carlo Rovelli : Carlo Rovelli ( ; born 24 March 1949) is an Italian theoretical physicist working in Italy and France.\", \"→ 1986\", \"→ 1986 : In 1986, he moved to the Centre de Physique Théorique of the École Polytechnique in Marseille, France.\"], \"answer\":",
+      "200": "2013",
+      "500": "2011",
+      "1000": "1988",
+      "3000": "1988"
+    }
+  },
+  {
+    "idx": 42,
+    "question": "A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
+    "gold_answer": "1962",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "2001",
+      "50": "1982",
+      "200": "1977",
+      "500": "1974",
+      "1000": "1979",
+      "3000": "{\"reasoning_chain\": [\"I\\\"s : I\\\"s : I\\\"s : I\\\"s : I\\\"s : I\\\"s : I\\\"s : I\\\"s : The story's main character is 16-year-old high school student Ichitaka Seto who is in love with his classmate Iori Y....\", \"I\\\"s : I\\\"s : I\\\"s : I\\\"s : I\\\"s : I\\\"s : I\\\"s : I\\\"s : The story's main character is 16-year-old high school student Ichitaka Seto who is in love with his"
+    }
+  },
+  {
+    "idx": 47,
+    "question": "What type of forum did a former Soviet statesman initiate?",
+    "gold_answer": "Organizations could come together to address global issues",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.0263,
+    "pred_answers_by_n": {
+      "10": "protest demonstrations",
+      "50": "ocean liner",
+      "200": "{\"reasoning_chain\": [\"David Jonathan Waksberg : David Jonathan Waksberg, born December 14, 1956 in New York City, was a leading activist in the Soviet Jewry Movement during the 1980s and early 1990s.\", \"David Jonathan Waksberg : In the 1970s he became involved in the Student Struggle for Soviet Jewr\", \"David Jonathan Waksberg : He was a founding member of the National Council for Soviet Jews (NCSJ) and served as its executive director from 1982 to 1",
+      "500": "Soviet statesman",
+      "1000": "public and political activities",
+      "3000": "public and political activities"
+    }
+  },
+  {
+    "idx": 50,
+    "question": "Which year and which conference was the 14th season for this conference as part of the NCAA Division that the Colorado Buffaloes played in with a record of 2-6 in conference play?",
+    "gold_answer": "2009 Big 12 Conference",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.2857,
+    "pred_answers_by_n": {
+      "10": "2014, Pac-12 Conference",
+      "50": "2014, Pac-12 Conference South Division",
+      "200": "2014, Pac-12 South",
+      "500": "1989",
+      "1000": "1989",
+      "3000": "1989"
+    }
+  },
+  {
+    "idx": 58,
+    "question": "According to the 2001 census, what was the population of the city in which Kirton End is located?",
+    "gold_answer": "35,124",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "273",
+      "50": "261",
+      "200": "{\"reasoning_chain\": [\"Kirton End is a hamlet in the village of Kirton, Nottinghamshire, England.\", \"Kirton is a village in Nottinghamshire, England.\", \"Kirton is located 3 mi east of Ollerton.\", \"According to the United Kingdom Census 2001 it had a population of 273, reducing to 261 at the 2011 cens\", \"→ therefore, Kirton's population was 261 in 2011.\", \"Kirton is in the unitary authority of North Nottinghamshire, and the ceremonial county of",
+      "500": "1146",
+      "1000": "1,146",
+      "3000": "261"
+    }
+  },
+  {
+    "idx": 61,
+    "question": "What is the name of the executive producer of the film that has a score composed by Jerry Goldsmith?",
+    "gold_answer": "Ronald Shusett",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Michael Finnell",
+      "50": "American",
+      "200": "Steven Spielberg",
+      "500": "Steven Spielberg",
+      "1000": "James Horner",
+      "3000": "{\"reasoning_chain\": [\"L.A. Confidential : L.A. Confidential is either the original soundtrack, on the Restless Records label featuring mainly songs and source ....\", \"L.A. Confidential : The soundtrack album was released the following year, in 1987.\", \"L.A. Confidential : L.A. Confidential is either the original soundtrack, on the Restless Records label featuring mainly songs and source ....\", \"L.A. Confidential : The soundtrack album was released the following year, in 1987.\", \"L.A. Confidential : L.A. Confidential is either the original soundtrack, on the Restless Records"
+    }
+  },
+  {
+    "idx": 63,
+    "question": "What was the Roud Folk Song Index of the nursery rhyme inspiring What Are Little Girls Made Of?",
+    "gold_answer": "821",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "5452",
+      "50": "16150",
+      "200": "5040",
+      "500": "Girls and Boys Come Out to Play",
+      "1000": "5040",
+      "3000": "326"
+    }
+  },
+  {
+    "idx": 71,
+    "question": "What is the inhabitant of the city where  122nd SS-Standarte was formed in2014",
+    "gold_answer": "276,170 inhabitants",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.4,
+    "pred_answers_by_n": {
+      "10": "French people",
+      "50": "{\"reasoning_chain\": [\"122nd SS-Standarte : The 122nd SS-Standarte was a regimental command of the Allgemeine-SS that was formed in the city of Strasbourg during World War II.\", \"Strasbourg : Strasbourg (German: Straßburg; Alsatian: Stroosbourg ; Latin: Strabourg; French: Strasbourg ; Romansh: Stras\", \"Strasbourg : Strasbourg (German: Straßburg; Alsatian: Stroosbourg ; Latin: Strabourg; French: Strasbourg ; Romansh: Stras",
+      "200": "{\"reasoning_chain\": [\"122nd SS-Standarte : The 122nd SS-Standarte was a regimental command of the Allgemeine-SS that was formed in the city of Strasbourg during World War II.\", \"Strasbourg : Strasbourg (German: Straßburg, French: Strasbourg, Alsatian: Strossburi) is the capital and largest city of t\", \"Strasbourg : Strasbourg (German: Straßburg, French: Strasbourg, Alsatian: Strossburi) is the capital and largest city of t\", \"Strasbourg : Str",
+      "500": "inhabitants of Strasbourg",
+      "1000": "Strasbourg",
+      "3000": "Strasbourg"
+    }
+  },
+  {
+    "idx": 76,
+    "question": "What is the middle name of the actress who plays Bobbi Bacha in Suburban Madness?",
+    "gold_answer": "Ann",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "unknown",
+      "50": "Marie",
+      "200": "Marie",
+      "500": "Ward",
+      "1000": "{\"reasoning_chain\": [\"Bobbi Bacha : Bobbi Bacha is a Texas Private Investigator portrayed in 2004 TV Sony Pictures Movie \\\"Suburban Madness\\\" played by act....\", \"Suburban Madness : Suburban Madness is an American crime drama television film, based on a true story, starring Sela Ward as PI Bo....\", \"Sela Ward : Sela Ward (born Selena Marie Ward; March 25, 1957) is an American actress and producer.\", \"Donc → Ward.\"] }\n→ Donc Ward",
+      "3000": "Ward"
+    }
+  },
+  {
+    "idx": 77,
+    "question": "Alvaro Mexia had a diplomatic mission with which tribe of indigenous people?",
+    "gold_answer": "Apalachees",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Ais",
+      "50": "Ais",
+      "200": "Ais",
+      "500": "Ais",
+      "1000": "the Ais",
+      "3000": "Ais"
+    }
+  },
+  {
+    "idx": 80,
+    "question": "What is the county seat of the county where East Lempster, New Hampshire is located?",
+    "gold_answer": "Newport",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "unknown",
+      "50": "Carroll County",
+      "200": "Ossipee",
+      "500": "Lempster",
+      "1000": "Lempster",
+      "3000": "Woodsville"
+    }
+  },
+  {
+    "idx": 86,
+    "question": "In what year was the novel that Lourenço Mutarelli based \"Nina\" on based first published?",
+    "gold_answer": "1866",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "2011",
+      "50": "2011",
+      "200": "2011",
+      "500": "2011",
+      "1000": "2007",
+      "3000": "2006"
+    }
+  },
+  {
+    "idx": 97,
+    "question": "Which filmmaker was known for animation, Lev Yilmaz or Pamela B. Green?",
+    "gold_answer": "Levni Yilmaz",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.5,
+    "pred_answers_by_n": {
+      "10": "Aryanto Yuniawan",
+      "50": "no",
+      "200": "Lev Yilmaz",
+      "500": "Lev Yilmaz",
+      "1000": "Lev Yilmaz",
+      "3000": "Pamela B. Green"
+    }
+  },
+  {
+    "idx": 100,
+    "question": "Where did the descendants of the group of black Indians associated with the Seminole people settle?",
+    "gold_answer": "Coahuila, Mexico",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Oklahoma",
+      "50": "Florida",
+      "200": "Florida and Oklahoma",
+      "500": "Florida",
+      "1000": "Oklahoma",
+      "3000": "Oklahoma"
+    }
+  },
+  {
+    "idx": 101,
+    "question": "David Huntsinger has worked with this gospel singer born in the month of July?",
+    "gold_answer": "Larnelle Harris",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Charles Charamba",
+      "50": "Doni DeFrancesco",
+      "200": "Dottie Rambo",
+      "500": "Sandi Patti",
+      "1000": "Sandi Patty",
+      "3000": "Yolanda Adams"
+    }
+  },
+  {
+    "idx": 102,
+    "question": "What year was the brother of this first round draft pick by the Washington Redskins drafted?",
+    "gold_answer": "2003",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "1963",
+      "50": "1977",
+      "200": "1984",
+      "500": "2007",
+      "1000": "1985",
+      "3000": "1974"
+    }
+  },
+  {
+    "idx": 103,
+    "question": "Where is the stadium at which 1964 Georgia Tech Yellow Jackets football team played their home game located? ",
+    "gold_answer": "North Avenue at Techwood Drive",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Atlanta, Georgia",
+      "50": "Atlanta, Georgia, United States",
+      "200": "Grant Field",
+      "500": "Grant Field",
+      "1000": "Grant Field",
+      "3000": "Atlanta, Georgia"
+    }
+  },
+  {
+    "idx": 106,
+    "question": "hree Men on a Horse is a play by a playwright born in which year ?",
+    "gold_answer": "1887",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "1980",
+      "50": "1967",
+      "200": "1967",
+      "500": "1967",
+      "1000": "1967",
+      "3000": "1967"
+    }
+  },
+  {
+    "idx": 109,
+    "question": "Which airplane was this Major test-flying after whom the base, that 514th Flight Test Squadron is stated at, is named?",
+    "gold_answer": "B-17 Flying Fortress bomber",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.75,
+    "pred_answers_by_n": {
+      "10": "unknown",
+      "50": "F-117 Nighthawk",
+      "200": "F-111",
+      "500": "{\"reasoning_chain\": [\"514th Flight Test Squadron : The 514th Flight Test Squadron (514 FLTS) is a United States Air Force squadron.\", \"514th Flight Test Squadron : It is assigned to the Ogden Air Logistics Center (OO-ALC), Air Force Materiel Command, stationed at Hill Air Force Base, Utah.\", \"Ogden Air Logistics Center : The base is named for Major General Thomas J. Ryan, who was the first commander of the 302nd Bombardment Group (later the 302nd Bombardment Wing) and",
+      "1000": "B-29 Superfortress",
+      "3000": "Boeing B-17 Flying Fortress"
+    }
+  },
+  {
+    "idx": 114,
+    "question": "Which component of shellite has the formula (ON)CHOH?",
+    "gold_answer": "picric acid",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Tetrakis(hydroxymethyl)phosphonium chloride",
+      "50": "(ON)CHOH",
+      "200": "HOCH(CHOH)COOH",
+      "500": "CHO",
+      "1000": "(ON)CHOH",
+      "3000": "CHO"
+    }
+  },
+  {
+    "idx": 115,
+    "question": "The Argentine PGA Championship record holder has won how many tournaments worldwide?",
+    "gold_answer": "230",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "16",
+      "50": "16",
+      "200": "16",
+      "500": "16",
+      "1000": "16",
+      "3000": "16"
+    }
+  },
+  {
+    "idx": 133,
+    "question": "Which Eminem album included vocals from a singer who had an album titled \"Unapologetic\"?",
+    "gold_answer": "\"The Marshall Mathers LP 2\"",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Encore",
+      "50": "Rihanna",
+      "200": "Rihanna",
+      "500": "Barbadian singer Rihanna",
+      "1000": "Unapologetic",
+      "3000": "Unapologetic"
+    }
+  },
+  {
+    "idx": 137,
+    "question": "During Siege of Bharatpur, which Commander-in-Chief of Ireland and Commander-in-Chief of India contributed to the storming of the castle?",
+    "gold_answer": "Lord Combermere",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.2222,
+    "pred_answers_by_n": {
+      "10": "Field Marshal Stapleton Cotton, 1st Viscount Combermere",
+      "50": "Stapleton Cotton",
+      "200": "Stapleton Cotton",
+      "500": "Field Marshal Stapleton Cotton, 1st Viscount Combermere",
+      "1000": "Field Marshal Stapleton Cotton, 1st Viscount Combermere",
+      "3000": "Field Marshal Stapleton Cotton"
+    }
+  },
+  {
+    "idx": 139,
+    "question": "What year was the film that starred the composer for \"The Naked Brothers Band\"?",
+    "gold_answer": "2014",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "2007",
+      "50": "2007–09",
+      "200": "2008",
+      "500": "2007",
+      "1000": "2007",
+      "3000": "2008"
+    }
+  },
+  {
+    "idx": 153,
+    "question": "The songs from the sountrack to \"When Harry Met Sally\" are performed by a singer that has had how many top 20 US albums?",
+    "gold_answer": "seven",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "one",
+      "50": "13",
+      "200": "{\"reasoning_chain\": [\"When Harry Met Sally... : The soundtrack is the soundtrack to the 1989 American romantic comedy film.\", \"When Harry Met Sally... : The soundtrack is the soundtrack to the 1989 American romantic comedy film.\", \"When Harry Met Sally... : The soundtrack is the soundtrack to the 1989 American romantic comedy film.\", \"When Harry Met Sally... : The soundtrack is the soundtrack to the 1989 American romantic comedy film.\", \"When Harry Met Sally... : The soundtrack is the soundtrack to the 1989 American romantic comedy film.\", \"When Harry",
+      "500": "15",
+      "1000": "{\"reasoning_chain\": [\"When Harry Met Sally : When Harry Met Sally... is the soundtrack to the movie \\\"When Harry Met Sally....\", \"When Harry Met Sally : The songs are performed by pianist Harry Connick Jr., who won the Grammy Award for Best Jazz Male Vocal Performa....\", \"Harry Connick Jr. : Harry C Connick Jr. (born November 30, 1962) is an American singer, songwriter, actor, pianist, and record producer. He has h....\", \"Harry Connick Jr. : As of 2017, he has sold over",
+      "3000": "20"
+    }
+  },
+  {
+    "idx": 163,
+    "question": "What British singer-songwriter hosted the 16th Annual Young Hollywood Awards?",
+    "gold_answer": "Kelly Lee Osbourne",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.8,
+    "pred_answers_by_n": {
+      "10": "Kelly Osbourne",
+      "50": "Kelly Osbourne",
+      "200": "Kelly Osbourne",
+      "500": "Kelly Osbourne",
+      "1000": "Maureen Dragone",
+      "3000": "Maureen Dragone"
+    }
+  },
+  {
+    "idx": 164,
+    "question": "Who did the Star and Dagger bass player marry?",
+    "gold_answer": "Sean Yseult.",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Zachary Throne",
+      "50": "{\"reasoning_chain\": [\"Double Dagger : Double Dagger was a post-punk trio from Baltimore, Maryland composed of only drums, vocals, and a very loud bass guitar which fills the space a guitar would normally take.\", \"→ Donc Double Dagger : Double Dagger was a post-punk trio from Baltimore, Maryland comp\n\nStar and Dagger : Star and Dagger were an American post-hardcore band from New York City, formed in 1997 by bassist and vocalist Chris Conley, guitarist and vocalist Matt Skiba, and drummer Mike Tramp.\n\nStar and Dagger : Star and Dagger were an American post-hardcore band from",
+      "200": "Jessica Biel",
+      "500": "Bruce Willen",
+      "1000": "Bruce Willen",
+      "3000": "Didi Beck"
+    }
+  },
+  {
+    "idx": 165,
+    "question": "In 2017, what was 3/4th of the organization that also has a Center for Veterinary Medicine as well as part of the U.S. Department of Health and Human Services, spent on?",
+    "gold_answer": "Prescription Drug User Fee Act",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "$30 million",
+      "50": "1981",
+      "200": "Supporting Healthy Marriage Project",
+      "500": "U.S. Department of Health and Human Services",
+      "1000": "{\"reasoning_chain\": [\"Supporting Healthy Marriage Project : The Supporting Healthy Marriage Project (SHM) is part of the Healthy Marriage Initiative funded by the U.S. Department o\", \"Healthy Marriage Initiative : The Healthy Marriage Initiative is a program of the U.S. Department of Health and Human Services (HHS) that aims to strengt....\", \"Healthy Marriage Initiative : The Healthy Marriage Initiative is a program of the U.S. Department of Health and Human Services (HHS) that aims to strengt....\", \"Healthy Marriage Initiative : The Healthy Marriage Initiative is a program of the U.S. Department of Health and",
+      "3000": "$65 billion"
+    }
+  },
+  {
+    "idx": 171,
+    "question": "What is the birthplace of the Senator who represents the first of 62 districts in the State Senate?",
+    "gold_answer": "Brooklyn, New York",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Los Angeles",
+      "50": "California",
+      "200": "Sacramento",
+      "500": "{\"reasoning_chain\": [\"Steven Bradford : Steven Bradford (born January 12, 1960) is an American politician currently serving in the California State Senate.\", \"California State Senate : The California State Senate is the upper house of the California State Legislature.\", \"California State Legislature : The California State Legislature is the state legislature of the U.S. state of California.\", \"California State Legislature : It consists of the California State Senate (upper chamber) and the California State Assembly (lower chamber).\", \"California State Legislature : The California State Legislature meets at the California State Capitol in Sacramento, the state capital.\", \"Steven Bradford",
+      "1000": "California",
+      "3000": "Los Angeles County"
+    }
+  },
+  {
+    "idx": 174,
+    "question": "Which of the city at the south of Shelly Beach, New South Wales is a local government area in the Hunter region of New South Wales, Australia?",
+    "gold_answer": "City of Newcastle",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Niagara Park",
+      "50": "Shelly Beach",
+      "200": "Shelly Beach",
+      "500": "Shelly Beach",
+      "1000": "Central Coast Council",
+      "3000": "Central Coast Council"
+    }
+  },
+  {
+    "idx": 177,
+    "question": "When was the Western Germanic language spoken from which the small settlement situated on the river Leda opposite Leer derives its name?",
+    "gold_answer": "between the 8th and 16th centuries",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.2857,
+    "pred_answers_by_n": {
+      "10": "8th century",
+      "50": "11th century",
+      "200": "{\"reasoning_chain\": [\"Leer : Leer is a town in the district of Leer, the northwestern part of Lower Saxony, Germany.\", \"Leer : It is situated on the river Leda, a tributary of the river Ems, near the border with the Netherlands.\", \"Leda : The Leda is a river in north-western Germany in the state of \", \"Old High German : Old High German is the earliest stage of the German language, conventionally covering the period from about 300 to 1050 CE.\", \"Old High German : It is the ancestor of Middle High",
+      "500": "Proto-Norse",
+      "1000": "7th century",
+      "3000": "8th century"
+    }
+  },
+  {
+    "idx": 178,
+    "question": "Born on 6 March 1937, this man was also a citizen of the United Kingdom.",
+    "gold_answer": "Alistair Grant",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "William Bonfield",
+      "50": "William Bonfield",
+      "200": "William Bonfield",
+      "500": "William Bonfield",
+      "1000": "William Bonfield",
+      "3000": "William Bonfield"
+    }
+  },
+  {
+    "idx": 180,
+    "question": "What podcast was the cheif executive officer of Nerdist Industries a guest on?",
+    "gold_answer": "Comedy Film Nerds",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Maltin on Movies",
+      "50": "Maltin on Movies",
+      "200": "Maltin on Movies",
+      "500": "Maltin on Movies",
+      "1000": "Maltin on Movies",
+      "3000": "Maltin on Movies"
+    }
+  },
+  {
+    "idx": 181,
+    "question": "Randall Cunningham II was a multi-sport athlete at the high school located in what Nevada city?",
+    "gold_answer": "Summerlin",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Las Vegas",
+      "50": "Las Vegas",
+      "200": "Bishop Gorman High School",
+      "500": "Las Vegas",
+      "1000": "Nevada",
+      "3000": "Nevada"
+    }
+  },
+  {
+    "idx": 184,
+    "question": "What year did the series on CBS, starring the actor who known for his role in \"Rebel Without a Cause,\" air?",
+    "gold_answer": "1952",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "1955",
+      "50": "1955",
+      "200": "1960",
+      "500": "2011",
+      "1000": "1955",
+      "3000": "1955"
+    }
+  },
+  {
+    "idx": 187,
+    "question": "Which travel parody series featured American actor, comedian, and radio host best known as the host of \"The Joe Schmo Show\"?",
+    "gold_answer": "Hidden America with Jonah Ray",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "The Joe Schmo Show",
+      "50": "Ralph Garman",
+      "200": "The Joe Schmo Show",
+      "500": "The Joe Schmo Show",
+      "1000": "Ralph Garman",
+      "3000": "Ralph Garman"
+    }
+  },
+  {
+    "idx": 191,
+    "question": "What station broadcast the episode \"Marry Me a Little, Marry Me a Little More\" , of the series created by Max Mutchnick and David Kohan?",
+    "gold_answer": "National Broadcasting Company",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "NBC",
+      "50": "NBC",
+      "200": "NBC",
+      "500": "NBC",
+      "1000": "NBC",
+      "3000": "NBC"
+    }
+  },
+  {
+    "idx": 196,
+    "question": "What director worked with Vikram Bhatt on a film starring actors Rajneesh Duggal and Adah Sharma?",
+    "gold_answer": "Tinu Suresh Desai",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Vikram Bhatt",
+      "50": "{\"reasoning_chain\": [\"Vikram Bhatt : Vikram Bhatt is an Indian film director, producer, screenwriter, and actor. He is known for directing the 1998 romantic drama film Hum Saath Saath Hain, the 2004 romantic comedy-drama film Ishq Vishk, the 2005 romantic drama film Hum Tum, the 2007 romantic comedy-drama film Jab We Met, the 2008 romantic comedy-drama film Jab...\n\nRajneesh Duggal : Rajneesh Duggal is an Indian actress who",
+      "200": "{\"reasoning_chain\": [\"Vikram Bhatt : 1920 is a series of Indian horror films.\", \" → 1920 (film series).\", \"1920 (film series) : 1920 is a 2008 Indian horror film directed by Vikram Bhatt and produced by Rakesh Roshan.\", \" → 1920 (2008 film).\", \"1920 (2008 film) : 1920 is a 2008 Indian horror film directed by Vikram Bhatt and",
+      "500": "Vikram Bhatt",
+      "1000": "Vikram Bhatt",
+      "3000": "Vikram Bhatt"
+    }
+  },
+  {
+    "idx": 198,
+    "question": "What amount was the settlement that the character from the Son of al Quada got in 2017?",
+    "gold_answer": "$10.5 million",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "None",
+      "50": "$15.00",
+      "200": "unknown",
+      "500": "Al Utouriya",
+      "1000": "$15.00",
+      "3000": "an undisclosed amount"
+    }
+  },
+  {
+    "idx": 200,
+    "question": "The 2000 British film Snatch was later adapted into a television series for what streaming service?",
+    "gold_answer": "Crackle",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Stan",
+      "50": "Netflix",
+      "200": "Netflix",
+      "500": "Netflix",
+      "1000": "Stan",
+      "3000": "Netflix"
+    }
+  },
+  {
+    "idx": 201,
+    "question": "Chris Williams last played for which football club from the National League North?",
+    "gold_answer": "Salford City Football Club",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.5,
+    "pred_answers_by_n": {
+      "10": "Curzon Ashton",
+      "50": "York City FC",
+      "200": "Boston United",
+      "500": "Hednesford Town",
+      "1000": "Curzon Ashton Football Club",
+      "3000": "Curzon Ashton Football Club"
+    }
+  },
+  {
+    "idx": 205,
+    "question": "Onika Tanya Maraj is a judge on a television show hosted by whom? ",
+    "gold_answer": "Ryan Seacrest",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Claudia Winkleman",
+      "50": "Tanya Byron",
+      "200": "{\"reasoning_chain\": [\"Nicki Minaj : She is the founder of her own record label, Stunna Label.\", \"Nicki Minaj : She is the founder of her own record label, Stunna Label.\", \"Nicki Minaj : She is the founder of her own record label, Stunna Label.\", \"Nicki Minaj : She is the founder of her own record label, Stunna Label.\", \"Nicki Minaj : She is the founder of her own record label, Stunna Label.\", \"Nicki Minaj : She is the founder of her own record label, Stun",
+      "500": "Andrew Napolitano",
+      "1000": "Judge Andrew Napolitano",
+      "3000": "Judge Andrew Napolitano"
+    }
+  },
+  {
+    "idx": 208,
+    "question": "Who has written more than 300 papers, Semyon Aranovich Gershgorin or Pavel Alexandrov?",
+    "gold_answer": "Pavel Sergeyevich Alexandrov",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.8,
+    "pred_answers_by_n": {
+      "10": "Corrigan",
+      "50": "Pavel Alexandrov",
+      "200": "Pavel Alexandrov",
+      "500": "Semyon Aranovich Gershgorin",
+      "1000": "Semyon Aranovich Gershgorin",
+      "3000": "Pavel Alexandrov"
+    }
+  },
+  {
+    "idx": 210,
+    "question": "Who was the captain of the only battleship to provide gunfire support during the Vietnam War?",
+    "gold_answer": "Rear Adm. J. Edward Snyder",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "USS \"New Jersey\"",
+      "50": "USS \"New Jersey\" (BB-62) (\"Big J\" or \"Black Dragon\")",
+      "200": "USS \"New Jersey\" (BB-62)",
+      "500": "USS New Jersey",
+      "1000": "USS New Jersey",
+      "3000": "USS New Jersey"
+    }
+  },
+  {
+    "idx": 216,
+    "question": "Ernest Foot was the best friend of the fighter pilot who had how many victories?",
+    "gold_answer": "44",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "unknown",
+      "50": "114",
+      "200": "100",
+      "500": "equal",
+      "1000": "126",
+      "3000": "126"
+    }
+  },
+  {
+    "idx": 220,
+    "question": "Which Netflix series \"Unbreakable\" character is Elizabeth Claire Kemper known for playing?",
+    "gold_answer": "Kimberly Couger \"Kimmy\" Schmidt",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.3333,
+    "pred_answers_by_n": {
+      "10": "Kimmy Schmidt",
+      "50": "Unbreakable Kimmy Schmidt",
+      "200": "Unbreakable Kimmy Schmidt",
+      "500": "Ellie Kemper",
+      "1000": "Ellie Kemper",
+      "3000": "Kimmy Schmidt"
+    }
+  },
+  {
+    "idx": 230,
+    "question": "What building is opposite the ceremonial meeting place of the Accession Council in the United Kingdom?",
+    "gold_answer": "Mark Masons' Hall",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "St James's Palace",
+      "50": "St James's Palace",
+      "200": "St James's Palace",
+      "500": "St James's Palace",
+      "1000": "St James's Palace",
+      "3000": "St James's Palace"
+    }
+  },
+  {
+    "idx": 232,
+    "question": "One Raffles Place is one of the tallest skyscrapers in the city of Singapore and tallest in the wolrd outside North America until it was succeeded by a Building in city?",
+    "gold_answer": "Hong Kong",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Tanjong Pagar Centre",
+      "50": "Tanjong Pagar Centre",
+      "200": "One Raffles Place",
+      "500": "Tanjong Pagar Centre",
+      "1000": "Tanjong Pagar Centre",
+      "3000": "Tanjong Pagar Centre"
+    }
+  },
+  {
+    "idx": 234,
+    "question": "What is the nickname of the city where Darling's Waterfront Pavilion is located?",
+    "gold_answer": "\"Queen City\"",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Paper City",
+      "50": "Bangor",
+      "200": "the City of Pines",
+      "500": "Bangor",
+      "1000": "Bangor",
+      "3000": "Bangor"
+    }
+  },
+  {
+    "idx": 236,
+    "question": "Henry Hall is known for fighting in the Revolutionary War, and for being the first to successfully cultivate this food found in what type of bogs?",
+    "gold_answer": "acidic",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "cranberries",
+      "50": "bogs",
+      "200": "bogs",
+      "500": "peat",
+      "1000": "peatland",
+      "3000": "peatland"
+    }
+  },
+  {
+    "idx": 240,
+    "question": "What arcade game is named after the only player in major league history to have a 0.300 batting average for 7 consecutive seasons?",
+    "gold_answer": "a pinball machine",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Pac-Man",
+      "50": "{\"reasoning_chain\": [\"Frank Edward Thomas Jr. : Frank Edward Thomas Jr. (born May 27, 1968), nicknamed \\\"The Big Hurt\\\", is an American former first baseman in Major League Baseball who played for three American League (AL) teams from 1990 to 2008, all but the last three years with the Chicago White ...\", \"Buster Brown (video game) : Buster Brown is a video game series created by Sega and originally published by Sega of America. The games are based on the comic strip of the same name by Bill Wray. The first game",
+      "200": "{\"reasoning_chain\": [\"Frank Edward Thomas Jr. : Frank Edward Thomas Jr. (born May 27, 1968), nicknamed \\\"The Big Hurt\\\", is an American former first baseman in Major League Baseball who played for three American League (AL) teams from 1990 to 2008, all but the last three years with the Chicago White ...\", \"Buster Brown (video game) : Buster Brown is a video game series created by Midway Games and later by Midway Games Japan. The series began in 1984 with the release of the arcade game Buster Brown",
+      "500": "{\"reasoning_chain\": [\"Frank Edward Thomas Jr. : Frank Edward Thomas Jr. (born May 27, 1968), nicknamed \\\"The Big Hurt,\\\" is an American former first baseman in Major League Baseball who played for three American Leagu....\", \"Frank Edward Thomas Jr. : One of the most fearsome and devastating hitters in baseball history, Thomas was a power hitter with a .300 career batting average and a career slugging percentage of .541. ....\", \"Buster Brosnan : Buster Brosnan (born November 2, 1978) is an American video",
+      "1000": "Jack Fox",
+      "3000": "Donkey Kong Country"
+    }
+  },
+  {
+    "idx": 241,
+    "question": "What american actress/singer born in 1956 recorded the song Something there for beauty and the beast?",
+    "gold_answer": "Donna Paige Helmintoller",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.4,
+    "pred_answers_by_n": {
+      "10": "Paige O'Hara",
+      "50": "Paige O\\'Hara",
+      "200": "Paige O'Hara",
+      "500": "Paige O'Hara",
+      "1000": "Paige O'Hara",
+      "3000": "Paige O'Hara"
+    }
+  },
+  {
+    "idx": 243,
+    "question": "Salisbury Woodland Gardens links a zoo with a park designed and built under the watchful eye of who?",
+    "gold_answer": "Thomas Mawson",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Peter Perry",
+      "50": "{\"reasoning_chain\": [\"Salisbury Woodland Gardens : Salisbury Woodland Gardens is an open space located in the east of Blackpool, flanked by East Park Drive and Woodside Drive and linking Blackpool Zoo with Stanley Park.\", \"Donc → Blackpool Zoo.\", \"Blackpool Zoo : Blackpool Zoo is a zoo located in Blackpool, Lancashire, England, on the promenade between the Winter Gardens and the Pleasure Beach.\", \"Donc → Blackpool Zoo.\", \"Blackpool Zoo : Blackpool Zoo is a zoo located in Blackpool, Lancashire, England, on the promenade between the Winter Gardens and",
+      "200": "{\"reasoning_chain\": [\"Salisbury Woodland Gardens : Salisbury Woodland Gardens is an open space located in the east of Blackpool, flanked by East Park Drive and Woodside Drive and linking Blackpool Zoo with Stanley Park.\", \"→ donc → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → →",
+      "500": "Don Marquis",
+      "1000": "{\"reasoning_chain\": [\"Salisbury Woodland Gardens : Salisbury Woodland Gardens is an open space located in the east of Blackpool, flanked by East Park Driv....\", \"Salisbury Woodland Gardens : Known simply as the 'Woodland Gardens' to local people, the site was acquired in 1924 by Blackpool Corporat..\", \"Salisbury Woodland Gardens : The gardens were designed and built under the watchful eye of Sir William Hesketh Lever, the founder of the ....\", \"Doncaster Zoo : Doncaster Zoo is a zoo located in Doncaster, South Yorkshire, England, which",
+      "3000": "Peter Perry"
+    }
+  },
+  {
+    "idx": 244,
+    "question": "What class of instrument does Apatim Majumdar play?",
+    "gold_answer": "strings",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "instrument",
+      "50": "Tarun Majumdar",
+      "200": "Tarun Majumdar",
+      "500": "Tarun Majumdar",
+      "1000": "flute",
+      "3000": "flute and the violin"
+    }
+  },
+  {
+    "idx": 247,
+    "question": "Are  Chrysalis and Look both women's magazines?",
+    "gold_answer": "yes",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "no",
+      "50": "no",
+      "200": "no",
+      "500": "no",
+      "1000": "no",
+      "3000": "no"
+    }
+  },
+  {
+    "idx": 252,
+    "question": "Spaceware Sky Division II is manufactured by this subsidiary, which is one of twelve subdivisions of Inner Mongolia, China?",
+    "gold_answer": "Ordos City",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Inner Mongolia First Machinery Group Corporation",
+      "50": "Inner Mongolia",
+      "200": "{\"reasoning_chain\": [\"Inner Mongolia First Machinery Group Corporation : Inner Mongolia First Machinery Group Corporation (内蒙古第一机械集团有限公司, abbrev.\", \" 一机), previously First Inner Mongolia Machinery Factory, is a military manufacturing company in China.\", \"It is a facility in Inner Mongolia and supplies the People's Liberation Army with tanks, armored vehicles, and other military equipment.\", \"Spaceware Sky Division II : Spaceware Sky Division II is a video game developed by Spaceware Games for the PlayStation 2.\", \"Spaceware Games : Spaceware Games is a video game developer based in Hong Kong.\", \"Spaceware Games is a subsidiary of Inner",
+      "500": "Inner Mongolia",
+      "1000": "Inner Mongolia First Machinery Group Corporation",
+      "3000": "Inner Mongolia First Machinery Group Corporation"
+    }
+  },
+  {
+    "idx": 253,
+    "question": "Which director had the longest career, Alain Resnais or Scott Sidney?",
+    "gold_answer": "Scott Sidney",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Inconnu",
+      "50": "Resnais",
+      "200": "Alain Resnais",
+      "500": "Alain Resnais",
+      "1000": "Alain Resnais",
+      "3000": "Alain Resnais"
+    }
+  },
+  {
+    "idx": 257,
+    "question": " The name \"Mountbatten-Windsor\" applies to male-line descendants of the Queen without royal styles and titles which is a Eurpean dynasty resulting in what family?",
+    "gold_answer": "Mountbatten family",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.5,
+    "pred_answers_by_n": {
+      "10": "Windsor",
+      "50": "royal family",
+      "200": "House of Windsor",
+      "500": "the House of Windsor",
+      "1000": "House of Capet",
+      "3000": "House of Capet"
+    }
+  },
+  {
+    "idx": 261,
+    "question": "Patrick Kennedy is known for his collections of Irish  folktales from a province situated in which part of Ireland ?",
+    "gold_answer": "the east of Ireland",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.4,
+    "pred_answers_by_n": {
+      "10": "Leinster",
+      "50": "northwestern",
+      "200": "County Wexford",
+      "500": "East Coast",
+      "1000": "Leinster",
+      "3000": "Leinster"
+    }
+  },
+  {
+    "idx": 265,
+    "question": "What, known as AAS, is commonly used in bodybuilding?",
+    "gold_answer": "Anabolic steroids",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Dianabol",
+      "50": "metandienone",
+      "200": "Metandienone",
+      "500": "Metandienone",
+      "1000": "anabolic-androgenic steroid",
+      "3000": "Metandienone"
+    }
+  },
+  {
+    "idx": 273,
+    "question": "on 16 January 1995 \"First Knight\" was being filmed at a studio located how far from Windsor ?",
+    "gold_answer": "7 miles",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.5,
+    "pred_answers_by_n": {
+      "10": "near London",
+      "50": "11 miles",
+      "200": "12 miles",
+      "500": "4 miles",
+      "1000": "10 miles",
+      "3000": "16 km"
+    }
+  },
+  {
+    "idx": 275,
+    "question": "Marion Greene was a health policy analyst for St. Judt Medical company, which had how many principal operations worldwide?",
+    "gold_answer": "20",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "one",
+      "50": "two",
+      "200": "{\"reasoning_chain\": [\"Marion Greene : Marion C. Greene (born July 16, 1970) is a Hennepin County commissioner (District 3) and a former member of the Minnesota House of Representatives who represented District 60A, which included portions of the city of Minneapolis in Hennepin County, which is in th → Faits insuffisants.\", \"St. Jude Medical : St. Jude Medical, Inc. is an American medical device company based in St. Paul, Minnesota. It is one of the world's largest manufacturers of cardiovascular and neurological medical devices.",
+      "500": "25 (Toronto) Field Ambulance",
+      "1000": "25",
+      "3000": "25"
+    }
+  },
+  {
+    "idx": 286,
+    "question": "Other than racing, what sport does the 1998 champion of the Toyota GRand Prix practice?",
+    "gold_answer": "paracyclist",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "sports car racing",
+      "50": "kickboxing",
+      "200": "indycar",
+      "500": "kickboxing",
+      "1000": "kickboxing",
+      "3000": "sports car racing"
+    }
+  },
+  {
+    "idx": 291,
+    "question": "What is the population of the town at the intersection of Interstate Highways 77 and  the longest Interstate highway within the borders of Virginia?",
+    "gold_answer": "8,211 at the 2010 census",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "102,400",
+      "50": "324.92",
+      "200": "324.92",
+      "500": "324.92 mi",
+      "1000": "68.64 mi",
+      "3000": "68.64 mi"
+    }
+  },
+  {
+    "idx": 292,
+    "question": "What was the nickname of the hitman hired by an Italian American Criminal Organization?",
+    "gold_answer": "The Crowned Prince of the Philadelphia Mob",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.0333,
+    "pred_answers_by_n": {
+      "10": "Fixie",
+      "50": "Baldie",
+      "200": "Pretty Boy",
+      "500": "Donnie Brasco",
+      "1000": "{\"reasoning_chain\": [\"Joseph \\\"Baldie\\\" LoPiccolo : His specialty was narcotics trafficking.\", \"Joseph \\\"Baldie\\\" LoPiccolo : Joseph \\\"Baldie\\\" LoPiccolo (1918–1999) was an American criminal and member of the New York Gambino crime family and a ca....\", \"Donnie Brasco : Donnie Brasco (born Anthony DiFulco; May 27, 1943 – January 15, 2016) was an undercover FBI agent who infiltrated the Cosa Nostra....\"], \"",
+      "3000": "Joseph \"Baldie\" LoPiccolo"
+    }
+  },
+  {
+    "idx": 300,
+    "question": "Where is the company that owns thanKing Horse pub restaurant chain based ?",
+    "gold_answer": "Bury St Edmunds,",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "unknown",
+      "50": "Utah",
+      "200": "The Works",
+      "500": "Dee's Drive-In",
+      "1000": "Ottawa, Ontario",
+      "3000": "Louisville, Kentucky"
+    }
+  },
+  {
+    "idx": 301,
+    "question": "What is the uppermost age range for the sort of fiction written by Alexander Gordon Smith?",
+    "gold_answer": "early 20s",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "jeunes adultes",
+      "50": "{\"reasoning_chain\": [\"Alexander Gordon Smith : Alexander Gordon Smith (27 February 1979, Norwich, England) is an author of children and Young Adult fiction.\", \"Smith : Alexander Gordon Smith (27 February 1979, Norwich, England) is an author of children and Young Adult fiction.\", \"Escape from Furnace : Escape from Furnace is a young adult novel by British author Alexander Gordon Smith, published in 2013 by Walker Books.\", \"Young adult fiction : Young adult fiction (often abbreviated as YAF or simply YA) is a modern literary classification covering fiction intended for readers",
+      "200": "{\"reasoning_chain\": [\"Alexander Gordon Smith : Alexander Gordon Smith (27 February 1979, Norwich, England) is an author of children and Young Adult fiction.\", \"Smith is the author of the Escape from Furnace series of novels for young adults, the first of which was published in 2009.\", \"He has also written the \"The Last of the Magicians\" series for young adults, the first of which was published in 2013.\", \"Smith is the author of the Escape from Furnace series of novels for young adults, the first of which was published in 20",
+      "500": "Young Adult fiction",
+      "1000": "Young Adult fiction",
+      "3000": "children"
+    }
+  },
+  {
+    "idx": 302,
+    "question": "What is the birthday of the actress who was the Duchess in \"The Revengers Tragedy\"?",
+    "gold_answer": "23 November 1946",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.3333,
+    "pred_answers_by_n": {
+      "10": "March 20, 1886",
+      "50": "14 octobre 1946",
+      "200": "24 March 1943",
+      "500": "Diana Quick",
+      "1000": "15 February 1942",
+      "3000": "March 20, 1886"
+    }
+  },
+  {
+    "idx": 314,
+    "question": "How many days did it take the Best New Artist of 2009 to sell 2 million copies of an album in the UK and break a twenty year old record?",
+    "gold_answer": "29",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "3",
+      "50": "South Korean singer-songwriter and actress IU.",
+      "200": "14",
+      "500": "34,400",
+      "1000": "twenty",
+      "3000": "3"
+    }
+  },
+  {
+    "idx": 315,
+    "question": "\"Ew!\" is a song by a television host born where?",
+    "gold_answer": "Bay Ridge, Brooklyn",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "America",
+      "50": "New York City",
+      "200": "Šibenik",
+      "500": "New York City",
+      "1000": "Gary, Indiana",
+      "3000": "Gary, Indiana"
+    }
+  },
+  {
+    "idx": 321,
+    "question": "What is the international football competition for women that Liu Ailing played in the 1991,1995, 1999 editions?",
+    "gold_answer": "international football competition",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.2857,
+    "pred_answers_by_n": {
+      "10": "EAFF E-1 Football Championship",
+      "50": "FIFA Women's World Cup",
+      "200": "FIFA Women's World Cup",
+      "500": "EAFF E-1 Football Championship",
+      "1000": "EAFF E-1 Football Championship",
+      "3000": "FIFA Women's World Cup"
+    }
+  },
+  {
+    "idx": 326,
+    "question": "The voice of Homer Simpson also voices what alien character in the television series \"The Simpsons\"?",
+    "gold_answer": "Kodos",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Sideshow Mel",
+      "50": "Abraham Simpson",
+      "200": "{\"reasoning_chain\": [\"Dan Castellaneta : Dan Castellaneta ( ; born October 29, 1957) is an American actor, voice actor, comedian and screenwriter.\", \"→ Donc Dan Castellaneta est le voix de Homer Simpson.\", \"→ Donc Dan Castellaneta est le voix de Homer Simpson.\", \"→ Donc Dan Castellaneta est le voix de Homer Simpson.\", \"→ Donc Dan Castellaneta est le voix de Homer Simpson.\", \"→ Donc Dan Castellaneta est le voix de Homer Simpson.\", \"→ Donc Dan Cast",
+      "500": "Citizen Joe",
+      "1000": "Citizen Joe",
+      "3000": "Homer Simpson"
+    }
+  },
+  {
+    "idx": 330,
+    "question": "Where is the singer of \"B Boy\" raised?",
+    "gold_answer": "Philadelphia",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "United States",
+      "50": "London, England",
+      "200": "Atlanta, Georgia",
+      "500": "Phil Spector",
+      "1000": "New York City",
+      "3000": "New York"
+    }
+  },
+  {
+    "idx": 332,
+    "question": "The Ingerophrynus gollum is named after a character in a book that sold how many copies?",
+    "gold_answer": "150 million copies",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.4,
+    "pred_answers_by_n": {
+      "10": "150 millions",
+      "50": "{\"reasoning_chain\": [\"Ingerophrynus gollum : In 2007 a new species, \\\"Ingerophrynus gollum\\\", was described from the Andes of Peru by Jodi A. L. Rowley and colleagues. It is named for the fictional character Gollum from J.R.R. Tolkien's \\\"The Lord of the Rings\\\".\", \"Ingerophrynus : Ingerophrynus is a genus of true toads with 12 species.\", \"Donc → Ingerophrynus.\", \"Ingerophrynus : Ingerophrynus is",
+      "200": "134,000",
+      "500": "{\"reasoning_chain\": [\"Ingerophrynus gollum : \\\"Ingerophrynus gollum (Gollum's toad) is a species of true toad.\\\".\", \"Gollum : \\\"Gollum is a fictional character from J. R. R. Tolkien's legendarium. He was introduced i\", \"The Lord of the Rings : \\\"The Lord of the Rings is an epic high fantasy novel written by J. R. R. Tolken. It was published in three volumes in 1954 and 1955, but has since been reissued in",
+      "1000": "134,000",
+      "3000": "300,000"
+    }
+  },
+  {
+    "idx": 334,
+    "question": "Which case was decided first, Selle v. Gibb or Reynolds v. Sims?",
+    "gold_answer": "1964",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Reynolds v. United States",
+      "50": "Selle v. Gibb",
+      "200": "Selle v. Gibb",
+      "500": "Reynolds v. Sims",
+      "1000": "Selle v. Gibb",
+      "3000": "Selle v. Gibb"
+    }
+  },
+  {
+    "idx": 342,
+    "question": "Who was the president of the Sinn Fein political party during the Hume-Adams Dialogue?",
+    "gold_answer": "Gerard \"Gerry\" Adams",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.4,
+    "pred_answers_by_n": {
+      "10": "Gerry Adams",
+      "50": "Gerry Adams",
+      "200": "Gerry Adams",
+      "500": "Gerry Adams",
+      "1000": "Gerry Adams",
+      "3000": "Gerry Adams"
+    }
+  },
+  {
+    "idx": 345,
+    "question": "Július Satinský was born in a city that has a current population of what?",
+    "gold_answer": "about 450,000",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "470,000",
+      "50": "5,428,000",
+      "200": "425,000",
+      "500": "470000",
+      "1000": "254,000",
+      "3000": "240,000"
+    }
+  },
+  {
+    "idx": 346,
+    "question": "What was the name of the 19th century foundry which was located in a village directly across the Hudson River from Westpoint in Putnam County, New York?",
+    "gold_answer": "West Point Iron and Cannon Foundry",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.6667,
+    "pred_answers_by_n": {
+      "10": "West Point Foundry",
+      "50": "Garrison's Landing",
+      "200": "Cold Spring Foundry",
+      "500": "Cold Spring Foundry",
+      "1000": "West Point Foundry",
+      "3000": "West Point Foundry"
+    }
+  },
+  {
+    "idx": 351,
+    "question": "Which playwright lived a longer life, Edward Albee or J. M. Barrie?",
+    "gold_answer": "Edward Franklin Albee III",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.6667,
+    "pred_answers_by_n": {
+      "10": "Edward Albee",
+      "50": "Edward Albee",
+      "200": "yes",
+      "500": "Edward Albee",
+      "1000": "J. M. Barrie",
+      "3000": "J. M. Barrie"
+    }
+  },
+  {
+    "idx": 360,
+    "question": "The Waterloo Vase has been used as a garden ornament at whose residence and administrative headquarters?",
+    "gold_answer": "reigning monarch of the United Kingdom",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Buckingham Palace",
+      "50": "Buckingham Palace, London",
+      "200": "Buckingham Palace",
+      "500": "Buckingham Palace",
+      "1000": "Buckingham Palace",
+      "3000": "Buckingham Palace"
+    }
+  },
+  {
+    "idx": 364,
+    "question": "Where did the architect of the Governor's House, located in Knutsford, graduate from college?",
+    "gold_answer": "Cambridge University",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.8,
+    "pred_answers_by_n": {
+      "10": "Edmund Sharpe",
+      "50": "Royal Academy of Arts, London",
+      "200": "University of Cambridge",
+      "500": "Edmund Sharpe",
+      "1000": "Lancaster",
+      "3000": "E. J. Donahue"
+    }
+  },
+  {
+    "idx": 375,
+    "question": "For One Night Only was hosted by the man most well-known for hosting what show from 1962 until 1999?",
+    "gold_answer": "The Late Late Show",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Dinah Shore",
+      "50": "Elton John",
+      "200": "Elton John",
+      "500": "Freddie Mercury",
+      "1000": "Tom Jones",
+      "3000": "Tom Jones"
+    }
+  },
+  {
+    "idx": 376,
+    "question": "What company did Roscoe Channing form with the owner of a leading stable of thoroughbred racehorses?",
+    "gold_answer": "Hudson Bay Mining and Smelting Company",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Equix",
+      "50": "Channing Productions",
+      "200": "Channing Productions",
+      "500": "Palm Meadows Thoroughbred Training Center",
+      "1000": "Stronach Group",
+      "3000": "Equix"
+    }
+  },
+  {
+    "idx": 378,
+    "question": "Which of the movie which has Rich Lee 3-D previsualizations was directed by Francis Lawrence?",
+    "gold_answer": "Constantine",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "The Hunger Games: Mockingjay – Part 2",
+      "50": "The Hunger Games: Mockingjay – Part 1",
+      "200": "Francis Lawrence",
+      "500": "The Hunger Games: Mockingjay – Part 1",
+      "1000": "Red Sparrow",
+      "3000": "Red Sparrow"
+    }
+  },
+  {
+    "idx": 379,
+    "question": "What criteria subjectively qualifies the Houston Astrodome to be called the Eighth Wonder of the World?",
+    "gold_answer": "comparable to the seven Wonders of the World",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.2222,
+    "pred_answers_by_n": {
+      "10": "uniqueness and innovation",
+      "50": "NRG Astrodome",
+      "200": "it was the first domed stadium in the world",
+      "500": "The NRG Astrodome.",
+      "1000": "Harris County Domed Stadium",
+      "3000": "The criteria subjectively qualifies the Houston Astrodome to be called the Eighth Wonder of the World."
+    }
+  },
+  {
+    "idx": 383,
+    "question": "What national historic district is located near a village in the town of Philipstown, New York?",
+    "gold_answer": "Valhalla Highlands Historic District",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.5,
+    "pred_answers_by_n": {
+      "10": "Cold Spring Historic District",
+      "50": "Cold Spring Historic District",
+      "200": "Cold Spring Historic District",
+      "500": "Cold Spring Historic District",
+      "1000": "Cold Spring Historic District",
+      "3000": "Cold Spring Historic District"
+    }
+  },
+  {
+    "idx": 386,
+    "question": "Francisco Jose Hernandez was a participant in an invasion that took place in what year?",
+    "gold_answer": "1961",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "1138",
+      "50": "1966",
+      "200": "{\"reasoning_chain\": [\"Francisco Jose Hernandez : Francisco Jose \\\"Frank\\\" Martin (born March 23, 1966) is an American basketball coach and the current head coach for the University of South Carolina men\\'s basketball team.\", \"Frank Martin : Martin was previously head coach at Kansas State University\", \"Kansas State University : The university is located in Manhattan, Kansas, and is a member of the Big 12 Conference of the NCAA Division I.\", \"Big 12 Conference : The Big 12 Conference is a collegiate athletic conference of twelve American institutions of higher education.\", \"→ Conclusion logique",
+      "500": "{\"reasoning_chain\": [\"Francisco Jose Hernandez : Francisco Jose \\\"Frank\\\" Martin (born March 23, 1966) is an American basketball coach and the current head coach for the University of South Carolina men\\'s basketball team.\", \"Francisco Jose Hernandez : Martin was previously head coach at Kansas Stat\", \"Francisco Jose Hernandez : He led the Jayhawks to the 2008 Big 12 Conference Tournament Championship and the 2008 NCAA Tournament Final Four.\", \"Francisco Jose Hernandez : He was also the head coach at the University of Texas at El Paso from 20",
+      "1000": "2001",
+      "3000": "1138"
+    }
+  },
+  {
+    "idx": 394,
+    "question": "Who wrote The Devils, and was an eninent English theater, opera and film director?",
+    "gold_answer": "Peter Hall",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "F. W. Murnau",
+      "50": "{\"reasoning_chain\": [\"The Devils : The Devils is a 1971 play by Harold Pinter.\", \"→ Harold Pinter : Sir Harold Patrick Pinter, CBE (10 October 1930 – 24 December 2008) was an English playwright, screenwriter, and actor.\", \"→ → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → →",
+      "200": "{\"reasoning_chain\": [\"4 Devils : 4 Devils (also known as Four Devils) is a lost 1928 American silent drama film directed by German film director F. W. Murnau and starring Janet Gaynor.\", \"→ Janet Gaynor : Phillip Boykin (sometimes credited as Phillip Lamar Boykin) is an American bass-baritone, broad\", \"→ → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → → →",
+      "500": "F. W. Murnau",
+      "1000": "Friedrich Wilhelm Murnau",
+      "3000": "F. W. Murnau"
+    }
+  },
+  {
+    "idx": 399,
+    "question": "Wendy Ayche was featured in 2016 in an annual production created by Youtube and what other organization?",
+    "gold_answer": "Portal A Interactive",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Google",
+      "50": "YouTube Rewind",
+      "200": "YouTube Rewind",
+      "500": "YouTube",
+      "1000": "Cook Group Incorporated",
+      "3000": "Cook Group Incorporated"
+    }
+  },
+  {
+    "idx": 403,
+    "question": "The Indian actor and philanthropist, who starred in \"Mera Damad,\" entered the film industry in what year?",
+    "gold_answer": "1977",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "1973",
+      "50": "1985",
+      "200": "1973",
+      "500": "1973",
+      "1000": "1973",
+      "3000": "1973"
+    }
+  },
+  {
+    "idx": 404,
+    "question": "The Jeep Cherokee was originally sold as a variant of a Jeep model produced during what years?",
+    "gold_answer": "1963 to 1991",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.3333,
+    "pred_answers_by_n": {
+      "10": "1983-2012",
+      "50": "1983–2001",
+      "200": "1983 – 2001",
+      "500": "1983 – 2001",
+      "1000": "1983 to 2001",
+      "3000": "1983 to 2001"
+    }
+  },
+  {
+    "idx": 405,
+    "question": "Where was the person born who was recognized by MIAL and is an American soprano?",
+    "gold_answer": "Laurel, Mississippi",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Camille Amy Zamora",
+      "50": "United States",
+      "200": "United States",
+      "500": "Camille Amy Zamora",
+      "1000": "Camille Amy Zamora",
+      "3000": "Leslie Irwin"
+    }
+  },
+  {
+    "idx": 406,
+    "question": "Which magazine is older, Gallery or Dime Magazine?",
+    "gold_answer": "arose on the \"Playboy\" magazine pattern in the 1970s.",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.2532,
+    "pred_answers_by_n": {
+      "10": "Dime Adventures Magazine",
+      "50": "Gallery",
+      "200": "{\"reasoning_chain\": [\"Gallery (magazine) : Gallery is a monthly American magazine published by Gallery Publications, Inc. It was founded in 1946 by Carl Richard Jacobi.\", \"Dime Magazine : Dime Magazine was an American pulp magazine published from 1932 to 1952.\", \"Dime Magazine : The magazine was founded by Carl Richard Jacobi, who also edited it until 1935.\", \"Dime Magazine : It was published as a weekly until 1935, when it became a monthly.\", \"Dime Magazine : In 1936",
+      "500": "Dime Magazine",
+      "1000": "Dime Magazine",
+      "3000": "Gallery"
+    }
+  },
+  {
+    "idx": 408,
+    "question": "How large is the shopping mall where KGOT radio station has its studios ?",
+    "gold_answer": "728,000 ft²",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "unknown",
+      "50": "100000",
+      "200": "930000",
+      "500": "Plaza Las Américas",
+      "1000": "11.8 hectares",
+      "3000": "268,611 m2"
+    }
+  },
+  {
+    "idx": 419,
+    "question": "What is the 2010 population of the city 2.1 miles southwest of Marietta Air Force Station?",
+    "gold_answer": "51,271",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "No information available",
+      "50": "Smyrna, Georgia",
+      "200": "51745",
+      "500": "52,115",
+      "1000": "55,119",
+      "3000": "Ludlow"
+    }
+  },
+  {
+    "idx": 422,
+    "question": "How many novels are there in the series of novels of which Shadows in Flight is the tenth novel ?",
+    "gold_answer": "fifteen",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "1",
+      "50": "10",
+      "200": "10",
+      "500": "10",
+      "1000": "10",
+      "3000": "ten"
+    }
+  },
+  {
+    "idx": 423,
+    "question": "One of the coaches of Southern Methodist University also played what role at the Arizona State Sun Devils?",
+    "gold_answer": "defensive coordinator",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "assistant",
+      "50": "represent",
+      "200": "Chuck Fairbanks",
+      "500": "Assistant Coach",
+      "1000": "quarterback",
+      "3000": "American football"
+    }
+  },
+  {
+    "idx": 424,
+    "question": "What is the height of the player who won the 2015 AFL Rising Star award?",
+    "gold_answer": "1.95 m",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.5,
+    "pred_answers_by_n": {
+      "10": "1.87 m",
+      "50": "1.85",
+      "200": "{\"reasoning_chain\": [\"Jaeger O'Meara : [\"Jaeger O'Meara (born 23 February 1994) is a professional Australian rules footballer playing for the Hawthorn Football Club in the Australian Football League (AFL).\", \"He previously played for the Gold Coast Football Club between 2013 and 2016.\", \"O'Meara won the 2015 AFL Rising Star award and was named the 2017 AFL Rising Star.\", \"He was drafted by the Gold Coast Suns with pick 18 in the 201",
+      "500": "1.87",
+      "1000": "1.87 m",
+      "3000": "1.87 m"
+    }
+  },
+  {
+    "idx": 429,
+    "question": "Season 2 of Rick and Morty began with the episode directed by whom?",
+    "gold_answer": "Wes Archer",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "John Rice",
+      "50": "John Rice",
+      "200": "Stephen Stephens",
+      "500": "John Rice",
+      "1000": "Dominic Polcino",
+      "3000": "Dominic Polcino"
+    }
+  },
+  {
+    "idx": 432,
+    "question": "Who has more scope of profession, Phil Rosen or  Delmer Daves?",
+    "gold_answer": "Delmer Lawrence Daves",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.8,
+    "pred_answers_by_n": {
+      "10": "Delmer Daves",
+      "50": "Delmer Daves",
+      "200": "{\"reasoning_chain\": [\"Delmer Daves : 'Destination Tokyo' (1943), 'Shipmates Forever' (1935), 'The Petrified Forest' (1936), 'Dark Passage' (1947), 'Parrish' (1961), 'Broken Arrow' (1950), 'Shipmates Forever' (1935), 'The Petrified Forest' (1936), 'Dark Passage' (1947), 'Parrish' (1961), 'Broken Arrow' (1950",
+      "500": "Phil Rosen",
+      "1000": "Delmer Daves",
+      "3000": "Delmer Daves"
+    }
+  },
+  {
+    "idx": 435,
+    "question": "How long is the river for which Frenchmans Creek is a tributary?",
+    "gold_answer": "2844 km",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.5,
+    "pred_answers_by_n": {
+      "10": "4.4 mi",
+      "50": "6.3 miles",
+      "200": "1.9 miles",
+      "500": "1.9 mi",
+      "1000": "1.9 miles",
+      "3000": "7.51 km"
+    }
+  },
+  {
+    "idx": 442,
+    "question": "What book provided the foundation for Masters and Johnson's research team?",
+    "gold_answer": "Patterns of Sexual Behavior",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.2,
+    "pred_answers_by_n": {
+      "10": "Alphapets",
+      "50": "Alphapets",
+      "200": "Alphapets",
+      "500": "Berlin Diary (1934–1941)",
+      "1000": "The Rise and Fall of the Third Reich",
+      "3000": "The Masters and Johnson research team"
+    }
+  },
+  {
+    "idx": 445,
+    "question": "Mick Carter is the landlord of a public house located at what address?",
+    "gold_answer": "46 Albert Square, Walford, London E20",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.1429,
+    "pred_answers_by_n": {
+      "10": "The Queen Victoria public house",
+      "50": "100 Victoria Street, London E1 2BQ, United Kingdom",
+      "200": "66-70 Prince Street, Bristol",
+      "500": "121 Warner Street",
+      "1000": "120 Bradford Street",
+      "3000": "66-70 Prince Street"
+    }
+  },
+  {
+    "idx": 446,
+    "question": "What television thriller anthology did the winner of one Golden Globe, two tony Awards and six Primetime Emmy Awards appear on?",
+    "gold_answer": "Darkroom",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Lost",
+      "50": "Lost",
+      "200": "Lost",
+      "500": "The West Wing",
+      "1000": "Lost",
+      "3000": "Lost"
+    }
+  },
+  {
+    "idx": 453,
+    "question": "What was position of the man who served Prince Andrew from 1990-2001? ",
+    "gold_answer": "Private Secretary and Treasurer",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Head Barman",
+      "50": "Head Barman",
+      "200": "Head Barmen",
+      "500": "Head Barman",
+      "1000": "Head Barman",
+      "3000": "Head Barman"
+    }
+  },
+  {
+    "idx": 456,
+    "question": "Who was born first Mahbub ul Haq or Ibn Arabi?",
+    "gold_answer": "ibnʿArabī",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Ibn Arabi",
+      "50": "{\"reasoning_chain\": [\"Mahbub ul Haq : Mahbub ul Haq (Urdu: \\u200e ; 24 February 1934 – 16 July 1998) was a Pakistani game theorist, economist and an international development theorist who served as the 13th Finance Minister of Pakistan from 10 April 1985 until 28 January 1988.\", \"Ibn Arabi : Ibn Ara\", \"Ibn Arabi was born in 1165, so he was born first.\"], \"",
+      "200": "Mahbub ul Haq",
+      "500": "Mahbub ul Haq",
+      "1000": "Mahbub ul Haq",
+      "3000": "Mahbub ul Haq"
+    }
+  },
+  {
+    "idx": 457,
+    "question": "What does the goddess associated with the goddess frigg  consists of what tales?",
+    "gold_answer": "various deities, beings, and heroes",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.125,
+    "pred_answers_by_n": {
+      "10": "associated with healing, knowledge, battle, sorcery, poetry, frenzy, and the runic alphabet",
+      "50": "{\"reasoning_chain\": [\"Frigg : In Germanic mythology, Odin (from Old Norse Óðinn) is a widely revered god.\", \"→ donc → goddess associated with the goddess frigg\", \"→ donc → Frigg (Old Norse \\\"Frigg\\\"), is a goddess in Norse mythology.\", \"→ donc → Frigg is the goddess of marriage, weaving, and fertility, and is the wife of Odin, the king of the gods.\", \"→ donc → Frigg is associated with magic, prophecy, and fate, and is often depicted as a wise and powerful figure.\", \"→ donc → Frigg",
+      "200": "Fensalir",
+      "500": "Fensalir",
+      "1000": "{\"reasoning_chain\": [\"Frigg (mythology) : In Norse mythology, Frigg (Old Norse \\\"Freyja\\\", \\\"Freyia\\\" or \\\"Freyja\\\"), sometimes anglicized as Frige, Friga, Frīf\\n\", \"Frigg (mythology) : Frigg is the goddess associated with the goddess Frigg in Norse mythology. She is the wife of Odin, the queen of Asgard, and the\\n\", \"Frigg (mythology) : Frigg is the goddess associated with the goddess Frigg in Norse mythology. She is the wife",
+      "3000": "In Norse mythology, Gná is a goddess who runs errands in other worlds for the goddess Frigg and rides the flying, sea-treading horse Hófvarpnir"
+    }
+  },
+  {
+    "idx": 459,
+    "question": "William Pery served as Captain of the Yeomen of the Guard under the lord who served in what position from 1865 to 1868?",
+    "gold_answer": "Viscount Cranborne",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.0667,
+    "pred_answers_by_n": {
+      "10": "yes",
+      "50": "{\"reasoning_chain\": [\"William Pery : William John Monson, 1st Viscount Oxenbridge PC (18 February 1829 – 16 April 1898), known as The Lord Monson between 1862 and 1886, was a British Liberal politician.\", \"William Pery : He served as Captain of the Yeomen of the Guard between 1880 and 1885 and in 1886 he became Master of the Yeomen of the Guard, a position he held until his death in 1898",
+      "200": "William Ewart Gladstone",
+      "500": "{\"reasoning_chain\": [\"George Percy, 5th Duke of Northumberland : George Percy, 5th Duke of Northumberland PC (22 June 1778 – 22 August 1867), styled Lord Lovaine between 1790 and 1830 and known as The Earl of Beverley between 1830 and 1865, was a British Tory politician....\", \"William Pery : William Pery (c. 1540 – 1615) was an English soldier and politician who served as Captain of the Ye",
+      "1000": "{\"reasoning_chain\": [\"William Pery : William John Monson, 1st Viscount Oxenbridge PC (18 February 1829 – 16 April 1898), known as The Lord Monson between 1862....\", \"William Pery : William John Monson, 1st Viscount Oxenbridge PC (18 February 1829 – 16 April 1898), known as The Lord Monson between 1862....\", \"Données de support : Lord Monson served as Captain of the Yeomen",
+      "3000": "Lord Salisbury"
+    }
+  },
+  {
+    "idx": 460,
+    "question": " William Cammisano was part of which Mafia family?",
+    "gold_answer": "Kansas City crime family",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.5714,
+    "pred_answers_by_n": {
+      "10": "Palermo Centro Mafia family",
+      "50": "Brancaccio family",
+      "200": "La Barbera",
+      "500": "Brancaccio family",
+      "1000": "the Gambino crime family",
+      "3000": "Sicilian Mafia"
+    }
+  },
+  {
+    "idx": 462,
+    "question": "When did the game which held three times in  in East Asia first held ",
+    "gold_answer": "in 1896",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "2003",
+      "50": "2003",
+      "200": "2003",
+      "500": "2003",
+      "1000": "2003",
+      "3000": "2003"
+    }
+  },
+  {
+    "idx": 472,
+    "question": "Eric Ambler and Carol Shields are both best Known for what profession?",
+    "gold_answer": "author",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "novelist",
+      "50": "novelist",
+      "200": "novelist",
+      "500": "novelist",
+      "1000": "novelist",
+      "3000": "novelist"
+    }
+  },
+  {
+    "idx": 482,
+    "question": "How did Emilie du Chatelet, Voltaire's love, contribute to the basic laws of physics?",
+    "gold_answer": "commentary on Isaac Newton's book \"Principia\"",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.381,
+    "pred_answers_by_n": {
+      "10": "translated and commented on Newton's Principia",
+      "50": "translated and commented on",
+      "200": "postulate of an additional conservation law for total energy",
+      "500": "translation",
+      "1000": "Her most recognized achievement is her translation of and commentary on Isaac Newton\\'s book \\",
+      "3000": "{\"reasoning_chain\": [\"Emilie du Chatelet : Gabrielle Émilie Le Tonnelier de Breteuil, Marquise Du Châtelet (] ; 17 December 1706 \\xa0– 10 September 1749) was....\", \"Emilie du Chatelet : Her most recognized achievement is her translation of and commentary on Isaac Newton\\'s book \\\"Principia\\\" contain\", \"Emilie du Chatelet : She contributed to the basic laws of physics by showing that the total energy of a system remained constant.\", \"Emil"
+    }
+  },
+  {
+    "idx": 485,
+    "question": "In what year was the team that Luke Clark plays either right back or central midfielder for founded?",
+    "gold_answer": "1963",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "1894",
+      "50": "1899",
+      "200": "1888",
+      "500": "1887",
+      "1000": "1899",
+      "3000": "1894"
+    }
+  },
+  {
+    "idx": 487,
+    "question": "A puzzle-platform video game developed by the Valve Corporation is part of what 2012 action-adventure game?",
+    "gold_answer": "Gateways",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Portal",
+      "50": "Portal 2",
+      "200": "Portal 2",
+      "500": "Portal 2",
+      "1000": "{\"reasoning_chain\": [\"Portal 2 : Portal 2 is a 2011 first-person puzzle-platform video game developed and published by Valve Corporation.\", \"Portal 2 : It is the sequel to \\\"Portal\\\" (2007) and was released on April 19, 2011, for Microsoft Windows, OS X, Linux, PlayStation 3,....\", \"Portal 2 : Portal 2 (video game) → Portal 2 (video game) → Portal 2 (video game) → Portal 2 (video game) → Portal 2 (video game) → Portal",
+      "3000": "Portal"
+    }
+  },
+  {
+    "idx": 496,
+    "question": "Anthony Avent played basketball fo a High School that is located in a city approcimately 8 mi west of where?",
+    "gold_answer": "lower Manhattan",
+    "f1_zero_all_points": true,
+    "best_f1_across_points": 0.0,
+    "pred_answers_by_n": {
+      "10": "Tamaqua",
+      "50": "{\"reasoning_chain\": [\"Anthony Avent : Anthony Avent (born October 18, 1969) is a retired American professional basketball player who was selected by the Atlanta Hawks in the first round (15th pick overall) of the 1991 NBA Draft.\", \"Anthony Avent : Born in Rocky Mount, North Carolina, Avent played fo\", \"Rocky Mount High School : Rocky Mount High School is a public high school located in Rocky Mount, North Carolina, United States. It is part of the Rocky Mount Public Schools system and is the only public high school in the city.\", \"",
+      "200": "{\"reasoning_chain\": [\"Anthony Avent : Anthony Avent (born October 18, 1969) is a retired American professional basketball player who was selected by the Atlanta Hawks in the first round (15th pick overall) of the 1991 NBA Draft.\", \"Anthony Avent : Born in Rocky Mount, North Carolina, Avent played fo\", \"Rocky Mount High School (North Carolina) : Rocky Mount High School is a public high school located in Rocky Mount, North Carolina, United States. It is part of the Rocky Mount Public Schools district.\", \"Rocky Mount, North Carolina",
+      "500": "Rocky Mount, North Carolina",
+      "1000": "South Orange, New Jersey",
+      "3000": "Newark"
+    }
+  },
+  {
+    "idx": 498,
+    "question": "Walt Zeboski photographed which 40th President during his campaign in 1980?",
+    "gold_answer": "Ronald Wilson Reagan",
+    "f1_zero_all_points": false,
+    "best_f1_across_points": 0.8,
+    "pred_answers_by_n": {
+      "10": "Ronald Reagan",
+      "50": "Ronald Reagan",
+      "200": "Ronald Reagan",
+      "500": "Gerald Rudolph Ford Jr.",
+      "1000": "Ronald Reagan",
+      "3000": "Ronald Reagan"
+    }
+  }
+]

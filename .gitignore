@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & caches
+*.log
+cache/
+*.bak
+*.bak_*
+
+# Large model files
+*.bin
+*.safetensors
+*.gguf
+
+# Temporary
+*.tmp
+*.swp
+nohup.out

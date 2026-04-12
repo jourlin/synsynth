@@ -1,0 +1,4358 @@
+{
+  "model": "phi4:latest",
+  "k": 5,
+  "temperature": 0.7,
+  "n": 181,
+  "em_voted": 0.1436,
+  "f1_voted": 0.1717,
+  "oracle_k": 0.2099,
+  "agreement_avg": 0.5845,
+  "perfect_agreement_pct": 17.1,
+  "details": [
+    {
+      "idx": 1,
+      "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+      "gold_answer": "Chief of Protocol",
+      "k_answers": [
+        "None",
+        "Secretary of State for Constitutional Affairs",
+        "voice actress (radio)",
+        "First Lady of the United States",
+        "none"
+      ],
+      "voted_answer": "None",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 5,
+      "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+      "gold_answer": "YG Entertainment",
+      "k_answers": [
+        "J. Tune Camp",
+        "J. Tune Camp",
+        "J. Tune Camp",
+        "J. Tune Camp",
+        "J. Tune Camp"
+      ],
+      "voted_answer": "J. Tune Camp",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 7,
+      "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+      "gold_answer": "3,677 seated",
+      "k_answers": [
+        "Unknown",
+        "non spécifié",
+        "unknown",
+        "unknown",
+        "Information not available"
+      ],
+      "voted_answer": "Unknown",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 10,
+      "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+      "gold_answer": "Kansas Song",
+      "k_answers": [
+        "Rock Chalk, Jayhawk",
+        "Rock Chalk Jayhawk",
+        "Rock Chalk Jayhawk",
+        "Rock Chalk Jayhawk",
+        "Rock Chalk Jayhawk"
+      ],
+      "voted_answer": "Rock Chalk Jayhawk",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 15,
+      "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+      "gold_answer": "9,984",
+      "k_answers": [
+        "approximately 331 million",
+        "approximately 332 million",
+        "approximately 331 million",
+        "approximately 331 million",
+        "approximately 331 million"
+      ],
+      "voted_answer": "approximately 331 million",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 16,
+      "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+      "gold_answer": "the North Atlantic Conference",
+      "k_answers": [
+        "Eastern College Athletic Conference",
+        "North-East Conference",
+        "Atlantic 10",
+        "Eastern College Athletic Conference (ECAC)",
+        "The conference was never known by another name during that period"
+      ],
+      "voted_answer": "Eastern College Athletic Conference",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.2857,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 18,
+      "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+      "gold_answer": "1969 until 1974",
+      "k_answers": [
+        "1969-1974",
+        "1969-1974",
+        "1969-1974",
+        "1969-1974",
+        "1969–1974"
+      ],
+      "voted_answer": "1969-1974",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 20,
+      "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+      "gold_answer": "Pedro Rodríguez",
+      "k_answers": [
+        "Pas dans les faits fournis",
+        "Eduardo Troconis",
+        "aucun autre",
+        "Eduardo Troconis",
+        "Eduardo Troconis"
+      ],
+      "voted_answer": "Eduardo Troconis",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 21,
+      "question": "This singer of A Rather Blustery Day also voiced what hedgehog?",
+      "gold_answer": "Sonic",
+      "k_answers": [
+        "Tigger",
+        "Jim Cummings",
+        "Winnie the Pooh",
+        "Tigger",
+        "Tigger"
+      ],
+      "voted_answer": "Tigger",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 22,
+      "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+      "gold_answer": "keyboard function keys",
+      "k_answers": [
+        "Universal remote",
+        "macintosh computers using Front Row",
+        "Macintosh computers (via Front Row)",
+        "universal remote",
+        "iMac G5 with Front Row"
+      ],
+      "voted_answer": "Universal remote",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 24,
+      "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+      "gold_answer": "World's Best Goalkeeper",
+      "k_answers": [
+        "World's Best Goalkeeper",
+        "World's Best Goalkeeper",
+        "IFFHS World's Best Goalkeeper",
+        "World's Best Goalkeeper",
+        "World's Best Goalkeeper"
+      ],
+      "voted_answer": "World's Best Goalkeeper",
+      "agreement": 0.8,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "individual_ems": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 29,
+      "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+      "gold_answer": "Arena of Khazan",
+      "k_answers": [
+        "No specific adventure name provided",
+        "Crank Caverns",
+        "Crusaders of Khazan",
+        "Crank Caverns",
+        "Cranky Caverns"
+      ],
+      "voted_answer": "Crank Caverns",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 31,
+      "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+      "gold_answer": "Fujioka, Gunma",
+      "k_answers": [
+        "Japan",
+        "Japan",
+        "Japan",
+        "Japan",
+        "Japan"
+      ],
+      "voted_answer": "Japan",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 36,
+      "question": "Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?",
+      "gold_answer": "2000",
+      "k_answers": [
+        "inconnu",
+        "Information not available",
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "voted_answer": "unknown",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 42,
+      "question": "A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
+      "gold_answer": "1962",
+      "k_answers": [
+        "1967",
+        "1968",
+        "1969",
+        "1969",
+        "1969"
+      ],
+      "voted_answer": "1969",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 47,
+      "question": "What type of forum did a former Soviet statesman initiate?",
+      "gold_answer": "Organizations could come together to address global issues",
+      "k_answers": [
+        "Soviet Jewry Movement forum",
+        "Soviet Jewry Movement forum",
+        "Soviet Jewry public and political activities",
+        "Center for Jewish Renewal (CJR)",
+        "Center for Jewish Renewal (CJR)"
+      ],
+      "voted_answer": "Soviet Jewry Movement forum",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 50,
+      "question": "Which year and which conference was the 14th season for this conference as part of the NCAA Division that the Colorado Buffaloes played in with a record of 2-6 in conference play?",
+      "gold_answer": "2009 Big 12 Conference",
+      "k_answers": [
+        "2013 Pac-12",
+        "2014, Pac-12",
+        "2014, Pac-12",
+        "2019",
+        "2011"
+      ],
+      "voted_answer": "2014, Pac-12",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 53,
+      "question": "In what city did the \"Prince of tenors\" star in a film based on an opera by Giacomo Puccini?",
+      "gold_answer": "Rome",
+      "k_answers": [
+        "Austria/Germany",
+        "Rome",
+        "Rome",
+        "Rome",
+        "Milan"
+      ],
+      "voted_answer": "Rome",
+      "agreement": 0.6,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "individual_ems": [
+        false,
+        true,
+        true,
+        true,
+        false
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 55,
+      "question": "Which Australian city founded in 1838 contains a boarding school opened by a Prime Minister of Australia and named after a school in London of the same name.",
+      "gold_answer": "Marion, South Australia",
+      "k_answers": [
+        "Marion, South Australia",
+        "Marion",
+        "Adelaide",
+        "South Australia (Marion)",
+        "Marion"
+      ],
+      "voted_answer": "Marion",
+      "agreement": 0.4,
+      "em_voted": true,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        true,
+        true,
+        false,
+        false,
+        true
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 56,
+      "question": "D1NZ is a series based on what oversteering technique?",
+      "gold_answer": "Drifting",
+      "k_answers": [
+        "unknown",
+        "unknown",
+        "No information available",
+        "reset button technique",
+        "unknown"
+      ],
+      "voted_answer": "unknown",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 58,
+      "question": "According to the 2001 census, what was the population of the city in which Kirton End is located?",
+      "gold_answer": "35,124",
+      "k_answers": [
+        "no specific population data available",
+        "Not available",
+        "not available",
+        "No direct data available",
+        "unknown"
+      ],
+      "voted_answer": "Not available",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 61,
+      "question": "What is the name of the executive producer of the film that has a score composed by Jerry Goldsmith?",
+      "gold_answer": "Ronald Shusett",
+      "k_answers": [
+        "None",
+        "Steven Spielberg",
+        "Steven Spielberg",
+        "Francis Ford Coppola",
+        "Gordon Carroll"
+      ],
+      "voted_answer": "Steven Spielberg",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 63,
+      "question": "What was the Roud Folk Song Index of the nursery rhyme inspiring What Are Little Girls Made Of?",
+      "gold_answer": "821",
+      "k_answers": [
+        "326",
+        "326",
+        "326",
+        "unknown",
+        "not listed"
+      ],
+      "voted_answer": "326",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 64,
+      "question": "Scott Parkin has been a vocal critic of Exxonmobil and another corporation that has operations in how many countries ?",
+      "gold_answer": "more than 70 countries",
+      "k_answers": [
+        "many",
+        "many countries",
+        "multiple countries",
+        "many",
+        "many"
+      ],
+      "voted_answer": "many",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 66,
+      "question": "Vince Phillips held a junior welterweight title by an organization recognized by what larger Hall of Fame?",
+      "gold_answer": "International Boxing Hall of Fame",
+      "k_answers": [
+        "International Boxing Hall of Fame",
+        "International Boxing Hall of Fame",
+        "International Boxing Hall of Fame",
+        "International Boxing Hall of Fame",
+        "International Boxing Hall of Fame"
+      ],
+      "voted_answer": "International Boxing Hall of Fame",
+      "agreement": 1.0,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "individual_ems": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 67,
+      "question": "What is the name of the singer who's song was released as the lead single from the album \"Confessions\", and that had popular song stuck behind for eight consecutive weeks?",
+      "gold_answer": "Usher",
+      "k_answers": [
+        "Usher",
+        "Usher",
+        "Usher",
+        "Usher",
+        "Usher"
+      ],
+      "voted_answer": "Usher",
+      "agreement": 1.0,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "individual_ems": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 68,
+      "question": "who is the younger brother of The episode guest stars of The Hard Easy ",
+      "gold_answer": "Bill Murray",
+      "k_answers": [
+        "unknown",
+        "Bill Murray",
+        "Bill Murray",
+        "Bill Murray",
+        "unknown"
+      ],
+      "voted_answer": "Bill Murray",
+      "agreement": 0.6,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "individual_ems": [
+        false,
+        true,
+        true,
+        true,
+        false
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 69,
+      "question": "The 2017–18 Wigan Athletic F.C. season will be a year in which the team competes in the league cup known as what for sponsorship reasons?",
+      "gold_answer": "Carabao Cup",
+      "k_answers": [
+        "EFL Cup (known as the Carabao Cup due to sponsorship)",
+        "Emirates Cup",
+        "Carabao Cup",
+        "EFL Cup",
+        "Coca-Cola Cup"
+      ],
+      "voted_answer": "EFL Cup (known as the Carabao Cup due to sponsorship)",
+      "agreement": 0.2,
+      "em_voted": true,
+      "f1_voted": 0.5455,
+      "individual_ems": [
+        true,
+        false,
+        true,
+        false,
+        false
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 71,
+      "question": "What is the inhabitant of the city where  122nd SS-Standarte was formed in2014",
+      "gold_answer": "276,170 inhabitants",
+      "k_answers": [
+        "French or German",
+        "Strasbourgeois",
+        "French",
+        "French",
+        "French"
+      ],
+      "voted_answer": "French",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 76,
+      "question": "What is the middle name of the actress who plays Bobbi Bacha in Suburban Madness?",
+      "gold_answer": "Ann",
+      "k_answers": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "non fourni",
+        "unknown"
+      ],
+      "voted_answer": "unknown",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 77,
+      "question": "Alvaro Mexia had a diplomatic mission with which tribe of indigenous people?",
+      "gold_answer": "Apalachees",
+      "k_answers": [
+        "Ais",
+        "Ais tribe",
+        "Ais",
+        "Ais",
+        "Ais"
+      ],
+      "voted_answer": "Ais",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 80,
+      "question": "What is the county seat of the county where East Lempster, New Hampshire is located?",
+      "gold_answer": "Newport",
+      "k_answers": [
+        "Lac du Sud",
+        "Claremont",
+        "Claremont",
+        "Lancaster",
+        "Claremont"
+      ],
+      "voted_answer": "Claremont",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 86,
+      "question": "In what year was the novel that Lourenço Mutarelli based \"Nina\" on based first published?",
+      "gold_answer": "1866",
+      "k_answers": [
+        "Information non fournie",
+        "pas de date connue",
+        "non précisé",
+        "Information non disponible dans les faits fournis",
+        "Information non disponible"
+      ],
+      "voted_answer": "Information non fournie",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 96,
+      "question": "Bordan Tkachuk was the CEO of a company that provides what sort of products?",
+      "gold_answer": "IT products and services",
+      "k_answers": [
+        "IT infrastructure solutions",
+        "IT services",
+        "IT and managed services",
+        "IT and technology services",
+        "IT and BPO services"
+      ],
+      "voted_answer": "IT infrastructure solutions",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.2857,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 97,
+      "question": "Which filmmaker was known for animation, Lev Yilmaz or Pamela B. Green?",
+      "gold_answer": "Levni Yilmaz",
+      "k_answers": [
+        "neither",
+        "Aucun; Aryanto Yuniawan n'est mentionné ici",
+        "Aryanto Yuniawan",
+        "Aryanto Yuniawan",
+        "Aryanto Yuniawan"
+      ],
+      "voted_answer": "Aryanto Yuniawan",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 100,
+      "question": "Where did the descendants of the group of black Indians associated with the Seminole people settle?",
+      "gold_answer": "Coahuila, Mexico",
+      "k_answers": [
+        "Oklahoma",
+        "Oklahoma and Florida",
+        "Oklahoma and Florida",
+        "Oklahoma",
+        "Oklahoma and Florida"
+      ],
+      "voted_answer": "Oklahoma and Florida",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 101,
+      "question": "David Huntsinger has worked with this gospel singer born in the month of July?",
+      "gold_answer": "Larnelle Harris",
+      "k_answers": [
+        "unknown",
+        "Andraé Edward Crouch",
+        "unknown",
+        "André Crouch",
+        "Yes"
+      ],
+      "voted_answer": "unknown",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 102,
+      "question": "What year was the brother of this first round draft pick by the Washington Redskins drafted?",
+      "gold_answer": "2003",
+      "k_answers": [
+        "2012",
+        "2010",
+        "unknown",
+        "unknown",
+        "1963"
+      ],
+      "voted_answer": "unknown",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 103,
+      "question": "Where is the stadium at which 1964 Georgia Tech Yellow Jackets football team played their home game located? ",
+      "gold_answer": "North Avenue at Techwood Drive",
+      "k_answers": [
+        "Grant Field, Atlanta, Géorgie",
+        "Grant Field, Atlanta, Georgia",
+        "Grant Field in Atlanta, Georgia",
+        "Grant Field in Atlanta, Georgia",
+        "Grant Field, Atlanta, Georgia"
+      ],
+      "voted_answer": "Grant Field, Atlanta, Georgia",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 106,
+      "question": "hree Men on a Horse is a play by a playwright born in which year ?",
+      "gold_answer": "1887",
+      "k_answers": [
+        "1980",
+        "1980",
+        "unknown",
+        "1980",
+        "1980"
+      ],
+      "voted_answer": "1980",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 107,
+      "question": "What type of activity does Owner earnings and Warren Buffett have in common?",
+      "gold_answer": "business",
+      "k_answers": [
+        "Business valuation",
+        "valuation",
+        "valuation",
+        "valuation methodology",
+        "valuation method"
+      ],
+      "voted_answer": "valuation",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 108,
+      "question": "When was the  former Indian cricketer who made his ODI debuts during the 2000 ICC KnockOut Trophy born? ",
+      "gold_answer": "7 October 1978",
+      "k_answers": [
+        "December 12, 1981",
+        "10 October 1978",
+        "31 October 1972",
+        "6 juin 1981",
+        "6 octobre 1984"
+      ],
+      "voted_answer": "December 12, 1981",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 109,
+      "question": "Which airplane was this Major test-flying after whom the base, that 514th Flight Test Squadron is stated at, is named?",
+      "gold_answer": "B-17 Flying Fortress bomber",
+      "k_answers": [
+        "Northrop F-89 Scorpion",
+        "Alexander P. de Seversky",
+        "P-39 Airacobra",
+        "Boeing B-52 Stratofortress",
+        "Northrop YB-49"
+      ],
+      "voted_answer": "Northrop F-89 Scorpion",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 112,
+      "question": "When was the British author who wrote the novel on which \"Here We Go Round the Mulberry Bush\" was based born? ",
+      "gold_answer": "7 January 1936",
+      "k_answers": [
+        "26 juin 1941",
+        "13 février 1941",
+        "aucune information sur la date de naissance n'est fournie",
+        "27 septembre 1941",
+        "1940"
+      ],
+      "voted_answer": "26 juin 1941",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 114,
+      "question": "Which component of shellite has the formula (ON)CHOH?",
+      "gold_answer": "picric acid",
+      "k_answers": [
+        "Isopropyl alcohol",
+        "not specified",
+        "xylitol",
+        "1-Pentanol",
+        "xylitol"
+      ],
+      "voted_answer": "xylitol",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 115,
+      "question": "The Argentine PGA Championship record holder has won how many tournaments worldwide?",
+      "gold_answer": "230",
+      "k_answers": [
+        "not specified",
+        "16",
+        "16",
+        "16",
+        "information not provided"
+      ],
+      "voted_answer": "16",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 116,
+      "question": "Suicide's 1977 released album features a song based on what brand's comic character?",
+      "gold_answer": "Marvel",
+      "k_answers": [
+        "None",
+        "Frankenstein's Monster",
+        "Batman",
+        "none of the facts directly state this; however, 'Batman' is known as a song based on the Batman comic character",
+        "aucun"
+      ],
+      "voted_answer": "None",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 120,
+      "question": "What major truck road is located in Backford Cross?",
+      "gold_answer": "The A41",
+      "k_answers": [
+        "A5117",
+        "A41",
+        "A41",
+        "A41/A5117 junction",
+        "None specified"
+      ],
+      "voted_answer": "A41",
+      "agreement": 0.4,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "individual_ems": [
+        false,
+        true,
+        true,
+        false,
+        false
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 124,
+      "question": "The youngest daughter of Lady Mary-Gaye Curzon stars with Douglas Smith and Lucien Laviscount  in what 2017 film?",
+      "gold_answer": "The Bye Bye Man",
+      "k_answers": [
+        "The Bye Bye Man",
+        "The Bye Bye Man",
+        "The Bye Bye Man",
+        "The Bye Bye Man",
+        "The Bye Bye Man"
+      ],
+      "voted_answer": "The Bye Bye Man",
+      "agreement": 1.0,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "individual_ems": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 133,
+      "question": "Which Eminem album included vocals from a singer who had an album titled \"Unapologetic\"?",
+      "gold_answer": "\"The Marshall Mathers LP 2\"",
+      "k_answers": [
+        "Encore",
+        "Recovery",
+        "Encore",
+        "Encore",
+        "Encore"
+      ],
+      "voted_answer": "Encore",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 137,
+      "question": "During Siege of Bharatpur, which Commander-in-Chief of Ireland and Commander-in-Chief of India contributed to the storming of the castle?",
+      "gold_answer": "Lord Combermere",
+      "k_answers": [
+        "Field Marshal Stapleton Cotton",
+        "Stapleton Cotton",
+        "Field Marshal Stapleton Cotton",
+        "Field Marshal Stapleton Cotton",
+        "Field Marshal Stapleton Cotton"
+      ],
+      "voted_answer": "Field Marshal Stapleton Cotton",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 139,
+      "question": "What year was the film that starred the composer for \"The Naked Brothers Band\"?",
+      "gold_answer": "2014",
+      "k_answers": [
+        "2008",
+        "2008",
+        "2005",
+        "2008",
+        "2007"
+      ],
+      "voted_answer": "2008",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 150,
+      "question": "What occupation was shared by David Yates and Pietro Germi?",
+      "gold_answer": "director",
+      "k_answers": [
+        "film directors",
+        "film director",
+        "film directors",
+        "film directors",
+        "film directors"
+      ],
+      "voted_answer": "film directors",
+      "agreement": 0.8,
+      "em_voted": true,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 153,
+      "question": "The songs from the sountrack to \"When Harry Met Sally\" are performed by a singer that has had how many top 20 US albums?",
+      "gold_answer": "seven",
+      "k_answers": [
+        "multiple",
+        "8",
+        "12",
+        "dix ou plus",
+        "13"
+      ],
+      "voted_answer": "multiple",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 155,
+      "question": "Where was the world cup hosted that Algeria qualified for the first time into the round of 16?",
+      "gold_answer": "Brazil",
+      "k_answers": [
+        "Brazil",
+        "Brazil",
+        "Brazil",
+        "Brazil",
+        "Brazil (and South Korea as co-hosts)"
+      ],
+      "voted_answer": "Brazil",
+      "agreement": 0.8,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "individual_ems": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 159,
+      "question": "The song \"Chim Chim Cher-ee\" can be heard  in the \"Mary Poppins\" scene of a Disney ride that debuted in what year?",
+      "gold_answer": "1989",
+      "k_answers": [
+        "1989",
+        "1989",
+        "1989",
+        "1989",
+        "1989"
+      ],
+      "voted_answer": "1989",
+      "agreement": 1.0,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "individual_ems": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 163,
+      "question": "What British singer-songwriter hosted the 16th Annual Young Hollywood Awards?",
+      "gold_answer": "Kelly Lee Osbourne",
+      "k_answers": [
+        "Kelly Osbourne",
+        "Kelly Osbourne",
+        "Kelly Osbourne",
+        "Kelly Osbourne",
+        "Kelly Osbourne"
+      ],
+      "voted_answer": "Kelly Osbourne",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.8,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 164,
+      "question": "Who did the Star and Dagger bass player marry?",
+      "gold_answer": "Sean Yseult.",
+      "k_answers": [
+        "unknown",
+        "No specific information available",
+        "unknown",
+        "Nolen Strals",
+        "Bruce Willen"
+      ],
+      "voted_answer": "unknown",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 165,
+      "question": "In 2017, what was 3/4th of the organization that also has a Center for Veterinary Medicine as well as part of the U.S. Department of Health and Human Services, spent on?",
+      "gold_answer": "Prescription Drug User Fee Act",
+      "k_answers": [
+        "$1.5 billion",
+        "new drugs",
+        "$65.25 million",
+        "$0.975 billion",
+        "human drugs"
+      ],
+      "voted_answer": "$1.5 billion",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 170,
+      "question": "What is the name of the detective novelist parent of the author of '\"Q\" Is for Quarry'?",
+      "gold_answer": "C. W. Grafton",
+      "k_answers": [
+        "C. W. Grafton",
+        "C. W. Grafton",
+        "unknown",
+        "C.W. Grafton",
+        "C. W. Grafton"
+      ],
+      "voted_answer": "C. W. Grafton",
+      "agreement": 0.6,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "individual_ems": [
+        true,
+        true,
+        false,
+        false,
+        true
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 171,
+      "question": "What is the birthplace of the Senator who represents the first of 62 districts in the State Senate?",
+      "gold_answer": "Brooklyn, New York",
+      "k_answers": [
+        "Long Island, New York",
+        "Information not available",
+        "information not available",
+        "pas suffisamment d'informations",
+        "information not available"
+      ],
+      "voted_answer": "Information not available",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 174,
+      "question": "Which of the city at the south of Shelly Beach, New South Wales is a local government area in the Hunter region of New South Wales, Australia?",
+      "gold_answer": "City of Newcastle",
+      "k_answers": [
+        "City of Cessnock",
+        "Bucketty",
+        "Cessnock",
+        "City of Cessnock",
+        "City of Cessnock"
+      ],
+      "voted_answer": "City of Cessnock",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.6667,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 177,
+      "question": "When was the Western Germanic language spoken from which the small settlement situated on the river Leda opposite Leer derives its name?",
+      "gold_answer": "between the 8th and 16th centuries",
+      "k_answers": [
+        "West Germanic",
+        "Old Frisian",
+        "ancien frison",
+        "Old Frisian",
+        "West Germanic"
+      ],
+      "voted_answer": "West Germanic",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 178,
+      "question": "Born on 6 March 1937, this man was also a citizen of the United Kingdom.",
+      "gold_answer": "Alistair Grant",
+      "k_answers": [
+        "William Bonfield",
+        "William Bonfield",
+        "William Bonfield",
+        "William Bonfield",
+        "William Bonfield"
+      ],
+      "voted_answer": "William Bonfield",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 180,
+      "question": "What podcast was the cheif executive officer of Nerdist Industries a guest on?",
+      "gold_answer": "Comedy Film Nerds",
+      "k_answers": [
+        "The Drop-In",
+        "The Drop-In",
+        "The Drop-In",
+        "The Drop-In",
+        "The Drop-In"
+      ],
+      "voted_answer": "The Drop-In",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 181,
+      "question": "Randall Cunningham II was a multi-sport athlete at the high school located in what Nevada city?",
+      "gold_answer": "Summerlin",
+      "k_answers": [
+        "Las Vegas",
+        "Las Vegas",
+        "Las Vegas",
+        "Las Vegas",
+        "Las Vegas"
+      ],
+      "voted_answer": "Las Vegas",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 184,
+      "question": "What year did the series on CBS, starring the actor who known for his role in \"Rebel Without a Cause,\" air?",
+      "gold_answer": "1952",
+      "k_answers": [
+        "1990",
+        "1987-1989",
+        "1995",
+        "no information available",
+        "1956"
+      ],
+      "voted_answer": "1990",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 185,
+      "question": "What season was the character introduced that becomes the main antagonist in the  following season, from the animated television series created by Bryan Konietzko and Michael Dante DiMartino as a sequel to \"\", which aired from 2005 to 2008? ",
+      "gold_answer": "third",
+      "k_answers": [
+        "Season three (Book Three: Fire)",
+        "Season Three (Book Three: Fire)",
+        "Season three",
+        "Season Three",
+        "third"
+      ],
+      "voted_answer": "Season three (Book Three: Fire)",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 187,
+      "question": "Which travel parody series featured American actor, comedian, and radio host best known as the host of \"The Joe Schmo Show\"?",
+      "gold_answer": "Hidden America with Jonah Ray",
+      "k_answers": [
+        "Free Radio",
+        "Free Radio",
+        "Free Radio",
+        "The Joe Schmo Show",
+        "Free Radio"
+      ],
+      "voted_answer": "Free Radio",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 188,
+      "question": "Do The Importance of Being Icelandic and The Five Obstructions belong to different film genres ?",
+      "gold_answer": "no",
+      "k_answers": [
+        "yes",
+        "no",
+        "yes",
+        "no",
+        "no"
+      ],
+      "voted_answer": "no",
+      "agreement": 0.6,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "individual_ems": [
+        false,
+        true,
+        false,
+        true,
+        true
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 191,
+      "question": "What station broadcast the episode \"Marry Me a Little, Marry Me a Little More\" , of the series created by Max Mutchnick and David Kohan?",
+      "gold_answer": "National Broadcasting Company",
+      "k_answers": [
+        "NBC",
+        "NBC",
+        "NBC",
+        "NBC",
+        "NBC"
+      ],
+      "voted_answer": "NBC",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 196,
+      "question": "What director worked with Vikram Bhatt on a film starring actors Rajneesh Duggal and Adah Sharma?",
+      "gold_answer": "Tinu Suresh Desai",
+      "k_answers": [
+        "Vikram Bhatt",
+        "Vikram Bhatt",
+        "Vikram Bhatt",
+        "Vikram Bhatt",
+        "Vikram Bhatt"
+      ],
+      "voted_answer": "Vikram Bhatt",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 198,
+      "question": "What amount was the settlement that the character from the Son of al Quada got in 2017?",
+      "gold_answer": "$10.5 million",
+      "k_answers": [
+        "No such settlement amount mentioned",
+        "aucun montant spécifié",
+        "information not available",
+        "No specific settlement amount is mentioned for 2017.",
+        "unknown"
+      ],
+      "voted_answer": "No such settlement amount mentioned",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 200,
+      "question": "The 2000 British film Snatch was later adapted into a television series for what streaming service?",
+      "gold_answer": "Crackle",
+      "k_answers": [
+        "Netflix",
+        "Netflix",
+        "Netflix",
+        "No such adaptation mentioned",
+        "Not specified"
+      ],
+      "voted_answer": "Netflix",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 201,
+      "question": "Chris Williams last played for which football club from the National League North?",
+      "gold_answer": "Salford City Football Club",
+      "k_answers": [
+        "inconnu",
+        "insufficient data",
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "voted_answer": "unknown",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 205,
+      "question": "Onika Tanya Maraj is a judge on a television show hosted by whom? ",
+      "gold_answer": "Ryan Seacrest",
+      "k_answers": [
+        "Nick Cannon",
+        "Ryan Seacrest",
+        "Martha Stewart",
+        "Ryan Seacrest",
+        "Tyra Banks or Howie Mandel"
+      ],
+      "voted_answer": "Ryan Seacrest",
+      "agreement": 0.4,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "individual_ems": [
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 208,
+      "question": "Who has written more than 300 papers, Semyon Aranovich Gershgorin or Pavel Alexandrov?",
+      "gold_answer": "Pavel Sergeyevich Alexandrov",
+      "k_answers": [
+        "neither",
+        "neither",
+        "neither",
+        "neither",
+        "neither"
+      ],
+      "voted_answer": "neither",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 209,
+      "question": "Which post DC Extended Universe actress will also play a role in what is intended to be the fifth installment of the DC Extended Universe?",
+      "gold_answer": "Gal Gadot",
+      "k_answers": [
+        "Margot Robbie",
+        "Margot Robbie",
+        "Margot Robbie",
+        "Margot Robbie",
+        "Gal Gadot"
+      ],
+      "voted_answer": "Margot Robbie",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 210,
+      "question": "Who was the captain of the only battleship to provide gunfire support during the Vietnam War?",
+      "gold_answer": "Rear Adm. J. Edward Snyder",
+      "k_answers": [
+        "Captain William A. Nields",
+        "Captain William L. McGreevey",
+        "Captain William W. Plummer",
+        "Commander of USS 'New Jersey'",
+        "Captain of USS New Jersey"
+      ],
+      "voted_answer": "Captain William A. Nields",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 216,
+      "question": "Ernest Foot was the best friend of the fighter pilot who had how many victories?",
+      "gold_answer": "44",
+      "k_answers": [
+        "12 solo victories",
+        "unknown",
+        "twelve",
+        "12 solo victories and 4 shared kills",
+        "unknown"
+      ],
+      "voted_answer": "unknown",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 217,
+      "question": "From March 631 to April 631, Farrukhzad Khosrau V was the king of an empire that succeeded which empire?",
+      "gold_answer": "the Parthian Empire",
+      "k_answers": [
+        "Sasanian Empire",
+        "Parthian Empire",
+        "Parthian Empire",
+        "Parthian Empire",
+        "Byzantine Empire"
+      ],
+      "voted_answer": "Parthian Empire",
+      "agreement": 0.6,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "individual_ems": [
+        false,
+        true,
+        true,
+        true,
+        false
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 218,
+      "question": "Which suburb is a soap opera featuring a character named Beverly Marshall set in?",
+      "gold_answer": "Erinsborough",
+      "k_answers": [
+        "Erinsborough",
+        "Erinsborough",
+        "Aucun (car les opéras soap ont généralement lieu dans des villes ou banlieues inventées et non spécifiées)",
+        "Erinsborough",
+        "Erinsborough"
+      ],
+      "voted_answer": "Erinsborough",
+      "agreement": 0.8,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "individual_ems": [
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 220,
+      "question": "Which Netflix series \"Unbreakable\" character is Elizabeth Claire Kemper known for playing?",
+      "gold_answer": "Kimberly Couger \"Kimmy\" Schmidt",
+      "k_answers": [
+        "Kimmy Schmidt",
+        "Kimmy Schmidt",
+        "Kimmy Schmidt",
+        "Kimmy Schmidt",
+        "Kimmy Schmidt"
+      ],
+      "voted_answer": "Kimmy Schmidt",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.3333,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 225,
+      "question": "What is the name of the ethnic group who settled in Canada in the 17th century that participated in a conflict with Irish Catholic immigrants in the Shiners' War?",
+      "gold_answer": "French Canadians",
+      "k_answers": [
+        "Canadiens français",
+        "French Canadians",
+        "French Canadians",
+        "French Canadians",
+        "French Canadians"
+      ],
+      "voted_answer": "French Canadians",
+      "agreement": 0.8,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "individual_ems": [
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 230,
+      "question": "What building is opposite the ceremonial meeting place of the Accession Council in the United Kingdom?",
+      "gold_answer": "Mark Masons' Hall",
+      "k_answers": [
+        "Westminster Abbey",
+        "Horse Guards Parade",
+        "Chapel Royal",
+        "Le palais de Buckingham",
+        "Le palais de Buckingham"
+      ],
+      "voted_answer": "Le palais de Buckingham",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 232,
+      "question": "One Raffles Place is one of the tallest skyscrapers in the city of Singapore and tallest in the wolrd outside North America until it was succeeded by a Building in city?",
+      "gold_answer": "Hong Kong",
+      "k_answers": [
+        "Bank of China Tower",
+        "Bank of China Tower",
+        "Singapore",
+        "Hong Kong",
+        "Tanjong Pagar"
+      ],
+      "voted_answer": "Bank of China Tower",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 234,
+      "question": "What is the nickname of the city where Darling's Waterfront Pavilion is located?",
+      "gold_answer": "\"Queen City\"",
+      "k_answers": [
+        "Bangor does not have a widely recognized nickname based on the given facts.",
+        "The City of the Vikings",
+        "Bangor (the Piglet Capital)",
+        "The Queen City",
+        "none"
+      ],
+      "voted_answer": "Bangor does not have a widely recognized nickname based on the given facts.",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 236,
+      "question": "Henry Hall is known for fighting in the Revolutionary War, and for being the first to successfully cultivate this food found in what type of bogs?",
+      "gold_answer": "acidic",
+      "k_answers": [
+        "blanket bogs",
+        "blanket bogs",
+        "blanket bogs",
+        "blanket",
+        "blanket bogs"
+      ],
+      "voted_answer": "blanket bogs",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 240,
+      "question": "What arcade game is named after the only player in major league history to have a 0.300 batting average for 7 consecutive seasons?",
+      "gold_answer": "a pinball machine",
+      "k_answers": [
+        "Big Hurt",
+        "Frank Thomas Big Hurt Baseball",
+        "Frank The Tank",
+        "Frank Thomas Big Hurt Baseball",
+        "Frank the Tank"
+      ],
+      "voted_answer": "Frank Thomas Big Hurt Baseball",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 241,
+      "question": "What american actress/singer born in 1956 recorded the song Something there for beauty and the beast?",
+      "gold_answer": "Donna Paige Helmintoller",
+      "k_answers": [
+        "Robby Benson",
+        "Robby Benson",
+        "Paige O'Hara",
+        "Paige O'Hara",
+        "Paige O'Hara"
+      ],
+      "voted_answer": "Paige O'Hara",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.4,
+      "individual_ems": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 243,
+      "question": "Salisbury Woodland Gardens links a zoo with a park designed and built under the watchful eye of who?",
+      "gold_answer": "Thomas Mawson",
+      "k_answers": [
+        "Peter Perry",
+        "Peter Perry",
+        "Peter Perry",
+        "Peter Perry",
+        "Peter Perry"
+      ],
+      "voted_answer": "Peter Perry",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 244,
+      "question": "What class of instrument does Apatim Majumdar play?",
+      "gold_answer": "strings",
+      "k_answers": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "inconnu",
+        "inconnu"
+      ],
+      "voted_answer": "unknown",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 247,
+      "question": "Are  Chrysalis and Look both women's magazines?",
+      "gold_answer": "yes",
+      "k_answers": [
+        "Chrysalis is a women's magazine; not enough information to determine if Look is also a women's magazine.",
+        "only Chrysalis",
+        "yes",
+        "Chrysalis is a women's magazine; not enough information for Look",
+        "only Chrysalis is confirmed as a women's magazine"
+      ],
+      "voted_answer": "Chrysalis is a women's magazine; not enough information to determine if Look is also a women's magazine.",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 252,
+      "question": "Spaceware Sky Division II is manufactured by this subsidiary, which is one of twelve subdivisions of Inner Mongolia, China?",
+      "gold_answer": "Ordos City",
+      "k_answers": [
+        "Inner Mongolia First Machinery Group Corporation",
+        "unknown",
+        "Inner Mongolia First Machinery Group Corporation",
+        "Inner Mongolia First Machinery Group Corporation",
+        "insufficient information"
+      ],
+      "voted_answer": "Inner Mongolia First Machinery Group Corporation",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 253,
+      "question": "Which director had the longest career, Alain Resnais or Scott Sidney?",
+      "gold_answer": "Scott Sidney",
+      "k_answers": [
+        "Alain Resnais",
+        "Alain Resnais",
+        "Alain Resnais",
+        "Alain Resnais",
+        "Alain Resnais"
+      ],
+      "voted_answer": "Alain Resnais",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 257,
+      "question": " The name \"Mountbatten-Windsor\" applies to male-line descendants of the Queen without royal styles and titles which is a Eurpean dynasty resulting in what family?",
+      "gold_answer": "Mountbatten family",
+      "k_answers": [
+        "House of Windsor",
+        "House of Windsor",
+        "House of Windsor",
+        "House of Windsor",
+        "Mountbatten-Windsor"
+      ],
+      "voted_answer": "House of Windsor",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 260,
+      "question": "Armageddon in Retrospect was written by the author who was best known for what 1969 satire novel?",
+      "gold_answer": "Slaughterhouse-Five",
+      "k_answers": [
+        "None",
+        "Catch-22",
+        "The Magic Christian",
+        "Slaughterhouse-Five",
+        "The Magic Christian"
+      ],
+      "voted_answer": "The Magic Christian",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 261,
+      "question": "Patrick Kennedy is known for his collections of Irish  folktales from a province situated in which part of Ireland ?",
+      "gold_answer": "the east of Ireland",
+      "k_answers": [
+        "east",
+        "Leinster",
+        "southeast",
+        "southeast",
+        "Leinster"
+      ],
+      "voted_answer": "Leinster",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 262,
+      "question": "What NIFL Premier Intermediate League team did Sean Connor play for?",
+      "gold_answer": "Distillery",
+      "k_answers": [
+        "unknown",
+        "not enough information",
+        "unknown",
+        "Informations insuffisantes",
+        "Unknown"
+      ],
+      "voted_answer": "unknown",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 263,
+      "question": "Which character does this protagonist, who secretly loves and marries a member of the rival house, of William Shakespeare's tragedy that has a fictional character Benvolio slay?",
+      "gold_answer": "Tybalt",
+      "k_answers": [
+        "no such character",
+        "No one",
+        "Juliet",
+        "Romeo Montague",
+        "No character"
+      ],
+      "voted_answer": "no such character",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 265,
+      "question": "What, known as AAS, is commonly used in bodybuilding?",
+      "gold_answer": "Anabolic steroids",
+      "k_answers": [
+        "anabolic-androgenic steroid (AAS)",
+        "Anabolic-androgenic steroids",
+        "anabolic-androgenic steroids (AAS)",
+        "anabolic-androgenic steroids (AAS)",
+        "anabolic-androgenic steroids"
+      ],
+      "voted_answer": "Anabolic-androgenic steroids",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.5,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 267,
+      "question": "Candy Coburn has shared the stage with an American country music group with who playing guitar?",
+      "gold_answer": "Charles Kelley",
+      "k_answers": [
+        "unknown",
+        "unknown",
+        "Andy Childs",
+        "unknown",
+        "Andy Childs"
+      ],
+      "voted_answer": "unknown",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 273,
+      "question": "on 16 January 1995 \"First Knight\" was being filmed at a studio located how far from Windsor ?",
+      "gold_answer": "7 miles",
+      "k_answers": [
+        "approximately 30 miles",
+        "approximately 30 miles",
+        "approximately 20 miles",
+        "approximately 40 miles",
+        "23 miles"
+      ],
+      "voted_answer": "approximately 30 miles",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.4,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 275,
+      "question": "Marion Greene was a health policy analyst for St. Judt Medical company, which had how many principal operations worldwide?",
+      "gold_answer": "20",
+      "k_answers": [
+        "Information not provided",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "voted_answer": "unknown",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 279,
+      "question": "What type of magazine is Eugene Habecker the chairman of?",
+      "gold_answer": "evangelical Christian periodical",
+      "k_answers": [
+        "magazine",
+        "magazine",
+        "Christianity Today magazine",
+        "magazine",
+        "Christianity Today magazine"
+      ],
+      "voted_answer": "magazine",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 286,
+      "question": "Other than racing, what sport does the 1998 champion of the Toyota GRand Prix practice?",
+      "gold_answer": "paracyclist",
+      "k_answers": [
+        "kickboxing",
+        "course d'endurance",
+        "kickboxing",
+        "sports car racing",
+        "sports car racing"
+      ],
+      "voted_answer": "kickboxing",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 287,
+      "question": "Where did Ian Harland study prior to studying at the oldest college at the University of Cambridge?",
+      "gold_answer": "The Dragon School in Oxford",
+      "k_answers": [
+        "Peterhouse",
+        "Information not provided",
+        "No known college prior to Peterhouse",
+        "Scott Christian College",
+        "unknown"
+      ],
+      "voted_answer": "Peterhouse",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 290,
+      "question": "What record did the Super Bowl XXXIV champions finish the regular-season with in 1999?",
+      "gold_answer": "a record of 13–3",
+      "k_answers": [
+        "14-2",
+        "13-3",
+        "13-3",
+        "14-2",
+        "13-3"
+      ],
+      "voted_answer": "13-3",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 291,
+      "question": "What is the population of the town at the intersection of Interstate Highways 77 and  the longest Interstate highway within the borders of Virginia?",
+      "gold_answer": "8,211 at the 2010 census",
+      "k_answers": [
+        "Winchester",
+        "No specific population data is available for such an intersection",
+        "Boone, North Carolina",
+        "Roanoke",
+        "Christiansburg"
+      ],
+      "voted_answer": "Winchester",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 292,
+      "question": "What was the nickname of the hitman hired by an Italian American Criminal Organization?",
+      "gold_answer": "The Crowned Prince of the Philadelphia Mob",
+      "k_answers": [
+        "Big Pussy",
+        "Baldie",
+        "Crazy Jose",
+        "unknown",
+        "unknown from provided facts"
+      ],
+      "voted_answer": "Big Pussy",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 296,
+      "question": "The Church of the Guanche People was founded in the city that is on the most populated island of what larger area?",
+      "gold_answer": "Macaronesia",
+      "k_answers": [
+        "Canary Islands",
+        "Canary Islands",
+        "Canary Islands",
+        "Canary Islands",
+        "Canary Islands"
+      ],
+      "voted_answer": "Canary Islands",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 298,
+      "question": "The mass killing that took place at Oakland, California on April 2, 2012 was less deadly than the one that took place on October 1, 2015 in which state?",
+      "gold_answer": "Oregon",
+      "k_answers": [
+        "Oregon",
+        "Oregon",
+        "Louisiane",
+        "Oregon",
+        "Oregon"
+      ],
+      "voted_answer": "Oregon",
+      "agreement": 0.8,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "individual_ems": [
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 299,
+      "question": "When did the rock band that sang \"All Join Hands\" rise to prominence? ",
+      "gold_answer": "early 1970s",
+      "k_answers": [
+        "late 1960s - early 1970s",
+        "early 1970s",
+        "not applicable",
+        "1984",
+        "1980"
+      ],
+      "voted_answer": "late 1960s - early 1970s",
+      "agreement": 0.2,
+      "em_voted": true,
+      "f1_voted": 0.5714,
+      "individual_ems": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 300,
+      "question": "Where is the company that owns thanKing Horse pub restaurant chain based ?",
+      "gold_answer": "Bury St Edmunds,",
+      "k_answers": [
+        "Information not available in the provided facts",
+        "Unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "voted_answer": "Unknown",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 301,
+      "question": "What is the uppermost age range for the sort of fiction written by Alexander Gordon Smith?",
+      "gold_answer": "early 20s",
+      "k_answers": [
+        "ages 13-18",
+        "18",
+        "8 to 18 years",
+        "12-18",
+        "young adults"
+      ],
+      "voted_answer": "ages 13-18",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 302,
+      "question": "What is the birthday of the actress who was the Duchess in \"The Revengers Tragedy\"?",
+      "gold_answer": "23 November 1946",
+      "k_answers": [
+        "Information non disponible",
+        "Birthday not provided",
+        "unknown",
+        "unknown",
+        "Not provided"
+      ],
+      "voted_answer": "unknown",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 314,
+      "question": "How many days did it take the Best New Artist of 2009 to sell 2 million copies of an album in the UK and break a twenty year old record?",
+      "gold_answer": "29",
+      "k_answers": [
+        "16 days",
+        "82 days",
+        "three days",
+        "three days",
+        "three days"
+      ],
+      "voted_answer": "three days",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 315,
+      "question": "\"Ew!\" is a song by a television host born where?",
+      "gold_answer": "Bay Ridge, Brooklyn",
+      "k_answers": [
+        "New York City",
+        "Brooklyn, New York City",
+        "unknown",
+        "New York City",
+        "Brooklyn, New York"
+      ],
+      "voted_answer": "New York City",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 321,
+      "question": "What is the international football competition for women that Liu Ailing played in the 1991,1995, 1999 editions?",
+      "gold_answer": "international football competition",
+      "k_answers": [
+        "FIFA Women's World Cup",
+        "FIFA Women's World Cup",
+        "FIFA Women's World Cup",
+        "FIFA Women's World Cup",
+        "FIFA Women's World Cup"
+      ],
+      "voted_answer": "FIFA Women's World Cup",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 325,
+      "question": "Katherine Waterston and Chrisann Brennan has what in common?",
+      "gold_answer": "Steve Jobs",
+      "k_answers": [
+        "Katherine Waterston portrayed Chrisann Brennan",
+        "portrayed each other",
+        "portraying Chrisann Brennan",
+        "portrayal",
+        "both have a connection to Steve Jobs"
+      ],
+      "voted_answer": "Katherine Waterston portrayed Chrisann Brennan",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 326,
+      "question": "The voice of Homer Simpson also voices what alien character in the television series \"The Simpsons\"?",
+      "gold_answer": "Kodos",
+      "k_answers": [
+        "Picabo",
+        "Picabo",
+        "Picabo",
+        "unknown",
+        "Picabo"
+      ],
+      "voted_answer": "Picabo",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 327,
+      "question": "What studio album did Kanye West record with Roc-A-Fella Records and soul singer Dwele?",
+      "gold_answer": "My Beautiful Dark Twisted Fantasy",
+      "k_answers": [
+        "Graduation",
+        "Graduation",
+        "Graduation",
+        "Graduation",
+        "Graduation"
+      ],
+      "voted_answer": "Graduation",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 330,
+      "question": "Where is the singer of \"B Boy\" raised?",
+      "gold_answer": "Philadelphia",
+      "k_answers": [
+        "Inglewood, California",
+        "information not available",
+        "unknown",
+        "Los Angeles",
+        "Chicago"
+      ],
+      "voted_answer": "Inglewood, California",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 332,
+      "question": "The Ingerophrynus gollum is named after a character in a book that sold how many copies?",
+      "gold_answer": "150 million copies",
+      "k_answers": [
+        "unknown",
+        "over 100 million",
+        "unknown",
+        "Not specified",
+        "over 100 million copies"
+      ],
+      "voted_answer": "unknown",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 334,
+      "question": "Which case was decided first, Selle v. Gibb or Reynolds v. Sims?",
+      "gold_answer": "1964",
+      "k_answers": [
+        "Reynolds v. United States",
+        "Reynolds v. United States",
+        "Reynolds v. Sims",
+        "Reynolds v. Sims",
+        "Reynolds v. United States"
+      ],
+      "voted_answer": "Reynolds v. United States",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 340,
+      "question": "Who is the current drummer of the band who did the song \"What Lovers Do\"?",
+      "gold_answer": "Matt Flynn",
+      "k_answers": [
+        "Matt Flynn",
+        "Matt Flynn",
+        "Matt Flynn",
+        "Matt Flynn",
+        "Matt Flynn"
+      ],
+      "voted_answer": "Matt Flynn",
+      "agreement": 1.0,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "individual_ems": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 342,
+      "question": "Who was the president of the Sinn Fein political party during the Hume-Adams Dialogue?",
+      "gold_answer": "Gerard \"Gerry\" Adams",
+      "k_answers": [
+        "Gerry Adams",
+        "Gerry Adams",
+        "Gerry Adams",
+        "Gerry Adams",
+        "Gerry Adams"
+      ],
+      "voted_answer": "Gerry Adams",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.4,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 345,
+      "question": "Július Satinský was born in a city that has a current population of what?",
+      "gold_answer": "about 450,000",
+      "k_answers": [
+        "information not available",
+        "Not specified",
+        "Data unavailable",
+        "unknown",
+        "data not available"
+      ],
+      "voted_answer": "information not available",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 346,
+      "question": "What was the name of the 19th century foundry which was located in a village directly across the Hudson River from Westpoint in Putnam County, New York?",
+      "gold_answer": "West Point Iron and Cannon Foundry",
+      "k_answers": [
+        "West Point Foundry",
+        "West Point Foundry",
+        "West Point Foundry",
+        "West Point Foundry",
+        "West Point Foundry"
+      ],
+      "voted_answer": "West Point Foundry",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.6667,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 347,
+      "question": "What fictional character created by Tom Clancy was turned into a film in 2002?",
+      "gold_answer": "Jack Ryan",
+      "k_answers": [
+        "Sam Fisher",
+        "No direct film adaptation by 2002",
+        "Sam Fisher",
+        "Jack Ryan",
+        "Jack Ryan"
+      ],
+      "voted_answer": "Sam Fisher",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        true,
+        true
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 351,
+      "question": "Which playwright lived a longer life, Edward Albee or J. M. Barrie?",
+      "gold_answer": "Edward Franklin Albee III",
+      "k_answers": [
+        "Edward Albee",
+        "Edward Albee",
+        "Edward Albee",
+        "Edward Albee",
+        "Edward Albee"
+      ],
+      "voted_answer": "Edward Albee",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.6667,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 360,
+      "question": "The Waterloo Vase has been used as a garden ornament at whose residence and administrative headquarters?",
+      "gold_answer": "reigning monarch of the United Kingdom",
+      "k_answers": [
+        "Buckingham Palace",
+        "résidence de la reine d'Angleterre",
+        "Buckingham Palace",
+        "British Monarch",
+        "British monarch"
+      ],
+      "voted_answer": "Buckingham Palace",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 361,
+      "question": "Scott Sandelin grew up in a town in what Minnesota county?",
+      "gold_answer": "Saint Louis County",
+      "k_answers": [
+        "St. Louis County",
+        "Hibbing",
+        "St. Louis County",
+        "St. Louis County",
+        "Lake County"
+      ],
+      "voted_answer": "St. Louis County",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.6667,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 364,
+      "question": "Where did the architect of the Governor's House, located in Knutsford, graduate from college?",
+      "gold_answer": "Cambridge University",
+      "k_answers": [
+        "unknown",
+        "No college graduation information provided for Edmund Sharpe",
+        "Lancaster",
+        "Education details for Edmund Sharpe are not provided",
+        "Information not provided"
+      ],
+      "voted_answer": "unknown",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 374,
+      "question": "What year was the film \"Mom\" released, starring the voice of Shashaa Tirupati?",
+      "gold_answer": "2017",
+      "k_answers": [
+        "2017",
+        "1994",
+        "2017",
+        "2017",
+        "2017"
+      ],
+      "voted_answer": "2017",
+      "agreement": 0.8,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "individual_ems": [
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 375,
+      "question": "For One Night Only was hosted by the man most well-known for hosting what show from 1962 until 1999?",
+      "gold_answer": "The Late Late Show",
+      "k_answers": [
+        "Ben Shephard",
+        "Ant & Dec's Saturday Night Takeaway",
+        "Myleene Klass",
+        "Ant & Dec's Saturday Night Takeaway",
+        "This Morning"
+      ],
+      "voted_answer": "Ant & Dec's Saturday Night Takeaway",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 376,
+      "question": "What company did Roscoe Channing form with the owner of a leading stable of thoroughbred racehorses?",
+      "gold_answer": "Hudson Bay Mining and Smelting Company",
+      "k_answers": [
+        "Equix",
+        "Equix",
+        "Equix",
+        "No specific connection mentioned",
+        "Equix"
+      ],
+      "voted_answer": "Equix",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 378,
+      "question": "Which of the movie which has Rich Lee 3-D previsualizations was directed by Francis Lawrence?",
+      "gold_answer": "Constantine",
+      "k_answers": [
+        "none",
+        "The Hunger Games: Mockingjay – Part 2",
+        "None",
+        "The Hunger Games: Mockingjay – Part 1 and Mockingjay – Part 2",
+        "The Hunger Games: Mockingjay – Part 1 and Part 2"
+      ],
+      "voted_answer": "none",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 379,
+      "question": "What criteria subjectively qualifies the Houston Astrodome to be called the Eighth Wonder of the World?",
+      "gold_answer": "comparable to the seven Wonders of the World",
+      "k_answers": [
+        "First multi-purpose, domed sports stadium",
+        "innovative design and multipurpose use",
+        "Its status as the world's first multi-purpose, domed sports stadium",
+        "innovative multi-purpose domed design",
+        "innovative design and versatility"
+      ],
+      "voted_answer": "First multi-purpose, domed sports stadium",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 383,
+      "question": "What national historic district is located near a village in the town of Philipstown, New York?",
+      "gold_answer": "Valhalla Highlands Historic District",
+      "k_answers": [
+        "Cold Spring Historic District",
+        "Cold Spring Historic District",
+        "Cold Spring Historic District",
+        "Cold Spring Historic District",
+        "Cold Spring Historic District"
+      ],
+      "voted_answer": "Cold Spring Historic District",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.5,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 386,
+      "question": "Francisco Jose Hernandez was a participant in an invasion that took place in what year?",
+      "gold_answer": "1961",
+      "k_answers": [
+        "unknown",
+        "unknown",
+        "Not applicable",
+        "2001",
+        "Unknown"
+      ],
+      "voted_answer": "unknown",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 388,
+      "question": "The man, who the award in which \"Summer of the Monkeys\" won, was a spokesman for white sector of America?",
+      "gold_answer": "middle America",
+      "k_answers": [
+        "white",
+        "no",
+        "no",
+        "yes",
+        "yes"
+      ],
+      "voted_answer": "no",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 392,
+      "question": "What kind of movie directed by F. Javier gutierrez did an Italian model and actress star in?",
+      "gold_answer": "American supernatural psychological horror film",
+      "k_answers": [
+        "Gutierrez",
+        "thriller",
+        "Eleonora Pedron",
+        "Eleonora Pedron starred in 'Contratiempo'",
+        "thriller"
+      ],
+      "voted_answer": "thriller",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 394,
+      "question": "Who wrote The Devils, and was an eninent English theater, opera and film director?",
+      "gold_answer": "Peter Hall",
+      "k_answers": [
+        "No",
+        "F. W. Murnau",
+        "unidentified",
+        "no one",
+        "F.W. Murnau"
+      ],
+      "voted_answer": "No",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 397,
+      "question": "Which football team does Lewis Young's older brother, Ashley Young, play for?",
+      "gold_answer": "Premier League club Manchester United and the England national team",
+      "k_answers": [
+        "Manchester United",
+        "Manchester United",
+        "Manchester United",
+        "Manchester United",
+        "Aston Villa"
+      ],
+      "voted_answer": "Manchester United",
+      "agreement": 0.8,
+      "em_voted": true,
+      "f1_voted": 0.3636,
+      "individual_ems": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 399,
+      "question": "Wendy Ayche was featured in 2016 in an annual production created by Youtube and what other organization?",
+      "gold_answer": "Portal A Interactive",
+      "k_answers": [
+        "VEVO",
+        "YouTube",
+        "Youtube",
+        "YouTube",
+        "YouTube"
+      ],
+      "voted_answer": "YouTube",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 400,
+      "question": "John MacGregor, Baron MacGregor of Pulham Market was educated at the University of St Andrews and another university established by what monach?",
+      "gold_answer": "King George IV",
+      "k_answers": [
+        "King David I",
+        "King David I",
+        "King David I",
+        "King David I",
+        "not specified"
+      ],
+      "voted_answer": "King David I",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.3333,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 403,
+      "question": "The Indian actor and philanthropist, who starred in \"Mera Damad,\" entered the film industry in what year?",
+      "gold_answer": "1977",
+      "k_answers": [
+        "1973",
+        "1973",
+        "1973",
+        "1973",
+        "1973"
+      ],
+      "voted_answer": "1973",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 404,
+      "question": "The Jeep Cherokee was originally sold as a variant of a Jeep model produced during what years?",
+      "gold_answer": "1963 to 1991",
+      "k_answers": [
+        "1974–1983",
+        "1974-1983",
+        "1983-2001",
+        "1983–2001",
+        "1983-2001"
+      ],
+      "voted_answer": "1983-2001",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 405,
+      "question": "Where was the person born who was recognized by MIAL and is an American soprano?",
+      "gold_answer": "Laurel, Mississippi",
+      "k_answers": [
+        "Not specified",
+        "États-Unis",
+        "United States",
+        "Unknown from given data",
+        "not specified"
+      ],
+      "voted_answer": "Not specified",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 406,
+      "question": "Which magazine is older, Gallery or Dime Magazine?",
+      "gold_answer": "arose on the \"Playboy\" magazine pattern in the 1970s.",
+      "k_answers": [
+        "Not enough information to determine",
+        "dime novel",
+        "Dime Magazine",
+        "Dime Magazine",
+        "Dime Magazine"
+      ],
+      "voted_answer": "Dime Magazine",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.2222,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 408,
+      "question": "How large is the shopping mall where KGOT radio station has its studios ?",
+      "gold_answer": "728,000 ft²",
+      "k_answers": [
+        "unknown",
+        "unknown",
+        "not applicable",
+        "unknown",
+        "unknown"
+      ],
+      "voted_answer": "unknown",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 416,
+      "question": "The Bart the Fink episode of The Simpsons aired in February of 1996, and involves the host of which kiddie show?",
+      "gold_answer": "The Itchy & Scratchy Show",
+      "k_answers": [
+        "Krusty the Clown",
+        "The Krusty the Clown Show",
+        "Krusty the Clown",
+        "Krusty the Clown",
+        "Krusty the Clown"
+      ],
+      "voted_answer": "Krusty the Clown",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 419,
+      "question": "What is the 2010 population of the city 2.1 miles southwest of Marietta Air Force Station?",
+      "gold_answer": "51,271",
+      "k_answers": [
+        "unknown",
+        "Smyrna",
+        "53,349",
+        "53,492",
+        "Atlanta, 420,003"
+      ],
+      "voted_answer": "unknown",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 422,
+      "question": "How many novels are there in the series of novels of which Shadows in Flight is the tenth novel ?",
+      "gold_answer": "fifteen",
+      "k_answers": [
+        "10",
+        "14 novels",
+        "10",
+        "at least 10",
+        "at least 10"
+      ],
+      "voted_answer": "10",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 423,
+      "question": "One of the coaches of Southern Methodist University also played what role at the Arizona State Sun Devils?",
+      "gold_answer": "defensive coordinator",
+      "k_answers": [
+        "head coach",
+        "head coach",
+        "Assistant Coach",
+        "head coach",
+        "Assistant Coach"
+      ],
+      "voted_answer": "head coach",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 424,
+      "question": "What is the height of the player who won the 2015 AFL Rising Star award?",
+      "gold_answer": "1.95 m",
+      "k_answers": [
+        "unknown",
+        "unknown",
+        "Unknown based on provided facts",
+        "unknown",
+        "The facts provided do not mention who won the 2015 AFL Rising Star award, so it cannot be determined from the given information."
+      ],
+      "voted_answer": "unknown",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 429,
+      "question": "Season 2 of Rick and Morty began with the episode directed by whom?",
+      "gold_answer": "Wes Archer",
+      "k_answers": [
+        "John Rice",
+        "John Rice",
+        "John Rice",
+        "John Rice",
+        "John Rice"
+      ],
+      "voted_answer": "John Rice",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 432,
+      "question": "Who has more scope of profession, Phil Rosen or  Delmer Daves?",
+      "gold_answer": "Delmer Lawrence Daves",
+      "k_answers": [
+        "Delmer Daves",
+        "Delmer Daves",
+        "Delmer Daves",
+        "Delmer Daves",
+        "Delmer Daves"
+      ],
+      "voted_answer": "Delmer Daves",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.8,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 435,
+      "question": "How long is the river for which Frenchmans Creek is a tributary?",
+      "gold_answer": "2844 km",
+      "k_answers": [
+        "7.51 km",
+        "7.51 km",
+        "7.51 km",
+        "7.51 km",
+        "7.51 km"
+      ],
+      "voted_answer": "7.51 km",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.5,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 442,
+      "question": "What book provided the foundation for Masters and Johnson's research team?",
+      "gold_answer": "Patterns of Sexual Behavior",
+      "k_answers": [
+        "not specified in provided facts",
+        "non mentionné",
+        "non fourni",
+        "pas de livre spécifié",
+        "non précisé"
+      ],
+      "voted_answer": "not specified in provided facts",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 445,
+      "question": "Mick Carter is the landlord of a public house located at what address?",
+      "gold_answer": "46 Albert Square, Walford, London E20",
+      "k_answers": [
+        "address not specified",
+        "not specified",
+        "The Queen Victoria public house",
+        "The Queen Victoria",
+        "not specified"
+      ],
+      "voted_answer": "not specified",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 446,
+      "question": "What television thriller anthology did the winner of one Golden Globe, two tony Awards and six Primetime Emmy Awards appear on?",
+      "gold_answer": "Darkroom",
+      "k_answers": [
+        "The Twilight Zone",
+        "American Horror Story",
+        "Fargo",
+        "American Horror Story",
+        "American Horror Story"
+      ],
+      "voted_answer": "American Horror Story",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 448,
+      "question": "What is the name of the film starring Rose McGowan and features the character Earl McGraw's daughter?",
+      "gold_answer": "Planet Terror",
+      "k_answers": [
+        "Planet Terror",
+        "The Grindhouse films",
+        "Planet Terror",
+        "Planet Terror",
+        "Planet Terror"
+      ],
+      "voted_answer": "Planet Terror",
+      "agreement": 0.8,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "individual_ems": [
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 453,
+      "question": "What was position of the man who served Prince Andrew from 1990-2001? ",
+      "gold_answer": "Private Secretary and Treasurer",
+      "k_answers": [
+        "Head Barman",
+        "Joe Gilmore",
+        "Head Barman",
+        "Head Barman",
+        "Captain General Royal Marines"
+      ],
+      "voted_answer": "Head Barman",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 456,
+      "question": "Who was born first Mahbub ul Haq or Ibn Arabi?",
+      "gold_answer": "ibnʿArabī",
+      "k_answers": [
+        "Ibn Arabi",
+        "Ibn Arabi",
+        "Ibn Arabi",
+        "Ibn Arabi",
+        "Ibn Arabi"
+      ],
+      "voted_answer": "Ibn Arabi",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 457,
+      "question": "What does the goddess associated with the goddess frigg  consists of what tales?",
+      "gold_answer": "various deities, beings, and heroes",
+      "k_answers": [
+        "Frigg tales involve her residence (Fensalir), potential connections to Sága and Hlín, medical associations with Eir, service by Gná, and involvement in Baldr's story through Nanna.",
+        "Fensalir, associations with Sága and Hlín, Fulla’s service, Eir's theory as a form of Frigg, Gná’s errand running",
+        "Fensalir, Hlín, Fulla, Eir, Gná",
+        "Poetic Edda, Prose Edda",
+        "Fensalir, Sökkvabekkr (Sága), Hlín, Fulla, Eir, Gná"
+      ],
+      "voted_answer": "Frigg tales involve her residence (Fensalir), potential connections to Sága and Hlín, medical associations with Eir, service by Gná, and involvement in Baldr's story through Nanna.",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.129,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 459,
+      "question": "William Pery served as Captain of the Yeomen of the Guard under the lord who served in what position from 1865 to 1868?",
+      "gold_answer": "Viscount Cranborne",
+      "k_answers": [
+        "Prime Minister",
+        "Chief Secretary for Ireland",
+        "Captain of the Yeomen of the Guard",
+        "Captain of the Yeomen of the Guard",
+        "Captain of the Yeomen of the Guard"
+      ],
+      "voted_answer": "Captain of the Yeomen of the Guard",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 460,
+      "question": " William Cammisano was part of which Mafia family?",
+      "gold_answer": "Kansas City crime family",
+      "k_answers": [
+        "unknown",
+        "inconnu",
+        "unknown",
+        "unknown",
+        "inconnu"
+      ],
+      "voted_answer": "unknown",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 462,
+      "question": "When did the game which held three times in  in East Asia first held ",
+      "gold_answer": "in 1896",
+      "k_answers": [
+        "2003",
+        "2003",
+        "2003",
+        "2003",
+        "2003"
+      ],
+      "voted_answer": "2003",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 466,
+      "question": "How are elephants connected to Gajabrishta?",
+      "gold_answer": "Sanskrit",
+      "k_answers": [
+        "Gajabrishti est lié par le terme sanskrit pour éléphant",
+        "Indian astrology",
+        "symbolic representation",
+        "astrological influence",
+        "Gajabrishta connects elephants to the astrological influence of Jupiter"
+      ],
+      "voted_answer": "Gajabrishti est lié par le terme sanskrit pour éléphant",
+      "agreement": 0.2,
+      "em_voted": true,
+      "f1_voted": 0.2222,
+      "individual_ems": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 472,
+      "question": "Eric Ambler and Carol Shields are both best Known for what profession?",
+      "gold_answer": "author",
+      "k_answers": [
+        "writers",
+        "novelists",
+        "writers",
+        "novelist",
+        "novelist"
+      ],
+      "voted_answer": "writers",
+      "agreement": 0.4,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 475,
+      "question": "Which American cable news and talk radio host was the former GOP representative",
+      "gold_answer": "Charles Joseph",
+      "k_answers": [
+        "Charles Joseph Scarborough",
+        "Charles Joseph Scarborough",
+        "Joe Scarborough",
+        "Charles Joseph Scarborough",
+        "Charles Joseph Scarborough"
+      ],
+      "voted_answer": "Charles Joseph Scarborough",
+      "agreement": 0.8,
+      "em_voted": true,
+      "f1_voted": 0.8,
+      "individual_ems": [
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 482,
+      "question": "How did Emilie du Chatelet, Voltaire's love, contribute to the basic laws of physics?",
+      "gold_answer": "commentary on Isaac Newton's book \"Principia\"",
+      "k_answers": [
+        "translated and commented on Newton's Principia, contributing a conservation law for total energy",
+        "additional conservation law for total energy",
+        "commentary on Newton's Principia",
+        "contribution to Newtonian mechanics",
+        "Conservation of total energy"
+      ],
+      "voted_answer": "translated and commented on Newton's Principia, contributing a conservation law for total energy",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.2222,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 485,
+      "question": "In what year was the team that Luke Clark plays either right back or central midfielder for founded?",
+      "gold_answer": "1963",
+      "k_answers": [
+        "2007",
+        "1924",
+        "1977",
+        "1898",
+        "2008"
+      ],
+      "voted_answer": "2007",
+      "agreement": 0.2,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 487,
+      "question": "A puzzle-platform video game developed by the Valve Corporation is part of what 2012 action-adventure game?",
+      "gold_answer": "Gateways",
+      "k_answers": [
+        "Aperture Tag: The Paint Gun Testing Initiative",
+        "Portal 2",
+        "Portal 2",
+        "Portal 2",
+        "none"
+      ],
+      "voted_answer": "Portal 2",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 488,
+      "question": "What produces the hormone that promotes sodium retention in the distal nephron?",
+      "gold_answer": "zona glomerulosa",
+      "k_answers": [
+        "adrenal cortex",
+        "Angiotensin",
+        "angiotensin",
+        "renin-angiotensin system",
+        "angiotensin"
+      ],
+      "voted_answer": "Angiotensin",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 493,
+      "question": "After he was contracted by the team that is headquartered in Affalterbach, Baden-Württemberg, Germany, Dario Franchitti competed in what series?",
+      "gold_answer": "DTM",
+      "k_answers": [
+        "IndyCar Series",
+        "IRL IndyCar Series",
+        "IndyCar Series",
+        "IndyCar Series",
+        "IndyCar Series"
+      ],
+      "voted_answer": "IndyCar Series",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 496,
+      "question": "Anthony Avent played basketball fo a High School that is located in a city approcimately 8 mi west of where?",
+      "gold_answer": "lower Manhattan",
+      "k_answers": [
+        "Trenton, New Jersey",
+        "No exact city 8 mi west",
+        "Trenton",
+        "Trenton",
+        "Trenton"
+      ],
+      "voted_answer": "Trenton",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    },
+    {
+      "idx": 497,
+      "question": "What edition of tennis' US Open was the 2017 US Open when Petra Kvitova was a quarterfinalist?",
+      "gold_answer": "137th",
+      "k_answers": [
+        "137th edition",
+        "141st",
+        "141st",
+        "42ème édition",
+        "141st"
+      ],
+      "voted_answer": "141st",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "individual_ems": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": true
+    },
+    {
+      "idx": 498,
+      "question": "Walt Zeboski photographed which 40th President during his campaign in 1980?",
+      "gold_answer": "Ronald Wilson Reagan",
+      "k_answers": [
+        "Ronald Reagan",
+        "Ronald Reagan",
+        "Ronald Reagan",
+        "Ronald Reagan",
+        "Ronald Reagan"
+      ],
+      "voted_answer": "Ronald Reagan",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.8,
+      "individual_ems": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "any_correct": false
+    }
+  ],
+  "run": 0
+}

@@ -1,0 +1,990 @@
+{
+  "mode": "cascade",
+  "models": [
+    "phi4:latest",
+    "gpt-oss:20b"
+  ],
+  "k": 5,
+  "temperature": 0.7,
+  "threshold_high": 0.8,
+  "threshold_low": 0.4,
+  "n": 40,
+  "em_voted": 0.525,
+  "em_ci": [
+    0.375,
+    0.675
+  ],
+  "f1_voted": 0.5274,
+  "f1_ci": [
+    0.3817,
+    0.6721
+  ],
+  "oracle_k": 0.75,
+  "oracle_ci": [
+    0.625,
+    0.875
+  ],
+  "agreement_avg": 0.85,
+  "routing_stats": {
+    "primary_accepted": 21,
+    "rerouted": 19,
+    "uncertain": 0,
+    "pct_rerouted": 47.5
+  },
+  "details": [
+    {
+      "idx": 0,
+      "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+      "gold_answer": "yes",
+      "primary_answers": [
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "primary_agreement": 1.0,
+      "fallback_answers": [],
+      "route": "primary",
+      "used_model": "phi4:latest",
+      "voted_answer": "yes",
+      "agreement": 1.0,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "any_correct": true
+    },
+    {
+      "idx": 1,
+      "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+      "gold_answer": "Chief of Protocol",
+      "primary_answers": [
+        "none",
+        "Secretary of State for Constitutional Affairs",
+        "none",
+        "United States Representative",
+        "no official government position"
+      ],
+      "primary_agreement": 0.4,
+      "fallback_answers": [
+        "None",
+        "none",
+        "U.S. Ambassador to Czechoslovakia",
+        "none",
+        "None"
+      ],
+      "route": "rerouted",
+      "used_model": "gpt-oss:20b",
+      "voted_answer": "None",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "any_correct": false
+    },
+    {
+      "idx": 2,
+      "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+      "gold_answer": "Animorphs",
+      "primary_answers": [
+        "Animorphs",
+        "Animorphs",
+        "Animorphs",
+        "Animorphs",
+        "Animorphs"
+      ],
+      "primary_agreement": 1.0,
+      "fallback_answers": [],
+      "route": "primary",
+      "used_model": "phi4:latest",
+      "voted_answer": "Animorphs",
+      "agreement": 1.0,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "any_correct": true
+    },
+    {
+      "idx": 3,
+      "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+      "gold_answer": "no",
+      "primary_answers": [
+        "no",
+        "no",
+        "non",
+        "no",
+        "no"
+      ],
+      "primary_agreement": 0.8,
+      "fallback_answers": [],
+      "route": "primary",
+      "used_model": "phi4:latest",
+      "voted_answer": "no",
+      "agreement": 0.8,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "any_correct": true
+    },
+    {
+      "idx": 4,
+      "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+      "gold_answer": "Greenwich Village, New York City",
+      "primary_answers": [
+        "Manhattan/Brooklyn (inferred)",
+        "unknown",
+        "New York City",
+        "New York City",
+        "Not explicitly stated; likely New York City due to common industry practices"
+      ],
+      "primary_agreement": 0.4,
+      "fallback_answers": [
+        "Brooklyn",
+        "New York City",
+        "New York City",
+        "Unknown",
+        "New York City"
+      ],
+      "route": "rerouted",
+      "used_model": "gpt-oss:20b",
+      "voted_answer": "New York City",
+      "agreement": 0.6,
+      "em_voted": true,
+      "f1_voted": 0.75,
+      "any_correct": true
+    },
+    {
+      "idx": 5,
+      "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+      "gold_answer": "YG Entertainment",
+      "primary_answers": [
+        "J. Tune Camp",
+        "J. Tune Camp",
+        "J. Tune Camp",
+        "J. Tune Camp",
+        "J. Tune Camp"
+      ],
+      "primary_agreement": 1.0,
+      "fallback_answers": [],
+      "route": "primary",
+      "used_model": "phi4:latest",
+      "voted_answer": "J. Tune Camp",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "any_correct": false
+    },
+    {
+      "idx": 6,
+      "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+      "gold_answer": "Eenasul Fateh",
+      "primary_answers": [
+        "Eenasul Fateh",
+        "Eenasul Fateh (stage name: Aladin)",
+        "Eenasul Fateh",
+        "Eenasul Fateh",
+        "Eenasul Fateh"
+      ],
+      "primary_agreement": 0.8,
+      "fallback_answers": [],
+      "route": "primary",
+      "used_model": "phi4:latest",
+      "voted_answer": "Eenasul Fateh",
+      "agreement": 0.8,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "any_correct": true
+    },
+    {
+      "idx": 7,
+      "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+      "gold_answer": "3,677 seated",
+      "primary_answers": [
+        "unknown",
+        "not specified",
+        "not specified",
+        "unknown",
+        "Unknown"
+      ],
+      "primary_agreement": 0.6,
+      "fallback_answers": [
+        "4,000",
+        "5,000",
+        "5,000",
+        "4,000",
+        "5,300"
+      ],
+      "route": "rerouted",
+      "used_model": "phi4:latest",
+      "voted_answer": "unknown",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "any_correct": false
+    },
+    {
+      "idx": 8,
+      "question": "Who is older, Annie Morton or Terry Richardson?",
+      "gold_answer": "Terry Richardson",
+      "primary_answers": [
+        "Annie Morton",
+        "Terry Richardson",
+        "Annie Morton",
+        "Terry Richardson",
+        "Annie Morton"
+      ],
+      "primary_agreement": 0.6,
+      "fallback_answers": [
+        "Annie Morton",
+        "Annie Morton",
+        "Annie Morton",
+        "Terry Richardson",
+        "unknown"
+      ],
+      "route": "rerouted",
+      "used_model": "phi4:latest",
+      "voted_answer": "Annie Morton",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "any_correct": true
+    },
+    {
+      "idx": 9,
+      "question": "Are Local H and For Against both from the United States?",
+      "gold_answer": "yes",
+      "primary_answers": [
+        "yes",
+        "unknown",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "primary_agreement": 0.8,
+      "fallback_answers": [],
+      "route": "primary",
+      "used_model": "phi4:latest",
+      "voted_answer": "yes",
+      "agreement": 0.8,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "any_correct": true
+    },
+    {
+      "idx": 10,
+      "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+      "gold_answer": "Kansas Song",
+      "primary_answers": [
+        "Rock Chalk, Jayhawk",
+        "Rock Chalk, Jayhawk",
+        "Rock Chalk Jayhawk",
+        "Rock Chalk Jayhawk",
+        "Rock Chalk Jayhawk"
+      ],
+      "primary_agreement": 0.6,
+      "fallback_answers": [
+        "I'm a Jayhawk",
+        "K.U. Fight Song",
+        "The University of Kansas Fight Song",
+        "The KU Fight Song",
+        "I'm a Jayhawk"
+      ],
+      "route": "rerouted",
+      "used_model": "phi4:latest",
+      "voted_answer": "Rock Chalk Jayhawk",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "any_correct": true
+    },
+    {
+      "idx": 11,
+      "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and Téa Leoni?",
+      "gold_answer": "David Weissman",
+      "primary_answers": [
+        "David Diamond",
+        "Scott Rosenberg",
+        "David Diamond and David Weissman",
+        "David Diamond and David Weissman",
+        "no"
+      ],
+      "primary_agreement": 0.4,
+      "fallback_answers": [
+        "David Diamond",
+        "David Diamond",
+        "David Diamond",
+        "David Diamond",
+        "{\"reasoning_chain\":[\"Evolution was written by Ivan Reitman and David Zucker.\",\"The only film starring both Nicolas Cage and Téa Leoni is The Family Man.\",\"The Family Man was written by David Diamond and David Weissman.\",\"None of the writers of Evolution (Reitman or Zucker) are listed as writers of The Family Man.\",\"Therefore no Evolution writer co‑wrote a Cage/Leoni film.\",\"answer\",\"none\"]}"
+      ],
+      "route": "rerouted",
+      "used_model": "gpt-oss:20b",
+      "voted_answer": "David Diamond",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.5,
+      "any_correct": true
+    },
+    {
+      "idx": 12,
+      "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+      "gold_answer": "1999",
+      "primary_answers": [
+        "no specific year; they did not perform explicitly for 'End of Days' promotion",
+        "1999",
+        "1999",
+        "1999",
+        "1999"
+      ],
+      "primary_agreement": 0.8,
+      "fallback_answers": [],
+      "route": "primary",
+      "used_model": "phi4:latest",
+      "voted_answer": "1999",
+      "agreement": 0.8,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "any_correct": true
+    },
+    {
+      "idx": 13,
+      "question": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+      "gold_answer": "no",
+      "primary_answers": [
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "primary_agreement": 1.0,
+      "fallback_answers": [],
+      "route": "primary",
+      "used_model": "phi4:latest",
+      "voted_answer": "yes",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "any_correct": false
+    },
+    {
+      "idx": 14,
+      "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+      "gold_answer": "from 1986 to 2013",
+      "primary_answers": [
+        "1986 to 2013",
+        "1986–2013",
+        "1986 to 2013",
+        "1986 to 2013",
+        "1986 to 2013"
+      ],
+      "primary_agreement": 0.8,
+      "fallback_answers": [],
+      "route": "primary",
+      "used_model": "phi4:latest",
+      "voted_answer": "1986 to 2013",
+      "agreement": 0.8,
+      "em_voted": true,
+      "f1_voted": 0.8571,
+      "any_correct": true
+    },
+    {
+      "idx": 15,
+      "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+      "gold_answer": "9,984",
+      "primary_answers": [
+        "approximately 331 million",
+        "approximately 331 million",
+        "approximately 331 million",
+        "approximately 331 million",
+        "approximately 331 million"
+      ],
+      "primary_agreement": 1.0,
+      "fallback_answers": [],
+      "route": "primary",
+      "used_model": "phi4:latest",
+      "voted_answer": "approximately 331 million",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "any_correct": false
+    },
+    {
+      "idx": 16,
+      "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+      "gold_answer": "the North Atlantic Conference",
+      "primary_answers": [
+        "Atlantic 10 Conference",
+        "North Atlantic Conference",
+        "Yankee Conference",
+        "Atlantic Ten",
+        "Atlantic Ten"
+      ],
+      "primary_agreement": 0.4,
+      "fallback_answers": [
+        "North Atlantic Conference",
+        "North Atlantic Conference",
+        "North Atlantic Conference",
+        "Eastern Collegiate Soccer Conference",
+        "America East Conference"
+      ],
+      "route": "rerouted",
+      "used_model": "gpt-oss:20b",
+      "voted_answer": "North Atlantic Conference",
+      "agreement": 0.6,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "any_correct": true
+    },
+    {
+      "idx": 17,
+      "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+      "gold_answer": "yes",
+      "primary_answers": [
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "primary_agreement": 1.0,
+      "fallback_answers": [],
+      "route": "primary",
+      "used_model": "phi4:latest",
+      "voted_answer": "yes",
+      "agreement": 1.0,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "any_correct": true
+    },
+    {
+      "idx": 18,
+      "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+      "gold_answer": "1969 until 1974",
+      "primary_answers": [
+        "1969-1974",
+        "1969-1974",
+        "1969-1974",
+        "1969-1974",
+        "1969-1974"
+      ],
+      "primary_agreement": 1.0,
+      "fallback_answers": [],
+      "route": "primary",
+      "used_model": "phi4:latest",
+      "voted_answer": "1969-1974",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "any_correct": false
+    },
+    {
+      "idx": 19,
+      "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+      "gold_answer": "Robert Erskine Childers DSC",
+      "primary_answers": [
+        "Robert Erskine Childers",
+        "Robert Erskine Childers",
+        "Robert Erskine Childers",
+        "Robert Erskine Childers",
+        "Robert Erskine Childers"
+      ],
+      "primary_agreement": 1.0,
+      "fallback_answers": [],
+      "route": "primary",
+      "used_model": "phi4:latest",
+      "voted_answer": "Robert Erskine Childers",
+      "agreement": 1.0,
+      "em_voted": true,
+      "f1_voted": 0.8571,
+      "any_correct": true
+    },
+    {
+      "idx": 20,
+      "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+      "gold_answer": "Pedro Rodríguez",
+      "primary_answers": [
+        "Sergio Pérez",
+        "Sergio Pérez",
+        "Eduardo Troconis",
+        "Eduardo Troconis",
+        "Eduardo Troconis"
+      ],
+      "primary_agreement": 0.6,
+      "fallback_answers": [
+        "Esteban Gutiérrez",
+        "Pedro Rodríguez",
+        "none",
+        "none",
+        "Pedro Rodríguez"
+      ],
+      "route": "rerouted",
+      "used_model": "phi4:latest",
+      "voted_answer": "Eduardo Troconis",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "any_correct": true
+    },
+    {
+      "idx": 21,
+      "question": "This singer of A Rather Blustery Day also voiced what hedgehog?",
+      "gold_answer": "Sonic",
+      "primary_answers": [
+        "Tigger",
+        "Sonic",
+        "Tigger",
+        "Tigger",
+        "Kate Higgins"
+      ],
+      "primary_agreement": 0.6,
+      "fallback_answers": [
+        "Tails",
+        "Tails",
+        "Sonic",
+        "Tails",
+        "Sonic"
+      ],
+      "route": "rerouted",
+      "used_model": "phi4:latest",
+      "voted_answer": "Tigger",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "any_correct": true
+    },
+    {
+      "idx": 22,
+      "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+      "gold_answer": "keyboard function keys",
+      "primary_answers": [
+        "Universal remote",
+        "Macintosh computers, Apple TV",
+        "Macintosh computers, Apple TV",
+        "iTunes, iPhoto, and Macintosh computer keyboards",
+        "keyboard function keys"
+      ],
+      "primary_agreement": 0.4,
+      "fallback_answers": [
+        "keyboard function keys",
+        "keyboard function keys",
+        "keyboard function keys",
+        "keyboard function keys",
+        "keyboard function keys"
+      ],
+      "route": "rerouted",
+      "used_model": "gpt-oss:20b",
+      "voted_answer": "keyboard function keys",
+      "agreement": 1.0,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "any_correct": true
+    },
+    {
+      "idx": 23,
+      "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
+      "gold_answer": "Badly Drawn Boy",
+      "primary_answers": [
+        "Badly Drawn Boy",
+        "Badly Drawn Boy",
+        "Badly Drawn Boy",
+        "Badly Drawn Boy",
+        "Badly Drawn Boy"
+      ],
+      "primary_agreement": 1.0,
+      "fallback_answers": [],
+      "route": "primary",
+      "used_model": "phi4:latest",
+      "voted_answer": "Badly Drawn Boy",
+      "agreement": 1.0,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "any_correct": true
+    },
+    {
+      "idx": 24,
+      "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+      "gold_answer": "World's Best Goalkeeper",
+      "primary_answers": [
+        "IFFHS World's Best Goalkeeper",
+        "World's Best Goalkeeper",
+        "World's Best Goalkeeper",
+        "World's Best Goalkeeper",
+        "IFFHS World's Best Goalkeeper"
+      ],
+      "primary_agreement": 0.6,
+      "fallback_answers": [
+        "World's Best Goalkeeper",
+        "World's Best Goalkeeper",
+        "World's Best Goalkeeper",
+        "World’s Best Goalkeeper",
+        "World's Best Goalkeeper"
+      ],
+      "route": "rerouted",
+      "used_model": "gpt-oss:20b",
+      "voted_answer": "World's Best Goalkeeper",
+      "agreement": 0.8,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "any_correct": true
+    },
+    {
+      "idx": 25,
+      "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+      "gold_answer": "Barton Lee Hazlewood",
+      "primary_answers": [
+        "ning_chain\": [\"'These Boots Are Made for Walkin\\\\\"] \t}",
+        "Lee Hazlewood; James A. Shoulders",
+        "ning_chain\": [\"'These Boots Are Made for Walkin\\\\\"  \t\t\t   \t]",
+        "Lee Hazlewood, James A. Shoulders",
+        "Lee Hazlewood; James A. Shoulders"
+      ],
+      "primary_agreement": 0.4,
+      "fallback_answers": [
+        "Lee Hazlewood",
+        "Lee Hazlewood",
+        "Lee Hazlewood",
+        "Lee Hazlewood",
+        "Lee Hazlewood"
+      ],
+      "route": "rerouted",
+      "used_model": "gpt-oss:20b",
+      "voted_answer": "Lee Hazlewood",
+      "agreement": 1.0,
+      "em_voted": true,
+      "f1_voted": 0.8,
+      "any_correct": true
+    },
+    {
+      "idx": 26,
+      "question": "The 2011–12 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+      "gold_answer": "1838",
+      "primary_answers": [
+        "1838",
+        "Founded in 1838",
+        "1839",
+        "1968",
+        "1968"
+      ],
+      "primary_agreement": 0.4,
+      "fallback_answers": [
+        "1968",
+        "1968",
+        "1968",
+        "1968",
+        "1968"
+      ],
+      "route": "rerouted",
+      "used_model": "gpt-oss:20b",
+      "voted_answer": "1968",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "any_correct": true
+    },
+    {
+      "idx": 27,
+      "question": "Are both Dictyosperma, and Huernia described as a genus?",
+      "gold_answer": "yes",
+      "primary_answers": [
+        "only Huernia",
+        "only Huernia is described as a genus",
+        "only Huernia",
+        "only Huernia",
+        "only Huernia"
+      ],
+      "primary_agreement": 0.8,
+      "fallback_answers": [],
+      "route": "primary",
+      "used_model": "phi4:latest",
+      "voted_answer": "only Huernia",
+      "agreement": 0.8,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "any_correct": false
+    },
+    {
+      "idx": 28,
+      "question": "Kaiser Ventures corporation was founded by an American industrialist who became known as the father of modern American shipbuilding?",
+      "gold_answer": "Henry J. Kaiser",
+      "primary_answers": [
+        "American",
+        "Henry J. Kaiser",
+        "Henry J. Kaiser",
+        "American",
+        "American"
+      ],
+      "primary_agreement": 0.6,
+      "fallback_answers": [
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "route": "rerouted",
+      "used_model": "gpt-oss:20b",
+      "voted_answer": "yes",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "any_correct": true
+    },
+    {
+      "idx": 29,
+      "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+      "gold_answer": "Arena of Khazan",
+      "primary_answers": [
+        "not specified",
+        "Not specified in the given facts",
+        "Crusaders of Khazan",
+        "Crusaders of Khazan",
+        "Caverns of Thracia"
+      ],
+      "primary_agreement": 0.4,
+      "fallback_answers": [
+        "Crusaders of Khazan",
+        "Crusaders of Khazan",
+        "Crusaders of Khazan",
+        "Crusaders of Khazan",
+        "Crusaders of Khazan"
+      ],
+      "route": "rerouted",
+      "used_model": "gpt-oss:20b",
+      "voted_answer": "Crusaders of Khazan",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.6667,
+      "any_correct": false
+    },
+    {
+      "idx": 30,
+      "question": "When was Poison's album \"Shut Up, Make Love\" released?",
+      "gold_answer": "2000",
+      "primary_answers": [
+        "March 14, 2000",
+        "March 14, 2000",
+        "March 14, 2000",
+        "March 14, 2000",
+        "March 14, 2000"
+      ],
+      "primary_agreement": 1.0,
+      "fallback_answers": [],
+      "route": "primary",
+      "used_model": "phi4:latest",
+      "voted_answer": "March 14, 2000",
+      "agreement": 1.0,
+      "em_voted": true,
+      "f1_voted": 0.5,
+      "any_correct": true
+    },
+    {
+      "idx": 31,
+      "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+      "gold_answer": "Fujioka, Gunma",
+      "primary_answers": [
+        "Japan",
+        "Japan",
+        "Japan",
+        "Japan",
+        "Japan"
+      ],
+      "primary_agreement": 1.0,
+      "fallback_answers": [],
+      "route": "primary",
+      "used_model": "phi4:latest",
+      "voted_answer": "Japan",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "any_correct": false
+    },
+    {
+      "idx": 32,
+      "question": "Which  French ace pilot and adventurer fly L'Oiseau Blanc",
+      "gold_answer": "Charles Eugène",
+      "primary_answers": [
+        "Charles Nungesser",
+        "Charles Nungesser",
+        "Charles Nungesser",
+        "Charles Nungesser",
+        "Charles Nungesser"
+      ],
+      "primary_agreement": 1.0,
+      "fallback_answers": [],
+      "route": "primary",
+      "used_model": "phi4:latest",
+      "voted_answer": "Charles Nungesser",
+      "agreement": 1.0,
+      "em_voted": false,
+      "f1_voted": 0.5,
+      "any_correct": false
+    },
+    {
+      "idx": 33,
+      "question": "Are Freakonomics and In the Realm of the Hackers both American documentaries?",
+      "gold_answer": "no",
+      "primary_answers": [
+        "no",
+        "no",
+        "no",
+        "no",
+        "no"
+      ],
+      "primary_agreement": 1.0,
+      "fallback_answers": [],
+      "route": "primary",
+      "used_model": "phi4:latest",
+      "voted_answer": "no",
+      "agreement": 1.0,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "any_correct": true
+    },
+    {
+      "idx": 34,
+      "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+      "gold_answer": "Letters to Cleo",
+      "primary_answers": [
+        "Letters to Cleo",
+        "same",
+        "Screaming Trees",
+        "Screaming Trees",
+        "Letters to Cleo"
+      ],
+      "primary_agreement": 0.4,
+      "fallback_answers": [
+        "Screaming Trees",
+        "unknown",
+        "Screaming Trees",
+        "Screaming Trees",
+        "equal"
+      ],
+      "route": "rerouted",
+      "used_model": "gpt-oss:20b",
+      "voted_answer": "Screaming Trees",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "any_correct": true
+    },
+    {
+      "idx": 35,
+      "question": "Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?",
+      "gold_answer": "October 1922",
+      "primary_answers": [
+        "1922",
+        "1922",
+        "October 1922",
+        "1923",
+        "around 1923"
+      ],
+      "primary_agreement": 0.4,
+      "fallback_answers": [
+        "October 1922",
+        "1923",
+        "1922",
+        "October 1922",
+        "1922"
+      ],
+      "route": "rerouted",
+      "used_model": "phi4:latest",
+      "voted_answer": "1922",
+      "agreement": 0.4,
+      "em_voted": true,
+      "f1_voted": 0.6667,
+      "any_correct": true
+    },
+    {
+      "idx": 36,
+      "question": "Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?",
+      "gold_answer": "2000",
+      "primary_answers": [
+        "Not specified",
+        "unknown",
+        "unknown",
+        "no specific year given",
+        "unknown"
+      ],
+      "primary_agreement": 0.6,
+      "fallback_answers": [
+        "2000",
+        "2009",
+        "unknown",
+        "2006",
+        "1991"
+      ],
+      "route": "rerouted",
+      "used_model": "phi4:latest",
+      "voted_answer": "unknown",
+      "agreement": 0.6,
+      "em_voted": false,
+      "f1_voted": 0.0,
+      "any_correct": true
+    },
+    {
+      "idx": 37,
+      "question": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+      "gold_answer": "World War II",
+      "primary_answers": [
+        "World War II",
+        "World Wars I and II",
+        "World War II",
+        "World War II",
+        "World War I and World War II"
+      ],
+      "primary_agreement": 0.6,
+      "fallback_answers": [
+        "World War II",
+        "World War II",
+        "World War II",
+        "World War II",
+        "World War II"
+      ],
+      "route": "rerouted",
+      "used_model": "gpt-oss:20b",
+      "voted_answer": "World War II",
+      "agreement": 1.0,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "any_correct": true
+    },
+    {
+      "idx": 38,
+      "question": "Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?",
+      "gold_answer": "no",
+      "primary_answers": [
+        "no",
+        "no",
+        "no",
+        "no",
+        "no"
+      ],
+      "primary_agreement": 1.0,
+      "fallback_answers": [],
+      "route": "primary",
+      "used_model": "phi4:latest",
+      "voted_answer": "no",
+      "agreement": 1.0,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "any_correct": true
+    },
+    {
+      "idx": 39,
+      "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+      "gold_answer": "New York City",
+      "primary_answers": [
+        "New York City",
+        "New York City",
+        "New York City",
+        "New York City",
+        "New York City"
+      ],
+      "primary_agreement": 1.0,
+      "fallback_answers": [],
+      "route": "primary",
+      "used_model": "phi4:latest",
+      "voted_answer": "New York City",
+      "agreement": 1.0,
+      "em_voted": true,
+      "f1_voted": 1.0,
+      "any_correct": true
+    }
+  ]
+}

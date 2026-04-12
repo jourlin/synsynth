@@ -1,0 +1,1618 @@
+{
+  "experiment": "text_to_query",
+  "n_samples": 200,
+  "correct": 159,
+  "accuracy": 0.795,
+  "accuracy_ci": {
+    "mean": 0.795,
+    "ci_low": 0.735,
+    "ci_high": 0.85,
+    "std": 0.4037
+  },
+  "target_accuracy": 0.9,
+  "target_met": false,
+  "cypher_syntax_valid_rate": 1.0,
+  "elapsed_seconds": 121.8,
+  "details": [
+    {
+      "idx": 0,
+      "question": "Quelle est la capitale de la France ?",
+      "gold_answer": "Paris",
+      "pred_answer": "Paris",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 1,
+      "question": "Qui a fondé Microsoft ?",
+      "gold_answer": "Bill Gates et Paul Allen",
+      "pred_answer": "Microsoft a été fondée par Bill Gates et Paul Allen.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 2,
+      "question": "Où se trouve le siège d'Amazon ?",
+      "gold_answer": "Seattle",
+      "pred_answer": "Le siège d'Amazon se trouve à Seattle, Washington, États-Unis.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 3,
+      "question": "Quelle est la population de Tokyo ?",
+      "gold_answer": "13,96 millions",
+      "pred_answer": "La population de Tokyo est d'environ 13,5 millions d'habitants.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 4,
+      "question": "Dans quel pays se trouve le Machu Picchu ?",
+      "gold_answer": "Pérou",
+      "pred_answer": "Le Machu Picchu se trouve au Pérou.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 5,
+      "question": "En quelle année la Première Guerre mondiale a-t-elle commencé ?",
+      "gold_answer": "1914",
+      "pred_answer": "1914",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 6,
+      "question": "Quand a été fondée l'Organisation des Nations unies ?",
+      "gold_answer": "1945",
+      "pred_answer": "L'Organisation des Nations unies a été fondée le 24 octobre 1945.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 7,
+      "question": "Quelle est la superficie de l'Australie ?",
+      "gold_answer": "7,69 millions de km²",
+      "pred_answer": "L'Australie a une superficie d'environ 7 692 024 km².",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 8,
+      "question": "Combien d'habitants compte l'Inde ?",
+      "gold_answer": "1,4 milliard",
+      "pred_answer": "1324000000",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 9,
+      "question": "Qui est le réalisateur du film Inception ?",
+      "gold_answer": "Christopher Nolan",
+      "pred_answer": "Christopher Nolan",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 10,
+      "question": "Quel est l'auteur de 'Les Misérables' ?",
+      "gold_answer": "Victor Hugo",
+      "pred_answer": "Victor Hugo",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 11,
+      "question": "Quelle est la monnaie du Japon ?",
+      "gold_answer": "Yen",
+      "pred_answer": "Le yen",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 12,
+      "question": "Quel est le plus long fleuve d'Afrique ?",
+      "gold_answer": "Le Nil",
+      "pred_answer": "Le Nil est le plus long fleuve d'Afrique.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 13,
+      "question": "Quel océan borde la côte ouest de l'Amérique du Sud ?",
+      "gold_answer": "L'océan Pacifique",
+      "pred_answer": "L'océan Pacifique borde la côte ouest de l'Amérique du Sud.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 14,
+      "question": "Quel est le plus haut sommet du monde ?",
+      "gold_answer": "L'Everest",
+      "pred_answer": "Le plus haut sommet du monde est le Mont Everest, situé dans la chaîne des Himalayas, avec une altitude de 8 848,86 mètres au-dessus du niveau de la mer.",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 15,
+      "question": "Quel est le symbole chimique de l'or ?",
+      "gold_answer": "Au",
+      "pred_answer": "Au",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 16,
+      "question": "Quelle planète est la plus proche du Soleil ?",
+      "gold_answer": "Mercure",
+      "pred_answer": "Mercure",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 17,
+      "question": "Qui a formulé la théorie de la relativité ?",
+      "gold_answer": "Albert Einstein",
+      "pred_answer": "Albert Einstein",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 18,
+      "question": "Quel pays a le plus grand nombre de Prix Nobel de littérature ?",
+      "gold_answer": "La France",
+      "pred_answer": "Les États-Unis",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 19,
+      "question": "Quelle est la langue officielle du Brésil ?",
+      "gold_answer": "Le portugais",
+      "pred_answer": "Le portugais",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 20,
+      "question": "Quelle est la capitale du Japon ?",
+      "gold_answer": "Tokyo",
+      "pred_answer": "La capitale du Japon est Tokyo.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 21,
+      "question": "Qui a découvert la pénicilline en 1928 ?",
+      "gold_answer": "Alexander Fleming",
+      "pred_answer": "La pénicilline a été découverte par Alexander Fleming en 1928.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 22,
+      "question": "Quel est le plus long fleuve du monde ?",
+      "gold_answer": "Le Nil",
+      "pred_answer": "Le plus long fleuve du monde est l'Amazone.",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 23,
+      "question": "En quelle année a eu lieu la Révolution française ?",
+      "gold_answer": "1789",
+      "pred_answer": "La Révolution française a commencé en 1789.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 24,
+      "question": "Quel est le symbole chimique de l'or ?",
+      "gold_answer": "Au",
+      "pred_answer": "Au",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 25,
+      "question": "Qui a peint 'La Joconde' ?",
+      "gold_answer": "Léonard de Vinci",
+      "pred_answer": "Leonardo da Vinci",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 26,
+      "question": "Quelle est la monnaie officielle du Brésil ?",
+      "gold_answer": "Le real",
+      "pred_answer": "Le real",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 27,
+      "question": "Quel est le plus grand océan de la Terre ?",
+      "gold_answer": "L'océan Pacifique",
+      "pred_answer": "L'océan Pacifique",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 28,
+      "question": "Qui a écrit 'Les Misérables' ?",
+      "gold_answer": "Victor Hugo",
+      "pred_answer": "Victor Hugo",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 29,
+      "question": "Quel est le plus haut sommet du monde ?",
+      "gold_answer": "L'Everest",
+      "pred_answer": "Le plus haut sommet du monde est le Mont Everest, avec une altitude de 8 848 mètres.",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 30,
+      "question": "En quelle année a été fondée Microsoft ?",
+      "gold_answer": "1975",
+      "pred_answer": "Microsoft a été fondée en 1975.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 31,
+      "question": "Quel est le plus grand désert du monde ?",
+      "gold_answer": "Le désert de Gobi",
+      "pred_answer": "L'Antarctique",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 32,
+      "question": "Qui a inventé l'ampoule électrique ?",
+      "gold_answer": "Thomas Edison",
+      "pred_answer": "Thomas Edison a inventé l'ampoule électrique.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 33,
+      "question": "Quel est le plus grand pays du monde ?",
+      "gold_answer": "La Russie",
+      "pred_answer": "La Russie",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 34,
+      "question": "Quel est le langage de programmation le plus utilisé en 2023 ?",
+      "gold_answer": "JavaScript",
+      "pred_answer": "En 2023, le langage de programmation le plus utilisé est JavaScript.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 35,
+      "question": "Quel est le plus grand animal terrestre ?",
+      "gold_answer": "L'éléphant",
+      "pred_answer": "L'éléphant est le plus grand animal terrestre.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 36,
+      "question": "Qui a découvert la loi de la gravitation universelle ?",
+      "gold_answer": "Isaac Newton",
+      "pred_answer": "Isaac Newton",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 37,
+      "question": "Quelle est la plus grande ville de France ?",
+      "gold_answer": "Paris",
+      "pred_answer": "Paris",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 38,
+      "question": "Quel est le plus grand océan de l'Atlantique ?",
+      "gold_answer": "L'océan Atlantique",
+      "pred_answer": "Le plus grand océan de l'Atlantique est l'océan Atlantique Nord.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 39,
+      "question": "Qui a écrit 'Le Petit Prince' ?",
+      "gold_answer": "Antoine de Saint-Exupéry",
+      "pred_answer": "Antoine de Saint-Exupéry",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 40,
+      "question": "Quel est le plus grand animal marin ?",
+      "gold_answer": "La baleine bleue",
+      "pred_answer": "La baleine bleue est le plus grand animal marin.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 41,
+      "question": "En quelle année a été fondée Apple ?",
+      "gold_answer": "1976",
+      "pred_answer": "1976",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 42,
+      "question": "Quel est le plus grand lac du monde ?",
+      "gold_answer": "Lac Caspien",
+      "pred_answer": "Le plus grand lac du monde est l'océan",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 43,
+      "question": "Qui a découvert la radioactivité ?",
+      "gold_answer": "Marie Curie",
+      "pred_answer": "Marie Curie a découvert la radioactivité.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 44,
+      "question": "Quel est le plus grand pays d'Europe ?",
+      "gold_answer": "La Russie",
+      "pred_answer": "La Russie",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 45,
+      "question": "Quel est le plus grand animal terrestre ?",
+      "gold_answer": "L'éléphant",
+      "pred_answer": "L'éléphant est le plus grand animal terrestre.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 46,
+      "question": "Qui a découvert la pénicilline ?",
+      "gold_answer": "Alexander Fleming",
+      "pred_answer": "La pénicilline a été découverte par Alexander Fleming.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 47,
+      "question": "Quel est le plus grand océan du monde ?",
+      "gold_answer": "L'océan Pacifique",
+      "pred_answer": "L'océan Pacifique",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 48,
+      "question": "En quelle année a eu lieu la Révolution russe ?",
+      "gold_answer": "1917",
+      "pred_answer": "La Révolution russe a eu lieu en 1917.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 49,
+      "question": "Quel est le plus grand pays d'Amérique ?",
+      "gold_answer": "Les États-Unis",
+      "pred_answer": "Le plus grand pays d'Amérique est le Canada.",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 50,
+      "question": "Qui a découvert la théorie de la relativité ?",
+      "gold_answer": "Albert Einstein",
+      "pred_answer": "Albert Einstein a découvert la théorie de la relativité.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 51,
+      "question": "Quelle est la capitale du Japon ?",
+      "gold_answer": "Tokyo",
+      "pred_answer": "Tokyo",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 52,
+      "question": "Qui a découvert la pénicilline en 1928 ?",
+      "gold_answer": "Alexander Fleming",
+      "pred_answer": "La pénicilline a été découverte par Alexander Fleming en 1928.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 53,
+      "question": "Quel est le plus grand océan du monde ?",
+      "gold_answer": "Pacifique",
+      "pred_answer": "L'océan Pacifique",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 54,
+      "question": "En quelle année a eu lieu la Révolution française ?",
+      "gold_answer": "1789",
+      "pred_answer": "La Révolution française a commencé en 1789.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 55,
+      "question": "Quel est le symbole chimique de l'or ?",
+      "gold_answer": "Au",
+      "pred_answer": "Au",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 56,
+      "question": "Qui a peint 'La Joconde' ?",
+      "gold_answer": "Léonard de Vinci",
+      "pred_answer": "Leonardo da Vinci",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 57,
+      "question": "Quelle est la monnaie officielle de l'Allemagne ?",
+      "gold_answer": "Euro",
+      "pred_answer": "Euro",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 58,
+      "question": "Quel est le plus haut sommet du monde ?",
+      "gold_answer": "Mont Everest",
+      "pred_answer": "Le plus haut sommet du monde est le Mont Everest, avec une altitude de 8 848 mètres.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 59,
+      "question": "Qui a écrit 'Les Misérables' ?",
+      "gold_answer": "Victor Hugo",
+      "pred_answer": "Victor Hugo",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 60,
+      "question": "Quel est le plus grand pays du monde en superficie ?",
+      "gold_answer": "Russie",
+      "pred_answer": "Russie",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 61,
+      "question": "Quel est le rôle principal du noyau d'une cellule ?",
+      "gold_answer": "Stockage de l'ADN",
+      "pred_answer": "Le noyau d'une cellule est responsable du contrôle de l'activité cellulaire, de la transmission de l'information génétique et de la régulation des processus cellulaires essentiels.",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 62,
+      "question": "Quel est le plus grand fleuve du monde ?",
+      "gold_answer": "Amazone",
+      "pred_answer": "Le plus grand fleuve du monde est l'Amazone.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 63,
+      "question": "Qui a fondé l'Empire romain d'Occident ?",
+      "gold_answer": "Romulus",
+      "pred_answer": "L'Empire romain d'Occident a été fondé par奥古斯都 (Auguste), qui a pris le pouvoir en 27 av. J.-C. et a été le premier empereur romain.",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 64,
+      "question": "Quelle est la vitesse de la lumière dans le vide ?",
+      "gold_answer": "299 792 458 m/s",
+      "pred_answer": "La vitesse de la lumière dans le vide est d'environ 299 792 458 mètres par seconde.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 65,
+      "question": "Quel est le plus grand musée du monde ?",
+      "gold_answer": "Le Louvre",
+      "pred_answer": "Le plus grand musée du monde est le Metropolitan Museum of Art, situé à New York.",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 66,
+      "question": "Quel est le plus grand désert du monde ?",
+      "gold_answer": "Sahara",
+      "pred_answer": "L'Antarctique",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 67,
+      "question": "Qui a inventé l'électricité ?",
+      "gold_answer": "Thomas Edison",
+      "pred_answer": "L'électricité n'a pas été inventée par une seule personne, mais a été découvert et développée par plusieurs scientifiques au fil du temps. Des figures comme Benjamin Franklin, Alessandro Volta, et Michael Faraday ont joué des rôles importants dans la compréhension et l'application de l'électricité.",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 68,
+      "question": "Quelle est la plus grande ville de France ?",
+      "gold_answer": "Paris",
+      "pred_answer": "Paris",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 69,
+      "question": "Quel est le plus grand océan du Pacifique ?",
+      "gold_answer": "Pacifique",
+      "pred_answer": "Le plus grand océan du Pacifique est l'Océan Pacifique lui-même, car le Pacifique est déjà le plus grand océan du monde.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 70,
+      "question": "Quel est le plus grand animal terrestre ?",
+      "gold_answer": "Éléphant",
+      "pred_answer": "L'éléphant est le plus grand animal terrestre.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 71,
+      "question": "Qui a écrit 'Le Petit Prince' ?",
+      "gold_answer": "Antoine de Saint-Exupéry",
+      "pred_answer": "Antoine de Saint-Exupéry",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 72,
+      "question": "Quel est le plus grand pays d'Europe ?",
+      "gold_answer": "Russie",
+      "pred_answer": "La Russie",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 73,
+      "question": "Quel est le plus grand animal marin ?",
+      "gold_answer": "Baleine bleue",
+      "pred_answer": "La baleine bleue est le plus grand animal marin.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 74,
+      "question": "Qui a découvert la gravité ?",
+      "gold_answer": "Isaac Newton",
+      "pred_answer": "Isaac Newton a découvert la gravité.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 75,
+      "question": "Quelle est la plus grande île du monde ?",
+      "gold_answer": "Groenland",
+      "pred_answer": "Groenland",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 76,
+      "question": "Quel est le plus grand océan de la Terre ?",
+      "gold_answer": "Pacifique",
+      "pred_answer": "L'océan Pacifique",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 77,
+      "question": "Qui a écrit '1984' ?",
+      "gold_answer": "George Orwell",
+      "pred_answer": "George Orwell",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 78,
+      "question": "Quel est le plus grand pays d'Amérique ?",
+      "gold_answer": "États-Unis",
+      "pred_answer": "Le plus grand pays d'Amérique est le Canada.",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 79,
+      "question": "Quel est le plus grand animal du monde ?",
+      "gold_answer": "Baleine bleue",
+      "pred_answer": "La baleine bleue est le plus grand animal du monde.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 80,
+      "question": "Qui a découvert l'aspirine ?",
+      "gold_answer": "Felix Hoffmann",
+      "pred_answer": "L'aspirine a été développée par Felix Hoffmann, un chimiste allemand qui travaillait pour la société Bayer. Cependant, l'histoire de l'aspirine remonte à l'utilisation traditionnelle de plantes comme la saule blanc, qui contient de la salicine, une substance qui agit comme un analgésique et anti-inflammatoire.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 81,
+      "question": "Quelle est la capitale du Japon ?",
+      "gold_answer": "Tokyo",
+      "pred_answer": "Tokyo",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 82,
+      "question": "Qui a découvert la pénicilline en 1928 ?",
+      "gold_answer": "Alexander Fleming",
+      "pred_answer": "La pénicilline a été découverte par Alexander Fleming en 1928.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 83,
+      "question": "Quel est le plus long fleuve du monde ?",
+      "gold_answer": "Le Nil",
+      "pred_answer": "Le plus long fleuve du monde est l'Amazone.",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 84,
+      "question": "En quelle année a eu lieu la Révolution française ?",
+      "gold_answer": "1789",
+      "pred_answer": "La Révolution française a eu lieu en 1789.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 85,
+      "question": "Quel est le symbole chimique de l'or ?",
+      "gold_answer": "Au",
+      "pred_answer": "Au",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 86,
+      "question": "Qui a peint 'La Joconde' ?",
+      "gold_answer": "Léonard de Vinci",
+      "pred_answer": "Leonardo da Vinci",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 87,
+      "question": "Quelle est la monnaie officielle de l'Union européenne ?",
+      "gold_answer": "Euro",
+      "pred_answer": "L'euro",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 88,
+      "question": "Quel est le plus grand océan du monde ?",
+      "gold_answer": "Pacifique",
+      "pred_answer": "L'océan Pacifique",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 89,
+      "question": "En quelle année a été fondée Microsoft ?",
+      "gold_answer": "1975",
+      "pred_answer": "Microsoft a été fondée en 1975.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 90,
+      "question": "Quel est le plus haut sommet du monde ?",
+      "gold_answer": "Mont Everest",
+      "pred_answer": "Le plus haut sommet du monde est le Mont Everest, avec une altitude de 8 848 mètres.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 91,
+      "question": "Qui a écrit 'Les Misérables' ?",
+      "gold_answer": "Victor Hugo",
+      "pred_answer": "Victor Hugo",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 92,
+      "question": "Quel est le pays le plus peuplé du monde ?",
+      "gold_answer": "Chine",
+      "pred_answer": "Chine",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 93,
+      "question": "Quel est le plus grand désert du monde ?",
+      "gold_answer": "Sahara",
+      "pred_answer": "L'Antarctique",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 94,
+      "question": "En quelle année a eu lieu la chute du mur de Berlin ?",
+      "gold_answer": "1989",
+      "pred_answer": "1989",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 95,
+      "question": "Quel est le plus grand mammifère terrestre ?",
+      "gold_answer": "Éléphant",
+      "pred_answer": "L'éléphant est le plus grand mammifère terrestre.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 96,
+      "question": "Qui a inventé l'ampoule électrique ?",
+      "gold_answer": "Thomas Edison",
+      "pred_answer": "Thomas Edison a inventé l'ampoule électrique.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 97,
+      "question": "Quelle est la plus grande ville de France ?",
+      "gold_answer": "Paris",
+      "pred_answer": "Paris",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 98,
+      "question": "Quel est le plus grand pays du monde ?",
+      "gold_answer": "Russie",
+      "pred_answer": "La Russie",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 99,
+      "question": "En quelle année a été signé le traité de Versailles ?",
+      "gold_answer": "1919",
+      "pred_answer": "1919",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 100,
+      "question": "Quel est le plus petit pays du monde ?",
+      "gold_answer": "Vatican",
+      "pred_answer": "Le plus petit pays du monde est le Vatican, avec une superficie de 0,44 km².",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 101,
+      "question": "Qui a découvert la loi de la gravitation universelle ?",
+      "gold_answer": "Isaac Newton",
+      "pred_answer": "Isaac Newton",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 102,
+      "question": "Quelle est la plus grande île du monde ?",
+      "gold_answer": "Groenland",
+      "pred_answer": "Groenland",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 103,
+      "question": "En quelle année a été lancé le premier satellite artificiel ?",
+      "gold_answer": "1957",
+      "pred_answer": "1957",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 104,
+      "question": "Quel est le plus grand océan de l'Atlantique ?",
+      "gold_answer": "Atlantique",
+      "pred_answer": "Le plus grand océan de l'Atlantique est l'océan Atlantique Nord.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 105,
+      "question": "Qui a fondé l'Église catholique ?",
+      "gold_answer": "Jésus-Christ",
+      "pred_answer": "Jésus-Christ est considéré comme le fondateur de l'Église catholique.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 106,
+      "question": "Quelle est la plus grande source d'énergie renouvelable ?",
+      "gold_answer": "L'énergie solaire",
+      "pred_answer": "L'énergie hydraulique est la plus grande source d'énergie renouvelable.",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 107,
+      "question": "En quelle année a été créée l'Union européenne ?",
+      "gold_answer": "1993",
+      "pred_answer": "1993",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 108,
+      "question": "Quel est le plus grand animal marin ?",
+      "gold_answer": "Baleine bleue",
+      "pred_answer": "La baleine bleue est le plus grand animal marin.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 109,
+      "question": "Qui a écrit 'Le Petit Prince' ?",
+      "gold_answer": "Antoine de Saint-Exupéry",
+      "pred_answer": "Antoine de Saint-Exupéry",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 110,
+      "question": "Quelle est la plus grande ville de l'Amérique du Nord ?",
+      "gold_answer": "New York",
+      "pred_answer": "La plus grande ville de l'Amérique du Nord est Mexico City.",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 111,
+      "question": "Quelle est la capitale du Japon ?",
+      "gold_answer": "Tokyo",
+      "pred_answer": "Tokyo",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 112,
+      "question": "Qui a découvert la pénicilline en 1928 ?",
+      "gold_answer": "Alexander Fleming",
+      "pred_answer": "La pénicilline a été découverte par Alexander Fleming en 1928.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 113,
+      "question": "Quel est le plus grand océan du monde ?",
+      "gold_answer": "Pacifique",
+      "pred_answer": "L'océan Pacifique",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 114,
+      "question": "En quelle année a eu lieu la Révolution française ?",
+      "gold_answer": "1789",
+      "pred_answer": "La Révolution française a commencé en 1789.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 115,
+      "question": "Quel est le symbole chimique de l'or ?",
+      "gold_answer": "Au",
+      "pred_answer": "Au",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 116,
+      "question": "Qui a peint 'La Joconde' ?",
+      "gold_answer": "Léonard de Vinci",
+      "pred_answer": "Leonardo da Vinci",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 117,
+      "question": "Quelle est la monnaie officielle de l'Allemagne ?",
+      "gold_answer": "Euro",
+      "pred_answer": "Euro",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 118,
+      "question": "Quel est le plus haut sommet du monde ?",
+      "gold_answer": "Mont Everest",
+      "pred_answer": "Le plus haut sommet du monde est le Mont Everest, avec une altitude de 8 848 mètres.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 119,
+      "question": "Qui a écrit 'Les Misérables' ?",
+      "gold_answer": "Victor Hugo",
+      "pred_answer": "Victor Hugo",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 120,
+      "question": "Quel est le plus grand pays du monde en superficie ?",
+      "gold_answer": "Russie",
+      "pred_answer": "Russie",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 121,
+      "question": "Quel est le rôle principal du noyau d'une cellule ?",
+      "gold_answer": "Contrôle les activités cellulaires",
+      "pred_answer": "Le noyau d'une cellule est responsable du contrôle de l'activité cellulaire, de la transmission de l'information génétique et de la régulation des processus cellulaires essentiels.",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 122,
+      "question": "Quel est le plus grand fleuve du monde ?",
+      "gold_answer": "Amazone",
+      "pred_answer": "Le plus grand fleuve du monde est l'Amazone.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 123,
+      "question": "Qui a fondé la première université de Paris ?",
+      "gold_answer": "Saint Louis",
+      "pred_answer": "La première université de Paris a été fondée par le pape Grégoire IX en 1210.",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 124,
+      "question": "Quelle est la vitesse de la lumière dans le vide ?",
+      "gold_answer": "299 792 458 m/s",
+      "pred_answer": "La vitesse de la lumière dans le vide est d'environ 299 792 458 mètres par seconde.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 125,
+      "question": "Quel est le plus grand désert du monde ?",
+      "gold_answer": "Sahara",
+      "pred_answer": "L'Antarctique",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 126,
+      "question": "Qui a inventé l'ampoule électrique ?",
+      "gold_answer": "Thomas Edison",
+      "pred_answer": "Thomas Edison a inventé l'ampoule électrique.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 127,
+      "question": "Quel est le plus grand océan du Pacifique ?",
+      "gold_answer": "Pacifique",
+      "pred_answer": "Le Pacifique est le plus grand océan de la Terre, couvrant environ 165,2 millions de km².",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 128,
+      "question": "Quel est le plus grand animal terrestre ?",
+      "gold_answer": "Éléphant",
+      "pred_answer": "L'éléphant est le plus grand animal terrestre.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 129,
+      "question": "Qui a découvert la gravité ?",
+      "gold_answer": "Isaac Newton",
+      "pred_answer": "Isaac Newton a découvert la gravité.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 130,
+      "question": "Quelle est la plus grande île du monde ?",
+      "gold_answer": "Groenland",
+      "pred_answer": "Groenland",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 131,
+      "question": "Quel est le plus grand mammifère marin ?",
+      "gold_answer": "Baleine bleue",
+      "pred_answer": "La baleine bleue est le plus grand mammifère marin.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 132,
+      "question": "Qui a écrit 'Le Petit Prince' ?",
+      "gold_answer": "Antoine de Saint-Exupéry",
+      "pred_answer": "Antoine de Saint-Exupéry",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 133,
+      "question": "Quel est le plus grand lac du monde ?",
+      "gold_answer": "Mer Caspienne",
+      "pred_answer": "Le plus grand lac du monde est l'océan",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 134,
+      "question": "Quel est le plus grand pays d'Europe ?",
+      "gold_answer": "Russie",
+      "pred_answer": "La Russie",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 135,
+      "question": "Qui a découvert l'électricité ?",
+      "gold_answer": "Benjamin Franklin",
+      "pred_answer": "L'électricité n'a pas été découverte par une seule personne, mais a été étudiée et développée par de nombreux scientifiques au fil du temps. Cependant, Benjamin Franklin a effectué des expériences célèbres sur l'électricité en 1752, notamment avec la foudre, ce qui a conduit à une meilleure compréhension de ce phénomène.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 136,
+      "question": "Quel est le plus grand animal du monde ?",
+      "gold_answer": "Baleine bleue",
+      "pred_answer": "La baleine bleue est le plus grand animal du monde.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 137,
+      "question": "Quel est le plus grand océan du monde ?",
+      "gold_answer": "Pacifique",
+      "pred_answer": "L'océan Pacifique",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 138,
+      "question": "Qui a écrit '1984' ?",
+      "gold_answer": "George Orwell",
+      "pred_answer": "George Orwell",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 139,
+      "question": "Quel est le plus grand pays d'Asie ?",
+      "gold_answer": "Russie",
+      "pred_answer": "La Chine",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 140,
+      "question": "Quel est le plus grand animal terrestre ?",
+      "gold_answer": "Éléphant",
+      "pred_answer": "L'éléphant est le plus grand animal terrestre.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 141,
+      "question": "Quelle est la capitale du Japon ?",
+      "gold_answer": "Tokyo",
+      "pred_answer": "Tokyo",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 142,
+      "question": "Qui a découvert la pénicilline en 1928 ?",
+      "gold_answer": "Alexander Fleming",
+      "pred_answer": "La pénicilline a été découverte par Alexander Fleming en 1928.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 143,
+      "question": "Quel est le plus long fleuve du monde ?",
+      "gold_answer": "Le Nil",
+      "pred_answer": "Le plus long fleuve du monde est l'Amazone.",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 144,
+      "question": "En quelle année a eu lieu la Révolution française ?",
+      "gold_answer": "1789",
+      "pred_answer": "La Révolution française a commencé en 1789.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 145,
+      "question": "Quel est le symbole chimique de l'or ?",
+      "gold_answer": "Au",
+      "pred_answer": "Au",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 146,
+      "question": "Qui a peint 'La Joconde' ?",
+      "gold_answer": "Léonard de Vinci",
+      "pred_answer": "Leonardo da Vinci",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 147,
+      "question": "Quelle est la monnaie officielle du Brésil ?",
+      "gold_answer": "Le real",
+      "pred_answer": "Le real",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 148,
+      "question": "Quel est le plus grand océan de la Terre ?",
+      "gold_answer": "L'océan Pacifique",
+      "pred_answer": "L'océan Pacifique",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 149,
+      "question": "Qui a écrit 'Les Misérables' ?",
+      "gold_answer": "Victor Hugo",
+      "pred_answer": "Victor Hugo",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 150,
+      "question": "Quel est le plus haut sommet du monde ?",
+      "gold_answer": "L'Everest",
+      "pred_answer": "Le plus haut sommet du monde est le Mont Everest, avec une altitude de 8 848 mètres.",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 151,
+      "question": "En quelle année a été fondée Microsoft ?",
+      "gold_answer": "1975",
+      "pred_answer": "Microsoft a été fondée en 1975.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 152,
+      "question": "Quel est le plus grand désert du monde ?",
+      "gold_answer": "Le désert de Gobi",
+      "pred_answer": "L'Antarctique",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 153,
+      "question": "Qui a inventé l'ampoule électrique ?",
+      "gold_answer": "Thomas Edison",
+      "pred_answer": "Thomas Edison a inventé l'ampoule électrique.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 154,
+      "question": "Quel est le plus grand pays du monde ?",
+      "gold_answer": "La Russie",
+      "pred_answer": "La Russie",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 155,
+      "question": "Quel est le langage de programmation le plus utilisé en 2023 ?",
+      "gold_answer": "Python",
+      "pred_answer": "En 2023, le langage de programmation le plus utilisé est JavaScript.",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 156,
+      "question": "Qui a découvert la gravité ?",
+      "gold_answer": "Isaac Newton",
+      "pred_answer": "Isaac Newton a découvert la gravité.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 157,
+      "question": "Quel est le plus grand animal terrestre ?",
+      "gold_answer": "L'éléphant",
+      "pred_answer": "L'éléphant est le plus grand animal terrestre.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 158,
+      "question": "En quelle année a été signé le traité de Versailles ?",
+      "gold_answer": "1919",
+      "pred_answer": "1919",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 159,
+      "question": "Quel est le plus grand océan pacifique ?",
+      "gold_answer": "L'océan Pacifique",
+      "pred_answer": "Le Pacifique est le plus grand océan de la Terre.",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 160,
+      "question": "Qui a écrit 'Le Petit Prince' ?",
+      "gold_answer": "Antoine de Saint-Exupéry",
+      "pred_answer": "Antoine de Saint-Exupéry",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 161,
+      "question": "Quel est le plus grand lac du monde ?",
+      "gold_answer": "Lac Caspien",
+      "pred_answer": "Le plus grand lac du monde est l'océan",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 162,
+      "question": "Quel est le plus grand musée du monde ?",
+      "gold_answer": "Le musée du Louvre",
+      "pred_answer": "Le plus grand musée du monde est le Musée du Louvre à Paris, en France.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 163,
+      "question": "En quelle année a été lancé le premier satellite artificiel ?",
+      "gold_answer": "1957",
+      "pred_answer": "1957",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 164,
+      "question": "Quel est le plus grand animal marin ?",
+      "gold_answer": "La baleine bleue",
+      "pred_answer": "La baleine bleue est le plus grand animal marin.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 165,
+      "question": "Qui a découvert l'électricité ?",
+      "gold_answer": "Benjamin Franklin",
+      "pred_answer": "L'électricité n'a pas été découverte par une seule personne, mais a été étudiée et développée par de nombreux scientifiques au fil du temps. Cependant, Benjamin Franklin a effectué des expériences célèbres sur l'électricité en 1752, notamment avec la foudre, ce qui a conduit à une meilleure compréhension de ce phénomène.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 166,
+      "question": "Quel est le plus grand pays d'Europe ?",
+      "gold_answer": "La Russie",
+      "pred_answer": "La Russie",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 167,
+      "question": "Quel est le plus grand océan de l'Atlantique ?",
+      "gold_answer": "L'océan Atlantique",
+      "pred_answer": "Le plus grand océan de l'Atlantique est l'océan Atlantique Nord.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 168,
+      "question": "Qui a inventé le téléphone ?",
+      "gold_answer": "Alexander Graham Bell",
+      "pred_answer": "Le téléphone a été inventé par Alexander Graham Bell.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 169,
+      "question": "Quel est le plus grand animal du monde ?",
+      "gold_answer": "La baleine bleue",
+      "pred_answer": "La baleine bleue est le plus grand animal du monde.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 170,
+      "question": "En quelle année a été fondée Apple ?",
+      "gold_answer": "1976",
+      "pred_answer": "1976",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 171,
+      "question": "Quel est le plus grand pays d'Amérique ?",
+      "gold_answer": "Les États-Unis",
+      "pred_answer": "Le plus grand pays d'Amérique est le Canada.",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 172,
+      "question": "Quelle est la capitale du Japon ?",
+      "gold_answer": "Tokyo",
+      "pred_answer": "Tokyo",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 173,
+      "question": "Qui a découvert la pénicilline en 1928 ?",
+      "gold_answer": "Alexander Fleming",
+      "pred_answer": "La pénicilline a été découverte par Alexander Fleming en 1928.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 174,
+      "question": "Quel est le plus grand océan du monde ?",
+      "gold_answer": "Pacifique",
+      "pred_answer": "L'océan Pacifique",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 175,
+      "question": "En quelle année a eu lieu la Révolution française ?",
+      "gold_answer": "1789",
+      "pred_answer": "La Révolution française a commencé en 1789.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 176,
+      "question": "Quel est le symbole chimique de l'or ?",
+      "gold_answer": "Au",
+      "pred_answer": "Au",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 177,
+      "question": "Qui a peint 'La Joconde' ?",
+      "gold_answer": "Léonard de Vinci",
+      "pred_answer": "Leonardo da Vinci",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 178,
+      "question": "Quelle est la monnaie officielle du Brésil ?",
+      "gold_answer": "Réal brésilien",
+      "pred_answer": "Le real",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 179,
+      "question": "Quel est le plus haut sommet du monde ?",
+      "gold_answer": "Mont Everest",
+      "pred_answer": "Le plus haut sommet du monde est le Mont Everest, avec une altitude de 8 848 mètres.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 180,
+      "question": "Qui a écrit 'Les Misérables' ?",
+      "gold_answer": "Victor Hugo",
+      "pred_answer": "Victor Hugo",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 181,
+      "question": "Quelle est la vitesse de la lumière dans le vide ?",
+      "gold_answer": "299 792 458 m/s",
+      "pred_answer": "La vitesse de la lumière dans le vide est d'environ 299 792 458 mètres par seconde.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 182,
+      "question": "Quel est le plus grand désert du monde ?",
+      "gold_answer": "Désert de Gobi",
+      "pred_answer": "L'Antarctique",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 183,
+      "question": "En quelle année a été fondée Microsoft ?",
+      "gold_answer": "1975",
+      "pred_answer": "Microsoft a été fondée en 1975.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 184,
+      "question": "Quel est le plus grand pays d'Europe ?",
+      "gold_answer": "Russie",
+      "pred_answer": "La Russie",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 185,
+      "question": "Qui a inventé l'ampoule électrique ?",
+      "gold_answer": "Thomas Edison",
+      "pred_answer": "Thomas Edison a inventé l'ampoule électrique.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 186,
+      "question": "Quel est le plus long fleuve du monde ?",
+      "gold_answer": "Fleuve du Nil",
+      "pred_answer": "Le plus long fleuve du monde est l'Amazone.",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 187,
+      "question": "En quelle année a eu lieu la chute du mur de Berlin ?",
+      "gold_answer": "1989",
+      "pred_answer": "1989",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 188,
+      "question": "Quel est le plus grand océan du Pacifique ?",
+      "gold_answer": "Océan Pacifique",
+      "pred_answer": "Le Pacifique est le plus grand océan de la Terre, couvrant environ 30 % de la surface terrestre.",
+      "answer_correct": false,
+      "cypher_valid": true
+    },
+    {
+      "idx": 189,
+      "question": "Qui a découvert la théorie de la relativité ?",
+      "gold_answer": "Albert Einstein",
+      "pred_answer": "Albert Einstein a découvert la théorie de la relativité.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 190,
+      "question": "Quelle est la capitale de l'Australie ?",
+      "gold_answer": "Canberra",
+      "pred_answer": "La capitale de l'Australie est Canberra.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 191,
+      "question": "Quel est le plus grand animal terrestre ?",
+      "gold_answer": "Éléphant",
+      "pred_answer": "L'éléphant est le plus grand animal terrestre.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 192,
+      "question": "En quelle année a été signé le traité de Versailles ?",
+      "gold_answer": "1919",
+      "pred_answer": "1919",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 193,
+      "question": "Quel est le plus grand livre de la Bible ?",
+      "gold_answer": "Psaumes",
+      "pred_answer": "Le livre de Psautiers (Psaumes) est le plus grand livre de la Bible en nombre de chapitres, avec 150 chapitres.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 194,
+      "question": "Qui a fondé l'Église catholique ?",
+      "gold_answer": "Jésus-Christ",
+      "pred_answer": "Jésus-Christ est considéré comme le fondateur de l'Église catholique.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 195,
+      "question": "Quelle est la plus grande ville de France ?",
+      "gold_answer": "Paris",
+      "pred_answer": "Paris",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 196,
+      "question": "Quel est le plus grand océan de la Terre ?",
+      "gold_answer": "Océan Pacifique",
+      "pred_answer": "L'océan Pacifique",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 197,
+      "question": "En quelle année a été lancé le premier satellite artificiel ?",
+      "gold_answer": "1957",
+      "pred_answer": "1957",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 198,
+      "question": "Quel est le plus grand mammifère marin ?",
+      "gold_answer": "Baleine bleue",
+      "pred_answer": "La baleine bleue est le plus grand mammifère marin.",
+      "answer_correct": true,
+      "cypher_valid": true
+    },
+    {
+      "idx": 199,
+      "question": "Qui a écrit 'Le Petit Prince' ?",
+      "gold_answer": "Antoine de Saint-Exupéry",
+      "pred_answer": "Antoine de Saint-Exupéry",
+      "answer_correct": true,
+      "cypher_valid": true
+    }
+  ]
+}

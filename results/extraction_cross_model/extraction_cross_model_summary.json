@@ -1,0 +1,34 @@
+[
+  {
+    "model": "gemma4:26b",
+    "precision": 0.7379,
+    "recall": 0.67,
+    "f1_v3": 0.7023,
+    "f1_brut_b1": 0.0392,
+    "n_samples": 500
+  },
+  {
+    "model": "mistral-small:latest",
+    "precision": 0.66,
+    "recall": 0.66,
+    "f1_v3": 0.66,
+    "f1_brut_b1": 0.666,
+    "n_samples": 500
+  },
+  {
+    "model": "gpt-oss:20b",
+    "precision": 0.8176,
+    "recall": 0.538,
+    "f1_v3": 0.649,
+    "f1_brut_b1": 0.6595,
+    "n_samples": 500
+  },
+  {
+    "model": "phi4-reasoning:plus",
+    "precision": 0.66,
+    "recall": 0.66,
+    "f1_v3": 0.66,
+    "f1_brut_b1": 0.656,
+    "n_samples": 500
+  }
+]

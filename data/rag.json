@@ -1,0 +1,252 @@
+[
+  {
+    "question": "Quels sont les effets secondaires du Metformine ?",
+    "context": "Le Metformine est un antidiabétique oral de première ligne. Ses effets secondaires courants incluent des troubles gastro-intestinaux (nausées, diarrhée), et rarement une acidose lactique.",
+    "reference_answer": "Les effets secondaires du Metformine incluent des troubles gastro-intestinaux (nausées, diarrhée) et rarement une acidose lactique."
+  },
+  {
+    "question": "Quel article du Code Pénal français définit le vol ?",
+    "context": "L'article 311-1 du Code Pénal français définit le vol comme la soustraction frauduleuse de la chose d'autrui. La peine encourue est de trois ans d'emprisonnement et 45 000 euros d'amende.",
+    "reference_answer": "L'article 311-1 du Code Pénal définit le vol."
+  },
+  {
+    "question": "Quelle est la distance entre la Terre et le Soleil ?",
+    "context": "La distance moyenne entre la Terre et le Soleil est d'environ 149,6 millions de kilomètres, soit une unité astronomique (UA). Cette distance varie légèrement au cours de l'année en raison de l'orbite elliptique de la Terre.",
+    "reference_answer": "La distance moyenne est d'environ 149,6 millions de kilomètres (1 UA)."
+  },
+  {
+    "question": "Quand la Déclaration des droits de l'homme a-t-elle été adoptée ?",
+    "context": "La Déclaration universelle des droits de l'homme a été adoptée par l'Assemblée générale des Nations unies le 10 décembre 1948 à Paris, au palais de Chaillot. Elle a été rédigée sous la direction d'Eleanor Roosevelt.",
+    "reference_answer": "La Déclaration a été adoptée le 10 décembre 1948."
+  },
+  {
+    "question": "Quel est le point d'ébullition de l'eau ?",
+    "context": "L'eau pure bout à 100 degrés Celsius (212 °F) à pression atmosphérique standard (1 atm). Le point d'ébullition diminue avec l'altitude en raison de la baisse de pression.",
+    "reference_answer": "L'eau bout à 100 °C à pression atmosphérique standard."
+  },
+  {
+    "question": "Qui a peint la Joconde ?",
+    "context": "La Joconde, également connue sous le nom de Mona Lisa, est un tableau peint par Léonard de Vinci entre 1503 et 1519. Il est exposé au musée du Louvre à Paris depuis 1797.",
+    "reference_answer": "La Joconde a été peinte par Léonard de Vinci."
+  },
+  {
+    "question": "Quels sont les symptômes du diabète de type 2?",
+    "context": "Le diabète de type 2 est une maladie chronique qui affecte la manière dont le corps utilise le sucre. Les symptômes incluent une soif excessive, une miction fréquente, une fatigue constante et des infections récurrentes.",
+    "reference_answer": "Soif excessive, miction fréquente, fatigue constante, infections récurrentes."
+  },
+  {
+    "question": "Qu'est-ce que la loi sur la protection des données personnelles?",
+    "context": "La loi sur la protection des données personnelles vise à garantir la confidentialité et la sécurité des informations personnelles des individus. Elle impose des obligations aux entreprises pour protéger ces données contre les accès non autorisés.",
+    "reference_answer": "Garantir la confidentialité et la sécurité des informations personnelles."
+  },
+  {
+    "question": "Qu'est-ce que la photosynthèse?",
+    "context": "La photosynthèse est le processus par lequel les plantes, les algues et certaines bactéries convertissent la lumière en énergie chimique. Ce processus utilise le dioxyde de carbone et l'eau pour produire du glucose et de l'oxygène.",
+    "reference_answer": "Conversion de la lumière en énergie chimique."
+  },
+  {
+    "question": "Qui a découvert l'Amérique?",
+    "context": "Christophe Colomb est souvent crédité de la découverte de l'Amérique, bien que des preuves montrent que des explorateurs nordiques et asiatiques aient pu atteindre le continent avant lui. Sa première expédition en 1492 a marqué le début de la colonisation européenne.",
+    "reference_answer": "Christophe Colomb."
+  },
+  {
+    "question": "Qu'est-ce qu'un ordinateur quantique?",
+    "context": "Un ordinateur quantique utilise les principes de la mécanique quantique pour effectuer des calculs. Contrairement aux ordinateurs classiques, il peut traiter un grand nombre de possibilités simultanément grâce à des bits quantiques appelés qubits.",
+    "reference_answer": "Utilise les principes de la mécanique quantique."
+  },
+  {
+    "question": "Quelle est la capitale du Brésil?",
+    "context": "Brasília est la capitale du Brésil depuis 1960. Elle a été construite pour remplacer Rio de Janeiro comme centre administratif et politique du pays.",
+    "reference_answer": "Brasília."
+  },
+  {
+    "question": "Qu'est-ce que l'inflation?",
+    "context": "L'inflation est une augmentation générale et durable des prix des biens et services dans une économie. Elle réduit le pouvoir d'achat de la monnaie, ce qui peut affecter les consommateurs et les entreprises.",
+    "reference_answer": "Augmentation générale et durable des prix."
+  },
+  {
+    "question": "Qu'est-ce que la gravité?",
+    "context": "La gravité est une force fondamentale qui attire deux objets l'un vers l'autre. Elle est responsable de maintenir les planètes en orbite autour du Soleil et de garder nos pieds sur le sol.",
+    "reference_answer": "Force fondamentale attirant deux objets."
+  },
+  {
+    "question": "Qui a écrit 'Le Petit Prince'?",
+    "context": "'Antoine de Saint-Exupéry est l'auteur de 'Le Petit Prince', un conte philosophique publié en 1943. L'histoire suit les aventures d'un jeune prince qui voyage à travers différents astéroïdes et rencontre divers personnages.",
+    "reference_answer": "Antoine de Saint-Exupéry."
+  },
+  {
+    "question": "Qu'est-ce qu'une intelligence artificielle?",
+    "context": "L'intelligence artificielle (IA) est un domaine de l'informatique qui vise à créer des systèmes capables de réaliser des tâches nécessitant normalement l'intelligence humaine. Cela inclut la reconnaissance vocale, la vision par ordinateur et le traitement du langage naturel.",
+    "reference_answer": "Systèmes capables de réaliser des tâches nécessitant l'intelligence humaine."
+  },
+  {
+    "question": "Quelle est la plus haute montagne du monde?",
+    "context": "Le Mont Everest, situé dans la chaîne de l'Himalaya à la frontière entre le Népal et la Chine, est la plus haute montagne du monde. Il culmine à 8 848,86 mètres au-dessus du niveau de la mer.",
+    "reference_answer": "Mont Everest."
+  },
+  {
+    "question": "Qu'est-ce que la théorie de la relativité?",
+    "context": "La théorie de la relativité d'Albert Einstein comprend deux parties : la relativité restreinte et la relativité générale. Elle décrit comment l'espace, le temps et la gravité sont interconnectés.",
+    "reference_answer": "Description de l'interconnexion entre espace, temps et gravité."
+  },
+  {
+    "question": "Qui a peint 'La Joconde'?",
+    "context": "Leonardo da Vinci est l'auteur de 'La Joconde', un portrait célèbre peint au début du XVIe siècle. Le tableau représente une femme avec un sourire énigmatique et est exposé au Louvre à Paris.",
+    "reference_answer": "Leonardo da Vinci."
+  },
+  {
+    "question": "Qu'est-ce qu'un réseau neuronal?",
+    "context": "Un réseau neuronal est un modèle informatique inspiré du fonctionnement du cerveau humain. Il est composé de couches de neurones artificiels qui traitent les informations pour effectuer des tâches complexes comme la reconnaissance d'images et le traitement du langage.",
+    "reference_answer": "Modèle informatique inspiré du cerveau humain."
+  },
+  {
+    "question": "Quelle est la capitale de l'Australie?",
+    "context": "Canberra est la capitale de l'Australie. Elle a été choisie comme capitale fédérale en 1908 et construite spécifiquement pour cet usage, située entre les deux plus grandes villes du pays, Sydney et Melbourne.",
+    "reference_answer": "Canberra."
+  },
+  {
+    "question": "Qu'est-ce que la dépression?",
+    "context": "La dépression est un trouble mental caractérisé par une tristesse persistante et une perte d'intérêt pour les activités quotidiennes. Elle peut affecter le sommeil, l'appétit et la capacité à fonctionner au quotidien.",
+    "reference_answer": "Tristesse persistante et perte d'intérêt pour les activités."
+  },
+  {
+    "question": "Qu'est-ce que la loi sur les brevets?",
+    "context": "La loi sur les brevets protège les inventions en accordant aux inventeurs un monopole temporaire sur leur utilisation, fabrication et vente. Cela encourage l'innovation en permettant aux inventeurs de bénéficier économiquement de leurs créations.",
+    "reference_answer": "Protège les inventions en accordant un monopole temporaire."
+  },
+  {
+    "question": "Qu'est-ce que la fission nucléaire?",
+    "context": "La fission nucléaire est un processus où le noyau d'un atome lourd se divise en deux ou plusieurs fragments plus légers, libérant une grande quantité d'énergie. Ce processus est utilisé dans les réacteurs nucléaires pour produire de l'électricité.",
+    "reference_answer": "Division du noyau d'un atome lourd en fragments plus légers."
+  },
+  {
+    "question": "Qui a inventé la lampe électrique?",
+    "context": "Thomas Edison est souvent crédité de l'invention de la lampe électrique pratique. En 1879, il a développé une ampoule à filament de carbone qui pouvait brûler pendant des heures sans s'éteindre.",
+    "reference_answer": "Thomas Edison."
+  },
+  {
+    "question": "Qu'est-ce qu'un trou noir?",
+    "context": "Un trou noir est une région de l'espace où la gravité est si forte que rien, pas même la lumière, ne peut échapper. Ils se forment à partir de l'effondrement gravitationnel d'étoiles massives.",
+    "reference_answer": "Région de l'espace avec une gravité si forte que rien ne peut échapper."
+  },
+  {
+    "question": "Quelle est la capitale du Japon?",
+    "context": "Tokyo est la capitale du Japon. Elle est également la plus grande ville du pays et un centre économique, culturel et politique majeur.",
+    "reference_answer": "Tokyo."
+  },
+  {
+    "question": "Qu'est-ce que le réchauffement climatique?",
+    "context": "Le réchauffement climatique est une augmentation de la température moyenne de la Terre due principalement aux activités humaines. Il est causé par l'émission de gaz à effet de serre, qui piègent la chaleur dans l'atmosphère.",
+    "reference_answer": "Augmentation de la température moyenne de la Terre."
+  },
+  {
+    "question": "Qu'est-ce que la loi sur les droits d'auteur?",
+    "context": "La loi sur les droits d'auteur protège les œuvres créatives en accordant aux auteurs des droits exclusifs sur leur utilisation et leur reproduction. Cela inclut les livres, la musique, les films et les logiciels.",
+    "reference_answer": "Protège les œuvres créatives en accordant des droits exclusifs."
+  },
+  {
+    "question": "Qu'est-ce que l'ADN?",
+    "context": "L'ADN (acide désoxyribonucléique) est une molécule qui contient les instructions génétiques pour le développement, la croissance et le fonctionnement des organismes vivants. Il est situé dans le noyau des cellules.",
+    "reference_answer": "Molécule contenant les instructions génétiques."
+  },
+  {
+    "question": "Qui a découvert l'électricité?",
+    "context": "Benjamin Franklin est souvent associé à la découverte de l'électricité, notamment grâce à son expérience avec un cerf-volant pendant un orage en 1752. Cependant, d'autres scientifiques comme Alessandro Volta ont également joué des rôles cruciaux dans le développement de notre compréhension de l'électricité.",
+    "reference_answer": "Benjamin Franklin."
+  },
+  {
+    "question": "Qu'est-ce qu'un virus informatique?",
+    "context": "Un virus informatique est un type de logiciel malveillant conçu pour se propager et infecter d'autres programmes ou systèmes. Il peut causer des dommages en corrompant des données, en ralentissant les performances du système ou en volant des informations.",
+    "reference_answer": "Logiciel malveillant conçu pour se propager et infecter."
+  },
+  {
+    "question": "Quelle est la capitale de l'Inde?",
+    "context": "New Delhi est la capitale de l'Inde. Elle est située dans le nord du pays et sert de centre administratif et politique majeur.",
+    "reference_answer": "New Delhi."
+  },
+  {
+    "question": "Qu'est-ce que la loi sur les contrats?",
+    "context": "La loi sur les contrats régit les accords entre parties qui créent des obligations juridiques. Elle stipule que pour qu'un contrat soit valide, il doit y avoir une offre, une acceptation et un échange de considération.",
+    "reference_answer": "Régit les accords créant des obligations juridiques."
+  },
+  {
+    "question": "Qu'est-ce que la photosynthèse artificielle?",
+    "context": "La photosynthèse artificielle est un processus qui imite la photosynthèse naturelle pour convertir l'énergie solaire en carburants chimiques. Elle vise à produire de l'hydrogène ou d'autres combustibles propres à partir de l'eau et du dioxyde de carbone.",
+    "reference_answer": "Processus imitant la photosynthèse naturelle."
+  },
+  {
+    "question": "Qui a écrit 'Guerre et Paix'?",
+    "context": "Leo Tolstoï est l'auteur de 'Guerre et Paix', un roman épique publié en 1869. L'œuvre raconte les vies des familles russes aristocratiques pendant les guerres napoléoniennes.",
+    "reference_answer": "Leo Tolstoï."
+  },
+  {
+    "question": "Qu'est-ce qu'un algorithme?",
+    "context": "Un algorithme est une série d'instructions ou de règles à suivre pour résoudre un problème ou accomplir une tâche. En informatique, les algorithmes sont utilisés pour traiter des données et effectuer des calculs.",
+    "reference_answer": "Série d'instructions pour résoudre un problème."
+  },
+  {
+    "question": "Quelle est la capitale de l'Argentine?",
+    "context": "Buenos Aires est la capitale de l'Argentine. Elle est également la plus grande ville du pays et un centre économique, culturel et politique majeur.",
+    "reference_answer": "Buenos Aires."
+  },
+  {
+    "question": "Quels sont les symptômes du diabète de type 2?",
+    "context": "Le diabète de type 2 est une maladie chronique qui affecte la manière dont le corps utilise le sucre. Les symptômes incluent une soif excessive, une miction fréquente, une fatigue constante et des infections récurrentes.",
+    "reference_answer": "Soif excessive, miction fréquente, fatigue constante, infections récurrentes."
+  },
+  {
+    "question": "Qu'est-ce que la loi sur la protection des données personnelles?",
+    "context": "La loi sur la protection des données personnelles, également connue sous le nom de RGPD en Europe, vise à protéger les informations personnelles des individus. Elle impose des obligations strictes aux entreprises pour garantir la confidentialité et la sécurité des données.",
+    "reference_answer": "Une loi visant à protéger les informations personnelles des individus."
+  },
+  {
+    "question": "Qu'est-ce que la relativité générale?",
+    "context": "La relativité générale est une théorie de la gravitation développée par Albert Einstein. Elle décrit la gravité non pas comme une force, mais comme une courbure de l'espace-temps causée par la masse et l'énergie.",
+    "reference_answer": "Une théorie de la gravitation développée par Albert Einstein."
+  },
+  {
+    "question": "Qui a découvert l'Amérique?",
+    "context": "Christophe Colomb est souvent crédité de la découverte de l'Amérique en 1492, bien que des preuves montrent que des explorateurs vikings et d'autres groupes aient pu atteindre le continent avant lui.",
+    "reference_answer": "Christophe Colomb."
+  },
+  {
+    "question": "Qu'est-ce qu'un ordinateur quantique?",
+    "context": "Un ordinateur quantique utilise les principes de la mécanique quantique pour effectuer des calculs. Contrairement aux ordinateurs classiques, il peut traiter un grand nombre de possibilités simultanément grâce à des bits quantiques appelés qubits.",
+    "reference_answer": "Un ordinateur utilisant les principes de la mécanique quantique."
+  },
+  {
+    "question": "Quelle est la capitale du Brésil?",
+    "context": "Brasília est la capitale du Brésil depuis 1960. Elle a été construite pour remplacer Rio de Janeiro comme centre administratif et politique du pays.",
+    "reference_answer": "Brasília."
+  },
+  {
+    "question": "Qu'est-ce que l'inflation économique?",
+    "context": "L'inflation économique est une augmentation générale et durable des prix des biens et services dans une économie. Elle réduit le pouvoir d'achat de la monnaie, ce qui peut affecter négativement les consommateurs et les entreprises.",
+    "reference_answer": "Une augmentation générale et durable des prix des biens et services."
+  },
+  {
+    "question": "Qu'est-ce que l'ADN?",
+    "context": "L'ADN, ou acide désoxyribonucléique, est une molécule qui contient les instructions génétiques pour le développement, la fonction, la croissance et la reproduction des organismes vivants.",
+    "reference_answer": "Une molécule contenant les instructions génétiques."
+  },
+  {
+    "question": "Qui a écrit 'Le Petit Prince'?",
+    "context": "'Antoine de Saint-Exupéry est l'auteur du célèbre livre 'Le Petit Prince', publié en 1943. Ce conte philosophique raconte l'histoire d'un jeune prince qui voyage à travers différents astéroïdes et rencontre divers personnages.",
+    "reference_answer": "Antoine de Saint-Exupéry."
+  },
+  {
+    "question": "Qu'est-ce qu'une intelligence artificielle?",
+    "context": "L'intelligence artificielle (IA) est un domaine de l'informatique qui vise à créer des systèmes capables de réaliser des tâches nécessitant normalement l'intelligence humaine, telles que la reconnaissance vocale et la prise de décision.",
+    "reference_answer": "Un domaine de l'informatique visant à créer des systèmes intelligents."
+  },
+  {
+    "question": "Quelle est la plus haute montagne du monde?",
+    "context": "Le Mont Everest, situé dans la chaîne de l'Himalaya, est la plus haute montagne du monde. Il culmine à 8 848,86 mètres au-dessus du niveau de la mer et attire des alpinistes du monde entier.",
+    "reference_answer": "Le Mont Everest."
+  },
+  {
+    "question": "Qu'est-ce que le changement climatique?",
+    "context": "Le changement climatique est une variation à long terme des statistiques météorologiques, notamment la température moyenne globale. Il est principalement causé par les activités humaines, telles que la combustion de combustibles fossiles et la déforestation.",
+    "reference_answer": "Une variation à long terme des statistiques météorologiques."
+  }
+]

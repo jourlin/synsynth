@@ -1,0 +1,654 @@
+{
+  "label": "all",
+  "n_pairs": 954,
+  "n_labels": 60,
+  "spectral_clustering": {
+    "n_clusters": 15,
+    "silhouette": -0.9333,
+    "clusters": {
+      "14": [
+        "basin_country",
+        "located_near_water",
+        "located_on_terrain"
+      ],
+      "1": [
+        "capital",
+        "capital_of",
+        "contains_admin",
+        "continent",
+        "country",
+        "country_of_origin",
+        "date_of_birth",
+        "educated_at",
+        "has_part",
+        "head_of_state",
+        "headquarters_location",
+        "legislative_body",
+        "located_in_admin",
+        "notable_work",
+        "part_of",
+        "religion"
+      ],
+      "10": [
+        "cast_member",
+        "creator"
+      ],
+      "11": [
+        "child",
+        "father",
+        "mother",
+        "sibling",
+        "spouse"
+      ],
+      "12": [
+        "composer",
+        "lyrics_by",
+        "performer"
+      ],
+      "9": [
+        "conflict",
+        "location",
+        "participant",
+        "participant_in"
+      ],
+      "0": [
+        "country_of_citizenship",
+        "director",
+        "head_of_government",
+        "jurisdiction",
+        "place_of_birth",
+        "work_location"
+      ],
+      "3": [
+        "date_of_death",
+        "inception",
+        "publication_date"
+      ],
+      "5": [
+        "developer",
+        "manufacturer",
+        "product"
+      ],
+      "13": [
+        "end_time",
+        "instance_of",
+        "start_time"
+      ],
+      "8": [
+        "followed_by",
+        "follows"
+      ],
+      "4": [
+        "languages_spoken",
+        "official_language"
+      ],
+      "6": [
+        "member_of",
+        "military_branch"
+      ],
+      "7": [
+        "owned_by",
+        "parent_organization",
+        "publisher",
+        "subsidiary"
+      ],
+      "2": [
+        "producer",
+        "production_company"
+      ]
+    }
+  },
+  "hierarchical_clustering": {
+    "n_clusters": 51,
+    "n_non_singleton": 9,
+    "distance_threshold": 0.7,
+    "clusters": {
+      "35": [
+        "basin_country"
+      ],
+      "31": [
+        "capital"
+      ],
+      "39": [
+        "capital_of"
+      ],
+      "7": [
+        "cast_member",
+        "creator"
+      ],
+      "5": [
+        "child",
+        "father"
+      ],
+      "6": [
+        "composer",
+        "lyrics_by"
+      ],
+      "41": [
+        "conflict"
+      ],
+      "45": [
+        "contains_admin"
+      ],
+      "34": [
+        "continent"
+      ],
+      "46": [
+        "country"
+      ],
+      "33": [
+        "country_of_citizenship"
+      ],
+      "30": [
+        "country_of_origin"
+      ],
+      "40": [
+        "date_of_birth"
+      ],
+      "32": [
+        "date_of_death"
+      ],
+      "42": [
+        "developer"
+      ],
+      "27": [
+        "director"
+      ],
+      "15": [
+        "educated_at"
+      ],
+      "44": [
+        "end_time"
+      ],
+      "1": [
+        "followed_by",
+        "follows"
+      ],
+      "49": [
+        "has_part"
+      ],
+      "38": [
+        "head_of_government"
+      ],
+      "50": [
+        "head_of_state"
+      ],
+      "26": [
+        "headquarters_location"
+      ],
+      "16": [
+        "inception"
+      ],
+      "20": [
+        "instance_of"
+      ],
+      "29": [
+        "jurisdiction"
+      ],
+      "48": [
+        "languages_spoken"
+      ],
+      "36": [
+        "legislative_body"
+      ],
+      "14": [
+        "located_in_admin"
+      ],
+      "8": [
+        "located_near_water",
+        "located_on_terrain"
+      ],
+      "28": [
+        "location"
+      ],
+      "22": [
+        "manufacturer"
+      ],
+      "3": [
+        "member_of",
+        "military_branch"
+      ],
+      "2": [
+        "mother",
+        "spouse"
+      ],
+      "43": [
+        "notable_work"
+      ],
+      "47": [
+        "official_language"
+      ],
+      "0": [
+        "owned_by",
+        "parent_organization"
+      ],
+      "37": [
+        "part_of"
+      ],
+      "23": [
+        "participant"
+      ],
+      "25": [
+        "participant_in"
+      ],
+      "18": [
+        "performer"
+      ],
+      "12": [
+        "place_of_birth"
+      ],
+      "4": [
+        "producer",
+        "production_company"
+      ],
+      "17": [
+        "product"
+      ],
+      "21": [
+        "publication_date"
+      ],
+      "24": [
+        "publisher"
+      ],
+      "11": [
+        "religion"
+      ],
+      "19": [
+        "sibling"
+      ],
+      "10": [
+        "start_time"
+      ],
+      "13": [
+        "subsidiary"
+      ],
+      "9": [
+        "work_location"
+      ]
+    },
+    "non_singleton_clusters": {
+      "7": [
+        "cast_member",
+        "creator"
+      ],
+      "5": [
+        "child",
+        "father"
+      ],
+      "6": [
+        "composer",
+        "lyrics_by"
+      ],
+      "1": [
+        "followed_by",
+        "follows"
+      ],
+      "8": [
+        "located_near_water",
+        "located_on_terrain"
+      ],
+      "3": [
+        "member_of",
+        "military_branch"
+      ],
+      "2": [
+        "mother",
+        "spouse"
+      ],
+      "0": [
+        "owned_by",
+        "parent_organization"
+      ],
+      "4": [
+        "producer",
+        "production_company"
+      ]
+    }
+  },
+  "comparison_spectral_vs_manual": {
+    "n_auto_clusters": 15,
+    "n_manual_groups": 25,
+    "avg_jaccard": 0.0962,
+    "matches": [
+      {
+        "cluster_id": 14,
+        "cluster_members": [
+          "basin_country",
+          "located_near_water",
+          "located_on_terrain"
+        ],
+        "best_manual_match": null,
+        "jaccard": 0,
+        "overlap": []
+      },
+      {
+        "cluster_id": 1,
+        "cluster_members": [
+          "capital",
+          "capital_of",
+          "contains_admin",
+          "continent",
+          "country",
+          "country_of_origin",
+          "date_of_birth",
+          "educated_at",
+          "has_part",
+          "head_of_state",
+          "headquarters_location",
+          "legislative_body",
+          "located_in_admin",
+          "notable_work",
+          "part_of",
+          "religion"
+        ],
+        "best_manual_match": "contains_admin",
+        "jaccard": 0.3529,
+        "overlap": [
+          "capital_of",
+          "contains_admin",
+          "country",
+          "has_part",
+          "located_in_admin",
+          "part_of"
+        ]
+      },
+      {
+        "cluster_id": 10,
+        "cluster_members": [
+          "cast_member",
+          "creator"
+        ],
+        "best_manual_match": null,
+        "jaccard": 0,
+        "overlap": []
+      },
+      {
+        "cluster_id": 11,
+        "cluster_members": [
+          "child",
+          "father",
+          "mother",
+          "sibling",
+          "spouse"
+        ],
+        "best_manual_match": "spouse",
+        "jaccard": 0.1111,
+        "overlap": [
+          "spouse"
+        ]
+      },
+      {
+        "cluster_id": 12,
+        "cluster_members": [
+          "composer",
+          "lyrics_by",
+          "performer"
+        ],
+        "best_manual_match": null,
+        "jaccard": 0,
+        "overlap": []
+      },
+      {
+        "cluster_id": 9,
+        "cluster_members": [
+          "conflict",
+          "location",
+          "participant",
+          "participant_in"
+        ],
+        "best_manual_match": "conflict",
+        "jaccard": 0.4,
+        "overlap": [
+          "conflict",
+          "participant_in"
+        ]
+      },
+      {
+        "cluster_id": 0,
+        "cluster_members": [
+          "country_of_citizenship",
+          "director",
+          "head_of_government",
+          "jurisdiction",
+          "place_of_birth",
+          "work_location"
+        ],
+        "best_manual_match": "country_of_citizenship",
+        "jaccard": 0.1111,
+        "overlap": [
+          "country_of_citizenship"
+        ]
+      },
+      {
+        "cluster_id": 3,
+        "cluster_members": [
+          "date_of_death",
+          "inception",
+          "publication_date"
+        ],
+        "best_manual_match": "date_of_death",
+        "jaccard": 0.125,
+        "overlap": [
+          "date_of_death"
+        ]
+      },
+      {
+        "cluster_id": 5,
+        "cluster_members": [
+          "developer",
+          "manufacturer",
+          "product"
+        ],
+        "best_manual_match": null,
+        "jaccard": 0,
+        "overlap": []
+      },
+      {
+        "cluster_id": 13,
+        "cluster_members": [
+          "end_time",
+          "instance_of",
+          "start_time"
+        ],
+        "best_manual_match": "instance_of",
+        "jaccard": 0.1429,
+        "overlap": [
+          "instance_of"
+        ]
+      },
+      {
+        "cluster_id": 8,
+        "cluster_members": [
+          "followed_by",
+          "follows"
+        ],
+        "best_manual_match": null,
+        "jaccard": 0,
+        "overlap": []
+      },
+      {
+        "cluster_id": 4,
+        "cluster_members": [
+          "languages_spoken",
+          "official_language"
+        ],
+        "best_manual_match": null,
+        "jaccard": 0,
+        "overlap": []
+      },
+      {
+        "cluster_id": 6,
+        "cluster_members": [
+          "member_of",
+          "military_branch"
+        ],
+        "best_manual_match": "member_of",
+        "jaccard": 0.2,
+        "overlap": [
+          "member_of"
+        ]
+      },
+      {
+        "cluster_id": 7,
+        "cluster_members": [
+          "owned_by",
+          "parent_organization",
+          "publisher",
+          "subsidiary"
+        ],
+        "best_manual_match": null,
+        "jaccard": 0,
+        "overlap": []
+      },
+      {
+        "cluster_id": 2,
+        "cluster_members": [
+          "producer",
+          "production_company"
+        ],
+        "best_manual_match": null,
+        "jaccard": 0,
+        "overlap": []
+      }
+    ]
+  },
+  "comparison_hierarchical_vs_manual": {
+    "n_auto_clusters": 9,
+    "n_manual_groups": 25,
+    "avg_jaccard": 0.0407,
+    "matches": [
+      {
+        "cluster_id": 7,
+        "cluster_members": [
+          "cast_member",
+          "creator"
+        ],
+        "best_manual_match": null,
+        "jaccard": 0,
+        "overlap": []
+      },
+      {
+        "cluster_id": 5,
+        "cluster_members": [
+          "child",
+          "father"
+        ],
+        "best_manual_match": null,
+        "jaccard": 0,
+        "overlap": []
+      },
+      {
+        "cluster_id": 6,
+        "cluster_members": [
+          "composer",
+          "lyrics_by"
+        ],
+        "best_manual_match": null,
+        "jaccard": 0,
+        "overlap": []
+      },
+      {
+        "cluster_id": 1,
+        "cluster_members": [
+          "followed_by",
+          "follows"
+        ],
+        "best_manual_match": null,
+        "jaccard": 0,
+        "overlap": []
+      },
+      {
+        "cluster_id": 8,
+        "cluster_members": [
+          "located_near_water",
+          "located_on_terrain"
+        ],
+        "best_manual_match": null,
+        "jaccard": 0,
+        "overlap": []
+      },
+      {
+        "cluster_id": 3,
+        "cluster_members": [
+          "member_of",
+          "military_branch"
+        ],
+        "best_manual_match": "member_of",
+        "jaccard": 0.2,
+        "overlap": [
+          "member_of"
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "cluster_members": [
+          "mother",
+          "spouse"
+        ],
+        "best_manual_match": "spouse",
+        "jaccard": 0.1667,
+        "overlap": [
+          "spouse"
+        ]
+      },
+      {
+        "cluster_id": 0,
+        "cluster_members": [
+          "owned_by",
+          "parent_organization"
+        ],
+        "best_manual_match": null,
+        "jaccard": 0,
+        "overlap": []
+      },
+      {
+        "cluster_id": 4,
+        "cluster_members": [
+          "producer",
+          "production_company"
+        ],
+        "best_manual_match": null,
+        "jaccard": 0,
+        "overlap": []
+      }
+    ]
+  },
+  "evaluation": {
+    "exact_match": {
+      "tp": 393,
+      "fp": 561,
+      "fn": 561,
+      "precision": 0.4119,
+      "recall": 0.4119,
+      "f1": 0.4119
+    },
+    "manual_synonyms": {
+      "tp": 692,
+      "fp": 262,
+      "fn": 262,
+      "precision": 0.7254,
+      "recall": 0.7254,
+      "f1": 0.7254
+    },
+    "auto_spectral": {
+      "tp": 841,
+      "fp": 113,
+      "fn": 113,
+      "precision": 0.8816,
+      "recall": 0.8816,
+      "f1": 0.8816
+    },
+    "auto_hierarchical": {
+      "tp": 427,
+      "fp": 527,
+      "fn": 527,
+      "precision": 0.4476,
+      "recall": 0.4476,
+      "f1": 0.4476
+    }
+  },
+  "figures": [
+    "/home/jourlin/Recherche/PJKG4/results/confusion_analysis/confusion_heatmap_all.png",
+    "/home/jourlin/Recherche/PJKG4/results/confusion_analysis/dendrogram_all.png"
+  ]
+}
